@@ -79,9 +79,11 @@ crane"), never people. Identifiers use the reserved `example` domain.
 
 ## LOIN needs (T10)
 
-`docs/loin_needs.json` lists the 14 needs from the paper (§3). Each need gets the endpoint(s)
-and fields that serve it, or "not covered in PoC". **The need texts are placeholders until Diego
-confirms the wording from the paper.** Target: all 14 mapped, about 6–8 exercised by tests.
+`docs/loin_needs.json` holds the 14 needs exactly as worded in the paper's Table 8, with their LOIN
+codes (Table 9). Each need is marked covered, partial or "not covered in PoC", with the endpoints,
+fields and tests that serve it. Current mapping: 3 covered (SC3, MC1, MC2), 3 partial (SC1, TD2, TD4),
+8 not covered (design-stage cost, capability, route and MEP needs, outside the factory-to-as-built
+scope). T10 checks this mapping against the running services.
 
 ## Indicators (illustrative, synthetic)
 
@@ -96,6 +98,6 @@ security; production database; any monitoring of workers; performance at scale; 
 
 ## Open points for Diego
 
-1. Confirm the exact wording of the 14 LOIN needs (or share the paper's table) for `docs/loin_needs.json`.
+1. Review the LOIN mapping (6 of 14 needs exercised by tests).
 2. Confirm the stack (Python + FastAPI) before milestone 1.
 3. Choose review days.
