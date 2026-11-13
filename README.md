@@ -27,7 +27,7 @@ make replay      # end-to-end replay (from milestone PR 2)
 |---|---|
 | Skeleton, data model, generator | done |
 | DPP, EPM, DBL services | 16–18 Nov |
-| Resolver, federation, replay | planned 30 Nov–4 Dec |
+| Resolver, federation, replay | 18–20 Nov |
 | Tests T1–T11, assembly-state view, figures | 23–27 Nov |
 | Technical report, tag `v1.0-poc` | 30 Nov–4 Dec (target 4 Dec) |
 
