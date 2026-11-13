@@ -1,7 +1,7 @@
 """T11 Reproducibility.
 
 Pass criterion: a clean checkout plus one command reproduces all results.
-Paper link: none (good practice for the TRL 3 evidence).
+Paper link: none (good practice for the TRL evidence).
 """
 
 import json

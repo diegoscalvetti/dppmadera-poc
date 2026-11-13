@@ -6,7 +6,8 @@ Version 0.1, 13 November 2026. Source: `PoC_Spec_DPPmadera_v1` (FONDEF IDeA ID27
 
 Show, with synthetic data and automated tests, that the federated information architecture in
 Calvetti & Méndez (2026, *Buildings* 16:4411) works end to end for one CLT building, from factory
-to as-built. The result is evidence for TRL 3 (analytical and experimental proof of concept). It
+to as-built. The result strengthens the declared entry TRL 2 and is the first step towards TRL 3, which the
+project reaches in month 6 by re-running it with associates' data. It
 proves information flow, not software quality.
 
 ## Stack (decided in this plan)

@@ -14,7 +14,7 @@
 | T8 | Assembly-state view | DTw state matches the ground truth for all 20 components; fault F3 flagged. | Minimal DTw | **pass** |
 | T9 | Unified view | GET /assets/{id} returns DPP + EPM + DBL + DTw links for each component. | Table 14 | **pass** |
 | T10 | Needs coverage | Each of the 14 LOIN needs is mapped to the endpoint(s)/fields that serve it, or marked "not covered in PoC". | LOIN needs (§3, Table 8) | **pass** |
-| T11 | Reproducibility | A clean checkout plus one command reproduces all results. | None (good practice for the TRL 3 evidence) | **pass** |
+| T11 | Reproducibility | A clean checkout plus one command reproduces all results. | None (good practice for the TRL evidence) | **pass** |
 
 ## Stakeholder questions (illustrative, synthetic)
 
