@@ -5,8 +5,9 @@ industrialised timber construction. One fictional four-storey CLT building with 
 flows from factory to transport, assembly and as-built record through mock **DPP**, **EPM** and
 **DBL** services, an **identifier resolver** and a minimal **assembly-state view** (DTw).
 
-It tests the architecture proposed in Calvetti & Méndez (2026), *Buildings* 16:4411, and is the
-TRL 3 evidence for the FONDEF IDeA ID27 proposal "DPP Madera".
+It tests the architecture proposed in Calvetti & Méndez (2026), *Buildings* 16:4411, and backs the
+entry TRL 2 of the FONDEF IDeA ID27 proposal "DPP Madera": the concept executed end to end, as the
+first step towards TRL 3, which the project reaches by re-running it with associates' data.
 
 **Synthetic data only.** No real company data and no personal data. Services are mocks, with no
 security and no claim about performance at scale.
