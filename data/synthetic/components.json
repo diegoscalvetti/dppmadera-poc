@@ -1,0 +1,362 @@
+[
+  {
+    "certification_ref": "CERT-EX-CoC-0001",
+    "code": "C01",
+    "ids": {
+      "batch_id": "https://id.dppmadera.example/01/07800001000053/10/L27-01234",
+      "ifc_guid": "2zxhTSUMX68uubYkEcjmbP",
+      "instance_id": "https://id.dppmadera.example/01/07800001000053/21/C01-82057",
+      "occurrence_id": "https://id.dppmadera.example/dbl/building/ESM-01/occ/C01",
+      "process_run_ids": [
+        "https://id.dppmadera.example/run/cnc/L27-01234-C01"
+      ],
+      "product_id": "https://id.dppmadera.example/01/07800001000053"
+    },
+    "kind": "connector_set",
+    "planned_seq": 1,
+    "storey": 1,
+    "zone": "L1-S"
+  },
+  {
+    "certification_ref": "CERT-EX-CoC-0001",
+    "code": "G01",
+    "ids": {
+      "batch_id": "https://id.dppmadera.example/01/07800001000046/10/L27-01998",
+      "ifc_guid": "1ZWQ$us$H3KPep5FqkWHDM",
+      "instance_id": "https://id.dppmadera.example/01/07800001000046/21/G01-65936",
+      "occurrence_id": "https://id.dppmadera.example/dbl/building/ESM-01/occ/G01",
+      "process_run_ids": [
+        "https://id.dppmadera.example/run/cnc/L27-01998-G01"
+      ],
+      "product_id": "https://id.dppmadera.example/01/07800001000046"
+    },
+    "kind": "glulam_column",
+    "planned_seq": 2,
+    "storey": 1,
+    "zone": "L1-N"
+  },
+  {
+    "certification_ref": "CERT-EX-CoC-0001",
+    "code": "G02",
+    "ids": {
+      "batch_id": "https://id.dppmadera.example/01/07800001000039/10/L27-01560",
+      "ifc_guid": "3FEVncyajEoeVSJflClBnR",
+      "instance_id": "https://id.dppmadera.example/01/07800001000039/21/G02-64648",
+      "occurrence_id": "https://id.dppmadera.example/dbl/building/ESM-01/occ/G02",
+      "process_run_ids": [
+        "https://id.dppmadera.example/run/cnc/L27-01560-G02"
+      ],
+      "product_id": "https://id.dppmadera.example/01/07800001000039"
+    },
+    "kind": "glulam_beam",
+    "planned_seq": 3,
+    "storey": 1,
+    "zone": "L1-N"
+  },
+  {
+    "certification_ref": "CERT-EX-CoC-0001",
+    "code": "P01",
+    "ids": {
+      "batch_id": "https://id.dppmadera.example/01/07800001000015/10/L27-01276",
+      "ifc_guid": "124kxCEPr1KBx0zv9dm$8H",
+      "instance_id": "https://id.dppmadera.example/01/07800001000015/21/P01-53514",
+      "occurrence_id": "https://id.dppmadera.example/dbl/building/ESM-01/occ/P01",
+      "process_run_ids": [
+        "https://id.dppmadera.example/run/cnc/L27-01276-P01"
+      ],
+      "product_id": "https://id.dppmadera.example/01/07800001000015"
+    },
+    "kind": "clt_wall_panel",
+    "planned_seq": 4,
+    "storey": 1,
+    "zone": "L1-S"
+  },
+  {
+    "certification_ref": "CERT-EX-CoC-0001",
+    "code": "P02",
+    "ids": {
+      "batch_id": "https://id.dppmadera.example/01/07800001000015/10/L27-01931",
+      "ifc_guid": "0A5WfIEof9bfoNo63Ux4Cb",
+      "instance_id": "https://id.dppmadera.example/01/07800001000015/21/P02-56368",
+      "occurrence_id": "https://id.dppmadera.example/dbl/building/ESM-01/occ/P02",
+      "process_run_ids": [
+        "https://id.dppmadera.example/run/cnc/L27-01931-P02"
+      ],
+      "product_id": "https://id.dppmadera.example/01/07800001000015"
+    },
+    "kind": "clt_wall_panel",
+    "planned_seq": 5,
+    "storey": 1,
+    "zone": "L1-S"
+  },
+  {
+    "certification_ref": "CERT-EX-CoC-0001",
+    "code": "P03",
+    "ids": {
+      "batch_id": "https://id.dppmadera.example/01/07800001000022/10/L27-01546",
+      "ifc_guid": "22PpjCpff9ruJA0bdthvxv",
+      "instance_id": "https://id.dppmadera.example/01/07800001000022/21/P03-25689",
+      "occurrence_id": "https://id.dppmadera.example/dbl/building/ESM-01/occ/P03",
+      "process_run_ids": [
+        "https://id.dppmadera.example/run/cnc/L27-01546-P03"
+      ],
+      "product_id": "https://id.dppmadera.example/01/07800001000022"
+    },
+    "kind": "clt_floor_panel",
+    "planned_seq": 6,
+    "storey": 1,
+    "zone": "L1-E"
+  },
+  {
+    "certification_ref": "CERT-EX-CoC-0001",
+    "code": "C02",
+    "ids": {
+      "batch_id": "https://id.dppmadera.example/01/07800001000053/10/L27-02246",
+      "ifc_guid": "0Hf6y1DWf12hF0UHarAUr2",
+      "instance_id": "https://id.dppmadera.example/01/07800001000053/21/C02-84551",
+      "occurrence_id": "https://id.dppmadera.example/dbl/building/ESM-01/occ/C02",
+      "process_run_ids": [
+        "https://id.dppmadera.example/run/cnc/L27-02246-C02"
+      ],
+      "product_id": "https://id.dppmadera.example/01/07800001000053"
+    },
+    "kind": "connector_set",
+    "planned_seq": 7,
+    "storey": 2,
+    "zone": "L2-E"
+  },
+  {
+    "certification_ref": "CERT-EX-CoC-0001",
+    "code": "P04",
+    "ids": {
+      "batch_id": "https://id.dppmadera.example/01/07800001000015/10/L27-02730",
+      "ifc_guid": "0g4TpPLcT1bwfcfqempcdv",
+      "instance_id": "https://id.dppmadera.example/01/07800001000015/21/P04-88172",
+      "occurrence_id": "https://id.dppmadera.example/dbl/building/ESM-01/occ/P04",
+      "process_run_ids": [
+        "https://id.dppmadera.example/run/cnc/L27-02730-P04"
+      ],
+      "product_id": "https://id.dppmadera.example/01/07800001000015"
+    },
+    "kind": "clt_wall_panel",
+    "planned_seq": 8,
+    "storey": 2,
+    "zone": "L2-W"
+  },
+  {
+    "certification_ref": "CERT-EX-CoC-0001",
+    "code": "P05",
+    "ids": {
+      "batch_id": "https://id.dppmadera.example/01/07800001000015/10/L27-02124",
+      "ifc_guid": "3YKRDoznv0EAO9XIM8567b",
+      "instance_id": "https://id.dppmadera.example/01/07800001000015/21/P05-71018",
+      "occurrence_id": "https://id.dppmadera.example/dbl/building/ESM-01/occ/P05",
+      "process_run_ids": [
+        "https://id.dppmadera.example/run/cnc/L27-02124-P05"
+      ],
+      "product_id": "https://id.dppmadera.example/01/07800001000015"
+    },
+    "kind": "clt_wall_panel",
+    "planned_seq": 9,
+    "storey": 2,
+    "zone": "L2-W"
+  },
+  {
+    "certification_ref": "CERT-EX-CoC-0001",
+    "code": "P06",
+    "ids": {
+      "batch_id": "https://id.dppmadera.example/01/07800001000022/10/L27-02140",
+      "ifc_guid": "04nxuR8AHFFQMw99Csh$BP",
+      "instance_id": "https://id.dppmadera.example/01/07800001000022/21/P06-19242",
+      "occurrence_id": "https://id.dppmadera.example/dbl/building/ESM-01/occ/P06",
+      "process_run_ids": [
+        "https://id.dppmadera.example/run/cnc/L27-02140-P06"
+      ],
+      "product_id": "https://id.dppmadera.example/01/07800001000022"
+    },
+    "kind": "clt_floor_panel",
+    "planned_seq": 10,
+    "storey": 2,
+    "zone": "L2-S"
+  },
+  {
+    "certification_ref": "CERT-EX-CoC-0001",
+    "code": "C03",
+    "ids": {
+      "batch_id": "https://id.dppmadera.example/01/07800001000053/10/L27-03750",
+      "ifc_guid": "1Aya5Rz1n8dhQblfMWcx8M",
+      "instance_id": "https://id.dppmadera.example/01/07800001000053/21/C03-52114",
+      "occurrence_id": "https://id.dppmadera.example/dbl/building/ESM-01/occ/C03",
+      "process_run_ids": [
+        "https://id.dppmadera.example/run/cnc/L27-03750-C03"
+      ],
+      "product_id": "https://id.dppmadera.example/01/07800001000053"
+    },
+    "kind": "connector_set",
+    "planned_seq": 11,
+    "storey": 3,
+    "zone": "L3-W"
+  },
+  {
+    "certification_ref": "CERT-EX-CoC-0001",
+    "code": "G03",
+    "ids": {
+      "batch_id": "https://id.dppmadera.example/01/07800001000046/10/L27-03529",
+      "ifc_guid": "0GLEzOToz1aANSOY6rzo2F",
+      "instance_id": "https://id.dppmadera.example/01/07800001000046/21/G03-74829",
+      "occurrence_id": "https://id.dppmadera.example/dbl/building/ESM-01/occ/G03",
+      "process_run_ids": [
+        "https://id.dppmadera.example/run/cnc/L27-03529-G03"
+      ],
+      "product_id": "https://id.dppmadera.example/01/07800001000046"
+    },
+    "kind": "glulam_column",
+    "planned_seq": 12,
+    "storey": 3,
+    "zone": "L3-S"
+  },
+  {
+    "certification_ref": "CERT-EX-CoC-0001",
+    "code": "G04",
+    "ids": {
+      "batch_id": "https://id.dppmadera.example/01/07800001000039/10/L27-03149",
+      "ifc_guid": "19qDZVQVb3oPilek3FSel6",
+      "instance_id": "https://id.dppmadera.example/01/07800001000039/21/G04-36043",
+      "occurrence_id": "https://id.dppmadera.example/dbl/building/ESM-01/occ/G04",
+      "process_run_ids": [
+        "https://id.dppmadera.example/run/cnc/L27-03149-G04"
+      ],
+      "product_id": "https://id.dppmadera.example/01/07800001000039"
+    },
+    "kind": "glulam_beam",
+    "planned_seq": 13,
+    "storey": 3,
+    "zone": "L3-E"
+  },
+  {
+    "certification_ref": "CERT-EX-CoC-0001",
+    "code": "P07",
+    "ids": {
+      "batch_id": "https://id.dppmadera.example/01/07800001000015/10/L27-03565",
+      "ifc_guid": "3d_PJUZ9fAVAediXEIP4wX",
+      "instance_id": "https://id.dppmadera.example/01/07800001000015/21/P07-49366",
+      "occurrence_id": "https://id.dppmadera.example/dbl/building/ESM-01/occ/P07",
+      "process_run_ids": [
+        "https://id.dppmadera.example/run/cnc/L27-03565-P07"
+      ],
+      "product_id": "https://id.dppmadera.example/01/07800001000015"
+    },
+    "kind": "clt_wall_panel",
+    "planned_seq": 14,
+    "storey": 3,
+    "zone": "L3-W"
+  },
+  {
+    "certification_ref": "CERT-EX-CoC-0001",
+    "code": "P08",
+    "ids": {
+      "batch_id": "https://id.dppmadera.example/01/07800001000015/10/L27-03194",
+      "ifc_guid": "11IAp2wtr3JgNaum1_LvXA",
+      "instance_id": "https://id.dppmadera.example/01/07800001000015/21/P08-47970",
+      "occurrence_id": "https://id.dppmadera.example/dbl/building/ESM-01/occ/P08",
+      "process_run_ids": [
+        "https://id.dppmadera.example/run/cnc/L27-03194-P08"
+      ],
+      "product_id": "https://id.dppmadera.example/01/07800001000015"
+    },
+    "kind": "clt_wall_panel",
+    "planned_seq": 15,
+    "storey": 3,
+    "zone": "L3-N"
+  },
+  {
+    "certification_ref": "CERT-EX-CoC-0001",
+    "code": "P09",
+    "ids": {
+      "batch_id": "https://id.dppmadera.example/01/07800001000022/10/L27-03387",
+      "ifc_guid": "2YYvQ7fzXAoPQS6m9ui33D",
+      "instance_id": "https://id.dppmadera.example/01/07800001000022/21/P09-92279",
+      "occurrence_id": "https://id.dppmadera.example/dbl/building/ESM-01/occ/P09",
+      "process_run_ids": [
+        "https://id.dppmadera.example/run/cnc/L27-03387-P09"
+      ],
+      "product_id": "https://id.dppmadera.example/01/07800001000022"
+    },
+    "kind": "clt_floor_panel",
+    "planned_seq": 16,
+    "storey": 3,
+    "zone": "L3-E"
+  },
+  {
+    "certification_ref": "CERT-EX-CoC-0001",
+    "code": "C04",
+    "ids": {
+      "batch_id": "https://id.dppmadera.example/01/07800001000053/10/L27-04178",
+      "ifc_guid": "37i_T$yHz6ffEjfjd_zfVT",
+      "instance_id": "https://id.dppmadera.example/01/07800001000053/21/C04-40931",
+      "occurrence_id": "https://id.dppmadera.example/dbl/building/ESM-01/occ/C04",
+      "process_run_ids": [
+        "https://id.dppmadera.example/run/cnc/L27-04178-C04"
+      ],
+      "product_id": "https://id.dppmadera.example/01/07800001000053"
+    },
+    "kind": "connector_set",
+    "planned_seq": 17,
+    "storey": 4,
+    "zone": "L4-W"
+  },
+  {
+    "certification_ref": "CERT-EX-CoC-0001",
+    "code": "P10",
+    "ids": {
+      "batch_id": "https://id.dppmadera.example/01/07800001000015/10/L27-04262",
+      "ifc_guid": "2mKPGFHyL4I8XO2K8hdJ9N",
+      "instance_id": "https://id.dppmadera.example/01/07800001000015/21/P10-49472",
+      "occurrence_id": "https://id.dppmadera.example/dbl/building/ESM-01/occ/P10",
+      "process_run_ids": [
+        "https://id.dppmadera.example/run/cnc/L27-04262-P10"
+      ],
+      "product_id": "https://id.dppmadera.example/01/07800001000015"
+    },
+    "kind": "clt_wall_panel",
+    "planned_seq": 18,
+    "storey": 4,
+    "zone": "L4-E"
+  },
+  {
+    "certification_ref": "CERT-EX-CoC-0001",
+    "code": "P11",
+    "ids": {
+      "batch_id": "https://id.dppmadera.example/01/07800001000015/10/L27-04106",
+      "ifc_guid": "1j6aTSfJHAp920FdF3Hvg1",
+      "instance_id": "https://id.dppmadera.example/01/07800001000015/21/P11-86532",
+      "occurrence_id": "https://id.dppmadera.example/dbl/building/ESM-01/occ/P11",
+      "process_run_ids": [
+        "https://id.dppmadera.example/run/cnc/L27-04106-P11"
+      ],
+      "product_id": "https://id.dppmadera.example/01/07800001000015"
+    },
+    "kind": "clt_wall_panel",
+    "planned_seq": 19,
+    "storey": 4,
+    "zone": "L4-E"
+  },
+  {
+    "certification_ref": "CERT-EX-CoC-0001",
+    "code": "P12",
+    "ids": {
+      "batch_id": "https://id.dppmadera.example/01/07800001000022/10/L27-04367",
+      "ifc_guid": "3KXuzMGXb0au_L$uEYyaeK",
+      "instance_id": "https://id.dppmadera.example/01/07800001000022/21/P12-98395",
+      "occurrence_id": "https://id.dppmadera.example/dbl/building/ESM-01/occ/P12",
+      "process_run_ids": [
+        "https://id.dppmadera.example/run/cnc/L27-04367-P12"
+      ],
+      "product_id": "https://id.dppmadera.example/01/07800001000022"
+    },
+    "kind": "clt_floor_panel",
+    "planned_seq": 20,
+    "storey": 4,
+    "zone": "L4-W"
+  }
+]

@@ -1,0 +1,122 @@
+[
+  {
+    "ifc_class": "IfcMechanicalFastener",
+    "ifc_guid": "2zxhTSUMX68uubYkEcjmbP",
+    "name": "C01",
+    "storey": "Level 1"
+  },
+  {
+    "ifc_class": "IfcColumn",
+    "ifc_guid": "1ZWQ$us$H3KPep5FqkWHDM",
+    "name": "G01",
+    "storey": "Level 1"
+  },
+  {
+    "ifc_class": "IfcBeam",
+    "ifc_guid": "3FEVncyajEoeVSJflClBnR",
+    "name": "G02",
+    "storey": "Level 1"
+  },
+  {
+    "ifc_class": "IfcWall",
+    "ifc_guid": "124kxCEPr1KBx0zv9dm$8H",
+    "name": "P01",
+    "storey": "Level 1"
+  },
+  {
+    "ifc_class": "IfcWall",
+    "ifc_guid": "0A5WfIEof9bfoNo63Ux4Cb",
+    "name": "P02",
+    "storey": "Level 1"
+  },
+  {
+    "ifc_class": "IfcSlab",
+    "ifc_guid": "22PpjCpff9ruJA0bdthvxv",
+    "name": "P03",
+    "storey": "Level 1"
+  },
+  {
+    "ifc_class": "IfcMechanicalFastener",
+    "ifc_guid": "0Hf6y1DWf12hF0UHarAUr2",
+    "name": "C02",
+    "storey": "Level 2"
+  },
+  {
+    "ifc_class": "IfcWall",
+    "ifc_guid": "0g4TpPLcT1bwfcfqempcdv",
+    "name": "P04",
+    "storey": "Level 2"
+  },
+  {
+    "ifc_class": "IfcWall",
+    "ifc_guid": "3YKRDoznv0EAO9XIM8567b",
+    "name": "P05",
+    "storey": "Level 2"
+  },
+  {
+    "ifc_class": "IfcSlab",
+    "ifc_guid": "04nxuR8AHFFQMw99Csh$BP",
+    "name": "P06",
+    "storey": "Level 2"
+  },
+  {
+    "ifc_class": "IfcMechanicalFastener",
+    "ifc_guid": "1Aya5Rz1n8dhQblfMWcx8M",
+    "name": "C03",
+    "storey": "Level 3"
+  },
+  {
+    "ifc_class": "IfcColumn",
+    "ifc_guid": "0GLEzOToz1aANSOY6rzo2F",
+    "name": "G03",
+    "storey": "Level 3"
+  },
+  {
+    "ifc_class": "IfcBeam",
+    "ifc_guid": "19qDZVQVb3oPilek3FSel6",
+    "name": "G04",
+    "storey": "Level 3"
+  },
+  {
+    "ifc_class": "IfcWall",
+    "ifc_guid": "3d_PJUZ9fAVAediXEIP4wX",
+    "name": "P07",
+    "storey": "Level 3"
+  },
+  {
+    "ifc_class": "IfcWall",
+    "ifc_guid": "11IAp2wtr3JgNaum1_LvXA",
+    "name": "P08",
+    "storey": "Level 3"
+  },
+  {
+    "ifc_class": "IfcSlab",
+    "ifc_guid": "2YYvQ7fzXAoPQS6m9ui33D",
+    "name": "P09",
+    "storey": "Level 3"
+  },
+  {
+    "ifc_class": "IfcMechanicalFastener",
+    "ifc_guid": "37i_T$yHz6ffEjfjd_zfVT",
+    "name": "C04",
+    "storey": "Level 4"
+  },
+  {
+    "ifc_class": "IfcWall",
+    "ifc_guid": "2mKPGFHyL4I8XO2K8hdJ9N",
+    "name": "P10",
+    "storey": "Level 4"
+  },
+  {
+    "ifc_class": "IfcWall",
+    "ifc_guid": "1j6aTSfJHAp920FdF3Hvg1",
+    "name": "P11",
+    "storey": "Level 4"
+  },
+  {
+    "ifc_class": "IfcSlab",
+    "ifc_guid": "3KXuzMGXb0au_L$uEYyaeK",
+    "name": "P12",
+    "storey": "Level 4"
+  }
+]

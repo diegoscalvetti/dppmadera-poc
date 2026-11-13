@@ -1,0 +1,340 @@
+{
+  "source": "Calvetti & Méndez (2026), Buildings 16:4411, Table 8 (final LOIN characterisation, §3.6); codes per Table 9",
+  "note": "Need texts are the final formulations from Table 8. Seven were revised by the authors after round 2 and not reassessed by the panel (paper §3.6). 'covered' and 'partial' refer to this PoC only.",
+  "needs": [
+    {
+      "id": "PB1",
+      "stage": "project_preparation",
+      "need": "Indicative fabrication and machining costs, transport cost per kilometre, average execution rate, and stored biogenic carbon per cubic metre",
+      "loin": {
+        "category": "MAT+CST+MFG+ENV",
+        "provider": "MAN",
+        "activity": "EVA",
+        "asset_level": "SYS+PRD+BLD",
+        "definition": "A",
+        "format": "PAR+TAB",
+        "timing": "B"
+      },
+      "poc_status": "not covered in PoC",
+      "served_by": [],
+      "fields": [],
+      "tested_in": [],
+      "comment": "Design-stage cost and carbon data; outside the factory-to-as-built scope."
+    },
+    {
+      "id": "CD1",
+      "stage": "conceptual_design",
+      "need": "Industrialising company: materials, production capacity, prefabrication limits, dimensional constraints, and indicative assembly times",
+      "loin": {
+        "category": "LOG",
+        "provider": "MAN",
+        "activity": "DES",
+        "asset_level": "BLD",
+        "definition": "DC",
+        "format": "TAB",
+        "timing": "B"
+      },
+      "poc_status": "not covered in PoC",
+      "served_by": [],
+      "fields": [],
+      "tested_in": [],
+      "comment": "Manufacturer selection precedes the PoC scope."
+    },
+    {
+      "id": "CD2",
+      "stage": "conceptual_design",
+      "need": "Machining dimensions, manufacturing capacity, transport dimensions, and tooling capacity",
+      "loin": {
+        "category": "GEO",
+        "provider": "MAN",
+        "activity": "DES",
+        "asset_level": "CMP+ZON+BLD+SYS",
+        "definition": "E",
+        "format": "PAR+TAB",
+        "timing": "B"
+      },
+      "poc_status": "not covered in PoC",
+      "served_by": [],
+      "fields": [],
+      "tested_in": [],
+      "comment": "Design constraints; the PoC carries QA dimensional deviations only."
+    },
+    {
+      "id": "SC1",
+      "stage": "spatial_coordination",
+      "need": "Fixings, connections, and installations: dimensions, tolerances, location, interfaces, and responsible actor",
+      "loin": {
+        "category": "GEO",
+        "provider": "STR+MEP",
+        "activity": "COO",
+        "asset_level": "CMP+BLD",
+        "definition": "A",
+        "format": "BIM+SPEC",
+        "timing": "S"
+      },
+      "poc_status": "partial",
+      "served_by": [
+        "GET /dbl/building/{id}",
+        "GET /assets/{id}",
+        "GET /resolver/{any_id}"
+      ],
+      "fields": [
+        "connector_set components",
+        "InstallationRecord.zone",
+        "InstallationRecord.storey",
+        "ids.ifc_guid",
+        "EPM fixing/v1"
+      ],
+      "tested_in": [
+        "T7",
+        "T9"
+      ],
+      "comment": "Location, interface (IFC GUID) and fixing record per connector set; tolerances and responsible actor not modelled."
+    },
+    {
+      "id": "SC2",
+      "stage": "spatial_coordination",
+      "need": "MEP dimensions or cross-sections, linear weight in kg/m, supports, and bracing",
+      "loin": {
+        "category": "GEO",
+        "provider": "MEP",
+        "activity": "COO",
+        "asset_level": "PRJ+CMP+PRD",
+        "definition": "A",
+        "format": "PAR",
+        "timing": "S"
+      },
+      "poc_status": "not covered in PoC",
+      "served_by": [],
+      "fields": [],
+      "tested_in": [],
+      "comment": "MEP out of scope."
+    },
+    {
+      "id": "SC3",
+      "stage": "spatial_coordination",
+      "need": "Structural and non-structural identification and dimensions, axes, clearances, and connectors",
+      "loin": {
+        "category": "GEO",
+        "provider": "STR",
+        "activity": "DES",
+        "asset_level": "BLD",
+        "definition": "A",
+        "format": "BIM+2D",
+        "timing": "B"
+      },
+      "poc_status": "covered",
+      "served_by": [
+        "GET /resolver/{any_id}",
+        "GET /assets/{id}",
+        "GET /dbl/building/{id}"
+      ],
+      "fields": [
+        "ids.ifc_guid",
+        "ifc_elements.ifc_class",
+        "ifc_elements.storey",
+        "ids.instance_id"
+      ],
+      "tested_in": [
+        "T1",
+        "T7",
+        "T9"
+      ],
+      "comment": "Identification of structural elements and connectors across IFC, DPP and DBL; dimensions and axes not modelled."
+    },
+    {
+      "id": "TD1",
+      "stage": "technical_design",
+      "need": "Project location, transport routes, access conditions, and dimensional restrictions affecting element size, division, and connections",
+      "loin": {
+        "category": "LOG",
+        "provider": "CLI+MAN+LGT",
+        "activity": "DES",
+        "asset_level": "PRJ",
+        "definition": "DC",
+        "format": "COMP+SITE+REP",
+        "timing": "B"
+      },
+      "poc_status": "not covered in PoC",
+      "served_by": [],
+      "fields": [],
+      "tested_in": [],
+      "comment": "Route planning outside scope."
+    },
+    {
+      "id": "TD2",
+      "stage": "technical_design",
+      "need": "Assembly contractor's experience, capacity, methods, lifting restrictions, access, safety requirements, tolerances, and assembly sequence",
+      "loin": {
+        "category": "CON",
+        "provider": "CTR",
+        "activity": "COO",
+        "asset_level": "CMP+SYS+BLD+PRD",
+        "definition": "DC",
+        "format": "SPEC+TAB+REP",
+        "timing": "B"
+      },
+      "poc_status": "partial",
+      "served_by": [
+        "GET /dtw/assembly-state"
+      ],
+      "fields": [
+        "planned_seq",
+        "InstallationRecord.actual_seq",
+        "EPM lift/v1",
+        "EPM placement/v1"
+      ],
+      "tested_in": [
+        "T8"
+      ],
+      "comment": "Assembly sequence (planned vs actual) and lift/placement records; contractor capability and safety not modelled."
+    },
+    {
+      "id": "TD3",
+      "stage": "technical_design",
+      "need": "Manufacturer's production capacity, tolerances, fabrication formats, machinery constraints, working methods, and achievable prefabrication levels",
+      "loin": {
+        "category": "MFG",
+        "provider": "MAN",
+        "activity": "DES",
+        "asset_level": "BLD+SYS+PRD+CMP",
+        "definition": "DC",
+        "format": "REP+TAB",
+        "timing": "B"
+      },
+      "poc_status": "not covered in PoC",
+      "served_by": [],
+      "fields": [],
+      "tested_in": [],
+      "comment": "Manufacturer capability data outside scope."
+    },
+    {
+      "id": "TD4",
+      "stage": "technical_design",
+      "need": "Developed engineering defining dimensions, clearances, tolerances, and machining required for connections",
+      "loin": {
+        "category": "GEO",
+        "provider": "STR",
+        "activity": "FAB",
+        "asset_level": "SYS+CMP+PRD",
+        "definition": "DC",
+        "format": "BIM+2D+SPEC+REP+DAR+TAB",
+        "timing": "B"
+      },
+      "poc_status": "partial",
+      "served_by": [
+        "GET /dpp/lineage/{id}"
+      ],
+      "fields": [
+        "ids.process_run_ids",
+        "ObjectEvent.processRun"
+      ],
+      "tested_in": [
+        "T3"
+      ],
+      "comment": "CNC process run linked to each instance; engineering geometry not modelled."
+    },
+    {
+      "id": "TD5",
+      "stage": "technical_design",
+      "need": "Final MEP definition, including dimensions, insulation, supports, bracing, plates, anchors, and operation and maintenance access",
+      "loin": {
+        "category": "GEO",
+        "provider": "MEP",
+        "activity": "COO",
+        "asset_level": "PRJ+CMP+PRD+SYS",
+        "definition": "DC",
+        "format": "PAR+TAB",
+        "timing": "S"
+      },
+      "poc_status": "not covered in PoC",
+      "served_by": [],
+      "fields": [],
+      "tested_in": [],
+      "comment": "MEP out of scope."
+    },
+    {
+      "id": "TD6",
+      "stage": "technical_design",
+      "need": "Manufacturing lead times, available capacity, prefabrication levels, integrated services, finishes, and connection requirements",
+      "loin": {
+        "category": "SEQ",
+        "provider": "MAN",
+        "activity": "DES",
+        "asset_level": "CMP",
+        "definition": "E",
+        "format": "SPEC",
+        "timing": "B"
+      },
+      "poc_status": "not covered in PoC",
+      "served_by": [],
+      "fields": [],
+      "tested_in": [],
+      "comment": "Lead times could be derived from event timestamps in a later version."
+    },
+    {
+      "id": "MC1",
+      "stage": "manufacturing_and_construction",
+      "need": "Production capacity, truck and cab dimensions, loading conditions, delivery lead times, numbering, lifting, and factory and site quality control",
+      "loin": {
+        "category": "LOG",
+        "provider": "MAN+LGT",
+        "activity": "ASM",
+        "asset_level": "PRJ+CMP+BAT",
+        "definition": "DC",
+        "format": "BIM+PAR+2D",
+        "timing": "B"
+      },
+      "poc_status": "covered",
+      "served_by": [
+        "POST /dpp/events",
+        "GET /dpp/lineage/{id}",
+        "POST /epm/observations",
+        "GET /conflicts"
+      ],
+      "fields": [
+        "AggregationEvent (truck)",
+        "ObjectEvent bizStep loading/shipping/receiving",
+        "EPM qa_inspection/v1",
+        "EPM moisture_check/v1",
+        "EPM installation_inspection/v1",
+        "ids.instance_id (numbering)",
+        "EPM lift/v1"
+      ],
+      "tested_in": [
+        "T3",
+        "T4",
+        "T5",
+        "T6"
+      ],
+      "comment": "Production, loading, delivery, lifting and factory and site QC events, with custody gaps and conflicts detected; truck dimensions not modelled."
+    },
+    {
+      "id": "MC2",
+      "stage": "manufacturing_and_construction",
+      "need": "Manufacturing and delivery order aligned with the sequence in which elements are required for on-site assembly",
+      "loin": {
+        "category": "SEQ",
+        "provider": "CTR",
+        "activity": "FAB",
+        "asset_level": "SYS+CMP+PRD",
+        "definition": "DC",
+        "format": "2D+TAB+DAR",
+        "timing": "S"
+      },
+      "poc_status": "covered",
+      "served_by": [
+        "GET /dtw/assembly-state"
+      ],
+      "fields": [
+        "planned_seq",
+        "InstallationRecord.actual_seq",
+        "ObjectEvent bizStep shipping/receiving"
+      ],
+      "tested_in": [
+        "T8"
+      ],
+      "comment": "Delivery and installation order checked against the planned assembly sequence; fault F3 flagged."
+    }
+  ]
+}

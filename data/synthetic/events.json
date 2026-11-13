@@ -1,0 +1,2814 @@
+[
+  {
+    "asset_id": "https://id.dppmadera.example/01/07800001000022/21/P03-25689",
+    "component": "P03",
+    "domain": "dpp",
+    "event_time": "2027-01-04T08:00:00Z",
+    "id": "urn:uuid:8f9ca54a-5d1b-4ee6-b679-4de8ac87a117",
+    "payload": {
+      "action": "ADD",
+      "batch": "https://id.dppmadera.example/01/07800001000022/10/L27-01546",
+      "bizStep": "commissioning",
+      "certification": "CERT-EX-CoC-0001",
+      "processRun": "https://id.dppmadera.example/run/cnc/L27-01546-P03"
+    },
+    "record_time": "2027-01-04T08:01:16Z",
+    "source": "factory_mes",
+    "type": "ObjectEvent"
+  },
+  {
+    "asset_id": "https://id.dppmadera.example/01/07800001000022/21/P03-25689",
+    "component": "P03",
+    "domain": "epm",
+    "event_time": "2027-01-04T09:00:00Z",
+    "id": "urn:uuid:99257a5f-f0f0-4fa1-9532-47d2c39d62d9",
+    "payload": {
+      "length_dev_mm": -0.1,
+      "moisture_pct": 11.9,
+      "result": "pass",
+      "schema": "qa_inspection/v1"
+    },
+    "record_time": "2027-01-04T09:00:13Z",
+    "source": "factory_qa",
+    "type": "Observation"
+  },
+  {
+    "asset_id": "https://id.dppmadera.example/01/07800001000053/21/C01-82057",
+    "component": "C01",
+    "domain": "dpp",
+    "event_time": "2027-01-04T09:00:00Z",
+    "id": "urn:uuid:674cd6b9-cecb-482f-87e3-c08fd6ff8b2a",
+    "payload": {
+      "action": "ADD",
+      "batch": "https://id.dppmadera.example/01/07800001000053/10/L27-01234",
+      "bizStep": "commissioning",
+      "certification": "CERT-EX-CoC-0001",
+      "processRun": "https://id.dppmadera.example/run/cnc/L27-01234-C01"
+    },
+    "record_time": "2027-01-04T09:00:28Z",
+    "source": "factory_mes",
+    "type": "ObjectEvent"
+  },
+  {
+    "asset_id": "https://id.dppmadera.example/01/07800001000046/21/G01-65936",
+    "component": "G01",
+    "domain": "dpp",
+    "event_time": "2027-01-04T10:00:00Z",
+    "id": "urn:uuid:617dca9b-c03c-4ee2-be72-7ced287e2934",
+    "payload": {
+      "action": "ADD",
+      "batch": "https://id.dppmadera.example/01/07800001000046/10/L27-01998",
+      "bizStep": "commissioning",
+      "certification": "CERT-EX-CoC-0001",
+      "processRun": "https://id.dppmadera.example/run/cnc/L27-01998-G01"
+    },
+    "record_time": "2027-01-04T10:00:21Z",
+    "source": "factory_mes",
+    "type": "ObjectEvent"
+  },
+  {
+    "asset_id": "https://id.dppmadera.example/01/07800001000053/21/C01-82057",
+    "component": "C01",
+    "domain": "epm",
+    "event_time": "2027-01-04T10:00:00Z",
+    "id": "urn:uuid:bc98459f-b756-47c6-bf4b-5e31edeeed25",
+    "payload": {
+      "length_dev_mm": -1.1,
+      "moisture_pct": null,
+      "result": "pass",
+      "schema": "qa_inspection/v1"
+    },
+    "record_time": "2027-01-04T10:00:27Z",
+    "source": "factory_qa",
+    "type": "Observation"
+  },
+  {
+    "asset_id": "https://id.dppmadera.example/01/07800001000046/21/G01-65936",
+    "component": "G01",
+    "domain": "epm",
+    "event_time": "2027-01-04T11:00:00Z",
+    "id": "urn:uuid:ec43bb73-5de4-4928-a706-93d916378c98",
+    "payload": {
+      "length_dev_mm": -0.8,
+      "moisture_pct": 11.6,
+      "result": "pass",
+      "schema": "qa_inspection/v1"
+    },
+    "record_time": "2027-01-04T11:01:01Z",
+    "source": "factory_qa",
+    "type": "Observation"
+  },
+  {
+    "asset_id": "https://id.dppmadera.example/01/07800001000039/21/G02-64648",
+    "component": "G02",
+    "domain": "dpp",
+    "event_time": "2027-01-04T11:00:00Z",
+    "id": "urn:uuid:2b676bc0-daf9-4cdc-a6dd-3d73ba79dad7",
+    "payload": {
+      "action": "ADD",
+      "batch": "https://id.dppmadera.example/01/07800001000039/10/L27-01560",
+      "bizStep": "commissioning",
+      "certification": "CERT-EX-CoC-0001",
+      "processRun": "https://id.dppmadera.example/run/cnc/L27-01560-G02"
+    },
+    "record_time": "2027-01-04T11:01:07Z",
+    "source": "factory_mes",
+    "type": "ObjectEvent"
+  },
+  {
+    "asset_id": "https://id.dppmadera.example/01/07800001000015/21/P01-53514",
+    "component": "P01",
+    "domain": "dpp",
+    "event_time": "2027-01-04T12:00:00Z",
+    "id": "urn:uuid:82e03edd-bc85-49a8-b3ba-4336157de109",
+    "payload": {
+      "action": "ADD",
+      "batch": "https://id.dppmadera.example/01/07800001000015/10/L27-01276",
+      "bizStep": "commissioning",
+      "certification": "CERT-EX-CoC-0001",
+      "processRun": "https://id.dppmadera.example/run/cnc/L27-01276-P01"
+    },
+    "record_time": "2027-01-04T12:01:10Z",
+    "source": "factory_mes",
+    "type": "ObjectEvent"
+  },
+  {
+    "asset_id": "https://id.dppmadera.example/01/07800001000039/21/G02-64648",
+    "component": "G02",
+    "domain": "epm",
+    "event_time": "2027-01-04T12:00:00Z",
+    "id": "urn:uuid:22d3dd3a-34e2-4c2b-bf09-f4650977bf45",
+    "payload": {
+      "length_dev_mm": -0.6,
+      "moisture_pct": 12.0,
+      "result": "pass",
+      "schema": "qa_inspection/v1"
+    },
+    "record_time": "2027-01-04T12:01:11Z",
+    "source": "factory_qa",
+    "type": "Observation"
+  },
+  {
+    "asset_id": "https://id.dppmadera.example/01/07800001000015/21/P02-56368",
+    "component": "P02",
+    "domain": "dpp",
+    "event_time": "2027-01-04T13:00:00Z",
+    "id": "urn:uuid:0f3b70cc-1ea7-4b79-8d32-03fce1a5f892",
+    "payload": {
+      "action": "ADD",
+      "batch": "https://id.dppmadera.example/01/07800001000015/10/L27-01931",
+      "bizStep": "commissioning",
+      "certification": "CERT-EX-CoC-0001",
+      "processRun": "https://id.dppmadera.example/run/cnc/L27-01931-P02"
+    },
+    "record_time": "2027-01-04T13:00:13Z",
+    "source": "factory_mes",
+    "type": "ObjectEvent"
+  },
+  {
+    "asset_id": "https://id.dppmadera.example/01/07800001000015/21/P01-53514",
+    "component": "P01",
+    "domain": "epm",
+    "event_time": "2027-01-04T13:00:00Z",
+    "id": "urn:uuid:c4025d31-02fd-4a12-af3b-98946cfd20d7",
+    "payload": {
+      "length_dev_mm": -1.0,
+      "moisture_pct": 11.4,
+      "result": "pass",
+      "schema": "qa_inspection/v1"
+    },
+    "record_time": "2027-01-04T13:01:16Z",
+    "source": "factory_qa",
+    "type": "Observation"
+  },
+  {
+    "asset_id": "https://id.dppmadera.example/01/07800001000015/21/P02-56368",
+    "component": "P02",
+    "domain": "epm",
+    "event_time": "2027-01-04T14:00:00Z",
+    "id": "urn:uuid:0fcaece3-057b-41c6-99f7-7e592c5f14dc",
+    "payload": {
+      "length_dev_mm": -0.3,
+      "moisture_pct": 12.7,
+      "result": "pass",
+      "schema": "qa_inspection/v1"
+    },
+    "record_time": "2027-01-04T14:01:24Z",
+    "source": "factory_qa",
+    "type": "Observation"
+  },
+  {
+    "asset_id": "https://id.dppmadera.example/01/07800001000053/21/C02-84551",
+    "component": "C02",
+    "domain": "dpp",
+    "event_time": "2027-01-05T09:00:00Z",
+    "id": "urn:uuid:5411847d-c8ad-43eb-ba58-a93009d63adb",
+    "payload": {
+      "action": "ADD",
+      "batch": "https://id.dppmadera.example/01/07800001000053/10/L27-02246",
+      "bizStep": "commissioning",
+      "certification": "CERT-EX-CoC-0001",
+      "processRun": "https://id.dppmadera.example/run/cnc/L27-02246-C02"
+    },
+    "record_time": "2027-01-05T09:01:29Z",
+    "source": "factory_mes",
+    "type": "ObjectEvent"
+  },
+  {
+    "asset_id": "https://id.dppmadera.example/01/07800001000053/21/C02-84551",
+    "component": "C02",
+    "domain": "epm",
+    "event_time": "2027-01-05T10:00:00Z",
+    "id": "urn:uuid:53e633e7-8806-4af3-9a33-442c5bfecba4",
+    "payload": {
+      "length_dev_mm": -0.5,
+      "moisture_pct": null,
+      "result": "pass",
+      "schema": "qa_inspection/v1"
+    },
+    "record_time": "2027-01-05T10:00:31Z",
+    "source": "factory_qa",
+    "type": "Observation"
+  },
+  {
+    "asset_id": "https://id.dppmadera.example/01/07800001000015/21/P04-88172",
+    "component": "P04",
+    "domain": "dpp",
+    "event_time": "2027-01-05T10:00:00Z",
+    "id": "urn:uuid:56ece11f-e980-4070-a525-ef0678cbf984",
+    "payload": {
+      "action": "ADD",
+      "batch": "https://id.dppmadera.example/01/07800001000015/10/L27-02730",
+      "bizStep": "commissioning",
+      "certification": "CERT-EX-CoC-0001",
+      "processRun": "https://id.dppmadera.example/run/cnc/L27-02730-P04"
+    },
+    "record_time": "2027-01-05T10:01:14Z",
+    "source": "factory_mes",
+    "type": "ObjectEvent"
+  },
+  {
+    "asset_id": "https://id.dppmadera.example/01/07800001000015/21/P05-71018",
+    "component": "P05",
+    "domain": "dpp",
+    "event_time": "2027-01-05T11:00:00Z",
+    "id": "urn:uuid:6f2d4456-4498-4504-af18-d40607b4be3a",
+    "payload": {
+      "action": "ADD",
+      "batch": "https://id.dppmadera.example/01/07800001000015/10/L27-02124",
+      "bizStep": "commissioning",
+      "certification": "CERT-EX-CoC-0001",
+      "processRun": "https://id.dppmadera.example/run/cnc/L27-02124-P05"
+    },
+    "record_time": "2027-01-05T11:00:56Z",
+    "source": "factory_mes",
+    "type": "ObjectEvent"
+  },
+  {
+    "asset_id": "https://id.dppmadera.example/01/07800001000015/21/P04-88172",
+    "component": "P04",
+    "domain": "epm",
+    "event_time": "2027-01-05T11:00:00Z",
+    "id": "urn:uuid:d9e2a858-9693-4ad4-90f4-e7cfc924718b",
+    "payload": {
+      "length_dev_mm": 0.5,
+      "moisture_pct": 12.1,
+      "result": "pass",
+      "schema": "qa_inspection/v1"
+    },
+    "record_time": "2027-01-05T11:01:29Z",
+    "source": "factory_qa",
+    "type": "Observation"
+  },
+  {
+    "asset_id": "https://id.dppmadera.example/01/07800001000015/21/P05-71018",
+    "component": "P05",
+    "domain": "epm",
+    "event_time": "2027-01-05T12:00:00Z",
+    "id": "urn:uuid:8ed466d2-bfce-44aa-8d42-055195f47dfe",
+    "payload": {
+      "length_dev_mm": -0.5,
+      "moisture_pct": 12.3,
+      "result": "pass",
+      "schema": "qa_inspection/v1"
+    },
+    "record_time": "2027-01-05T12:00:19Z",
+    "source": "factory_qa",
+    "type": "Observation"
+  },
+  {
+    "asset_id": "https://id.dppmadera.example/01/07800001000022/21/P06-19242",
+    "component": "P06",
+    "domain": "dpp",
+    "event_time": "2027-01-05T12:00:00Z",
+    "id": "urn:uuid:38838242-d05c-4124-8e7c-f899478a0534",
+    "payload": {
+      "action": "ADD",
+      "batch": "https://id.dppmadera.example/01/07800001000022/10/L27-02140",
+      "bizStep": "commissioning",
+      "certification": "CERT-EX-CoC-0001",
+      "processRun": "https://id.dppmadera.example/run/cnc/L27-02140-P06"
+    },
+    "record_time": "2027-01-05T12:01:05Z",
+    "source": "factory_mes",
+    "type": "ObjectEvent"
+  },
+  {
+    "asset_id": "https://id.dppmadera.example/01/07800001000022/21/P06-19242",
+    "component": "P06",
+    "domain": "epm",
+    "event_time": "2027-01-05T13:00:00Z",
+    "id": "urn:uuid:4c6a3b2d-9c84-467d-9284-20a94080989a",
+    "payload": {
+      "length_dev_mm": 1.4,
+      "moisture_pct": 11.4,
+      "result": "pass",
+      "schema": "qa_inspection/v1"
+    },
+    "record_time": "2027-01-05T13:00:08Z",
+    "source": "factory_qa",
+    "type": "Observation"
+  },
+  {
+    "asset_id": "https://id.dppmadera.example/01/07800001000046/21/G03-74829",
+    "component": "G03",
+    "domain": "dpp",
+    "event_time": "2027-01-06T08:00:00Z",
+    "id": "urn:uuid:a58209ed-370b-40c3-a33a-7bfa354d6564",
+    "payload": {
+      "action": "ADD",
+      "batch": "https://id.dppmadera.example/01/07800001000046/10/L27-03529",
+      "bizStep": "commissioning",
+      "certification": "CERT-EX-CoC-0001",
+      "processRun": "https://id.dppmadera.example/run/cnc/L27-03529-G03"
+    },
+    "record_time": "2027-01-06T08:00:56Z",
+    "source": "factory_mes",
+    "type": "ObjectEvent"
+  },
+  {
+    "asset_id": "https://id.dppmadera.example/01/07800001000039/21/G04-36043",
+    "component": "G04",
+    "domain": "dpp",
+    "event_time": "2027-01-06T09:00:00Z",
+    "id": "urn:uuid:18625122-cc81-4888-98a9-832247186d23",
+    "payload": {
+      "action": "ADD",
+      "batch": "https://id.dppmadera.example/01/07800001000039/10/L27-03149",
+      "bizStep": "commissioning",
+      "certification": "CERT-EX-CoC-0001",
+      "processRun": "https://id.dppmadera.example/run/cnc/L27-03149-G04"
+    },
+    "record_time": "2027-01-06T09:00:51Z",
+    "source": "factory_mes",
+    "type": "ObjectEvent"
+  },
+  {
+    "asset_id": "https://id.dppmadera.example/01/07800001000046/21/G03-74829",
+    "component": "G03",
+    "domain": "epm",
+    "event_time": "2027-01-06T09:00:00Z",
+    "id": "urn:uuid:80d46ea6-d9e4-48ce-9e46-06a74fd72a1b",
+    "payload": {
+      "length_dev_mm": -1.0,
+      "moisture_pct": 12.0,
+      "result": "pass",
+      "schema": "qa_inspection/v1"
+    },
+    "record_time": "2027-01-06T09:01:26Z",
+    "source": "factory_qa",
+    "type": "Observation"
+  },
+  {
+    "asset_id": "https://id.dppmadera.example/01/07800001000039/21/G04-36043",
+    "component": "G04",
+    "domain": "epm",
+    "event_time": "2027-01-06T10:00:00Z",
+    "id": "urn:uuid:c5d504db-7569-4668-8f47-81f52ca9cea7",
+    "payload": {
+      "length_dev_mm": 0.2,
+      "moisture_pct": 12.0,
+      "result": "pass",
+      "schema": "qa_inspection/v1"
+    },
+    "record_time": "2027-01-06T10:00:48Z",
+    "source": "factory_qa",
+    "type": "Observation"
+  },
+  {
+    "asset_id": "https://id.dppmadera.example/01/07800001000015/21/P07-49366",
+    "component": "P07",
+    "domain": "dpp",
+    "event_time": "2027-01-06T10:00:00Z",
+    "id": "urn:uuid:07ca6ae4-9880-4a8c-9458-9bdb17733bf4",
+    "payload": {
+      "action": "ADD",
+      "batch": "https://id.dppmadera.example/01/07800001000015/10/L27-03565",
+      "bizStep": "commissioning",
+      "certification": "CERT-EX-CoC-0001",
+      "processRun": "https://id.dppmadera.example/run/cnc/L27-03565-P07"
+    },
+    "record_time": "2027-01-06T10:00:49Z",
+    "source": "factory_mes",
+    "type": "ObjectEvent"
+  },
+  {
+    "asset_id": "https://id.dppmadera.example/01/07800001000015/21/P08-47970",
+    "component": "P08",
+    "domain": "dpp",
+    "event_time": "2027-01-06T11:00:00Z",
+    "id": "urn:uuid:52c20003-f5d9-481e-87f2-af633f702bcf",
+    "payload": {
+      "action": "ADD",
+      "batch": "https://id.dppmadera.example/01/07800001000015/10/L27-03194",
+      "bizStep": "commissioning",
+      "certification": "CERT-EX-CoC-0001",
+      "processRun": "https://id.dppmadera.example/run/cnc/L27-03194-P08"
+    },
+    "record_time": "2027-01-06T11:00:05Z",
+    "source": "factory_mes",
+    "type": "ObjectEvent"
+  },
+  {
+    "asset_id": "https://id.dppmadera.example/01/07800001000015/21/P07-49366",
+    "component": "P07",
+    "domain": "epm",
+    "event_time": "2027-01-06T11:00:00Z",
+    "id": "urn:uuid:220f2e8a-1207-40c0-9c4b-f3712fb4e5c7",
+    "payload": {
+      "length_dev_mm": -0.7,
+      "moisture_pct": 11.0,
+      "result": "pass",
+      "schema": "qa_inspection/v1"
+    },
+    "record_time": "2027-01-06T11:00:36Z",
+    "source": "factory_qa",
+    "type": "Observation"
+  },
+  {
+    "asset_id": "https://id.dppmadera.example/01/07800001000015/21/P08-47970",
+    "component": "P08",
+    "domain": "epm",
+    "event_time": "2027-01-06T12:00:00Z",
+    "id": "urn:uuid:a24ec918-9294-4a72-9d1b-ec9d720e89b5",
+    "payload": {
+      "length_dev_mm": -1.2,
+      "moisture_pct": 10.9,
+      "result": "pass",
+      "schema": "qa_inspection/v1"
+    },
+    "record_time": "2027-01-06T12:01:16Z",
+    "source": "factory_qa",
+    "type": "Observation"
+  },
+  {
+    "asset_id": "https://id.dppmadera.example/01/07800001000022/21/P09-92279",
+    "component": "P09",
+    "domain": "dpp",
+    "event_time": "2027-01-06T12:00:00Z",
+    "id": "urn:uuid:741954c2-36a0-4309-932f-8adccb72e851",
+    "payload": {
+      "action": "ADD",
+      "batch": "https://id.dppmadera.example/01/07800001000022/10/L27-03387",
+      "bizStep": "commissioning",
+      "certification": "CERT-EX-CoC-0001",
+      "processRun": "https://id.dppmadera.example/run/cnc/L27-03387-P09"
+    },
+    "record_time": "2027-01-06T12:01:26Z",
+    "source": "factory_mes",
+    "type": "ObjectEvent"
+  },
+  {
+    "asset_id": "https://id.dppmadera.example/01/07800001000022/21/P09-92279",
+    "component": "P09",
+    "domain": "epm",
+    "event_time": "2027-01-06T13:00:00Z",
+    "id": "urn:uuid:b6991ee5-fb7a-4543-8189-d5c7ad877ae3",
+    "payload": {
+      "length_dev_mm": -0.7,
+      "moisture_pct": 11.4,
+      "result": "pass",
+      "schema": "qa_inspection/v1"
+    },
+    "record_time": "2027-01-06T13:00:22Z",
+    "source": "factory_qa",
+    "type": "Observation"
+  },
+  {
+    "asset_id": "https://id.dppmadera.example/01/07800001000053/21/C03-52114",
+    "component": "C03",
+    "domain": "dpp",
+    "event_time": "2027-01-06T13:00:00Z",
+    "id": "urn:uuid:87fe808f-c0b0-45d0-8fbe-eab70941c081",
+    "payload": {
+      "action": "ADD",
+      "batch": "https://id.dppmadera.example/01/07800001000053/10/L27-03750",
+      "bizStep": "commissioning",
+      "certification": "CERT-EX-CoC-0001",
+      "processRun": "https://id.dppmadera.example/run/cnc/L27-03750-C03"
+    },
+    "record_time": "2027-01-06T13:01:03Z",
+    "source": "factory_mes",
+    "type": "ObjectEvent"
+  },
+  {
+    "asset_id": "https://id.dppmadera.example/00/sscc/78000010000000001",
+    "component": null,
+    "domain": "dpp",
+    "event_time": "2027-01-06T14:00:00Z",
+    "id": "urn:uuid:11fb053a-a23c-469f-9621-18a88ccb5773",
+    "payload": {
+      "action": "ADD",
+      "bizStep": "loading",
+      "childEPCs": [
+        "https://id.dppmadera.example/01/07800001000053/21/C01-82057",
+        "https://id.dppmadera.example/01/07800001000046/21/G01-65936",
+        "https://id.dppmadera.example/01/07800001000039/21/G02-64648",
+        "https://id.dppmadera.example/01/07800001000015/21/P01-53514",
+        "https://id.dppmadera.example/01/07800001000015/21/P02-56368",
+        "https://id.dppmadera.example/01/07800001000022/21/P03-25689"
+      ],
+      "parentID": "https://id.dppmadera.example/00/sscc/78000010000000001"
+    },
+    "record_time": "2027-01-06T14:00:30Z",
+    "source": "dispatch_yard",
+    "type": "AggregationEvent"
+  },
+  {
+    "asset_id": "https://id.dppmadera.example/01/07800001000053/21/C03-52114",
+    "component": "C03",
+    "domain": "epm",
+    "event_time": "2027-01-06T14:00:00Z",
+    "id": "urn:uuid:1f4003a2-95b2-40d1-b48e-365e26e8b4fd",
+    "payload": {
+      "length_dev_mm": 0.6,
+      "moisture_pct": null,
+      "result": "pass",
+      "schema": "qa_inspection/v1"
+    },
+    "record_time": "2027-01-06T14:01:03Z",
+    "source": "factory_qa",
+    "type": "Observation"
+  },
+  {
+    "asset_id": "https://id.dppmadera.example/01/07800001000053/21/C01-82057",
+    "component": "C01",
+    "domain": "dpp",
+    "event_time": "2027-01-06T15:00:00Z",
+    "id": "urn:uuid:5df5302b-2153-4f66-a55f-1c13dcedd3a5",
+    "payload": {
+      "action": "OBSERVE",
+      "bizStep": "shipping",
+      "disposition": "in_transit",
+      "parentID": "https://id.dppmadera.example/00/sscc/78000010000000001"
+    },
+    "record_time": "2027-01-06T15:00:07Z",
+    "source": "dispatch_yard",
+    "type": "ObjectEvent"
+  },
+  {
+    "asset_id": "https://id.dppmadera.example/01/07800001000046/21/G01-65936",
+    "component": "G01",
+    "domain": "dpp",
+    "event_time": "2027-01-06T15:00:00Z",
+    "id": "urn:uuid:30cc64d3-c78e-4bc1-9080-031efe6fe633",
+    "payload": {
+      "action": "OBSERVE",
+      "bizStep": "shipping",
+      "disposition": "in_transit",
+      "parentID": "https://id.dppmadera.example/00/sscc/78000010000000001"
+    },
+    "record_time": "2027-01-06T15:00:16Z",
+    "source": "dispatch_yard",
+    "type": "ObjectEvent"
+  },
+  {
+    "asset_id": "https://id.dppmadera.example/01/07800001000015/21/P01-53514",
+    "component": "P01",
+    "domain": "dpp",
+    "event_time": "2027-01-06T15:00:00Z",
+    "id": "urn:uuid:82124720-d901-4894-8a30-0887fd121921",
+    "payload": {
+      "action": "OBSERVE",
+      "bizStep": "shipping",
+      "disposition": "in_transit",
+      "parentID": "https://id.dppmadera.example/00/sscc/78000010000000001"
+    },
+    "record_time": "2027-01-06T15:01:08Z",
+    "source": "dispatch_yard",
+    "type": "ObjectEvent"
+  },
+  {
+    "asset_id": "https://id.dppmadera.example/01/07800001000022/21/P03-25689",
+    "component": "P03",
+    "domain": "dpp",
+    "event_time": "2027-01-06T15:00:00Z",
+    "id": "urn:uuid:2adde794-c220-4cb8-b474-2e81640208b5",
+    "payload": {
+      "action": "OBSERVE",
+      "bizStep": "shipping",
+      "disposition": "in_transit",
+      "parentID": "https://id.dppmadera.example/00/sscc/78000010000000001"
+    },
+    "record_time": "2027-01-06T15:01:22Z",
+    "source": "dispatch_yard",
+    "type": "ObjectEvent"
+  },
+  {
+    "asset_id": "https://id.dppmadera.example/01/07800001000015/21/P02-56368",
+    "component": "P02",
+    "domain": "dpp",
+    "event_time": "2027-01-06T15:00:00Z",
+    "id": "urn:uuid:a2a07123-492a-433d-aa06-26fc8d58a70a",
+    "payload": {
+      "action": "OBSERVE",
+      "bizStep": "shipping",
+      "disposition": "in_transit",
+      "parentID": "https://id.dppmadera.example/00/sscc/78000010000000001"
+    },
+    "record_time": "2027-01-06T15:01:29Z",
+    "source": "dispatch_yard",
+    "type": "ObjectEvent"
+  },
+  {
+    "asset_id": "https://id.dppmadera.example/01/07800001000046/21/G01-65936",
+    "component": "G01",
+    "domain": "dpp",
+    "event_time": "2027-01-06T19:00:00Z",
+    "id": "urn:uuid:cdd409e1-8689-4e44-aeb0-d028ee78e89f",
+    "payload": {
+      "action": "OBSERVE",
+      "bizStep": "receiving",
+      "disposition": "in_progress",
+      "parentID": "https://id.dppmadera.example/00/sscc/78000010000000001",
+      "readPoint": "site-gate-qr"
+    },
+    "record_time": "2027-01-06T19:00:07Z",
+    "source": "site_gate",
+    "type": "ObjectEvent"
+  },
+  {
+    "asset_id": "https://id.dppmadera.example/01/07800001000039/21/G02-64648",
+    "component": "G02",
+    "domain": "dpp",
+    "event_time": "2027-01-06T19:00:00Z",
+    "id": "urn:uuid:abe22c8b-8780-49b8-a07e-0999c30c2fdd",
+    "payload": {
+      "action": "OBSERVE",
+      "bizStep": "receiving",
+      "disposition": "in_progress",
+      "parentID": "https://id.dppmadera.example/00/sscc/78000010000000001",
+      "readPoint": "site-gate-qr"
+    },
+    "record_time": "2027-01-06T19:00:10Z",
+    "source": "site_gate",
+    "type": "ObjectEvent"
+  },
+  {
+    "asset_id": "https://id.dppmadera.example/01/07800001000022/21/P03-25689",
+    "component": "P03",
+    "domain": "dpp",
+    "event_time": "2027-01-06T19:00:00Z",
+    "id": "urn:uuid:d89dd2f2-63c8-48b8-82d6-33cf1d9ee72d",
+    "payload": {
+      "action": "OBSERVE",
+      "bizStep": "receiving",
+      "disposition": "in_progress",
+      "parentID": "https://id.dppmadera.example/00/sscc/78000010000000001",
+      "readPoint": "site-gate-qr"
+    },
+    "record_time": "2027-01-06T19:00:18Z",
+    "source": "site_gate",
+    "type": "ObjectEvent"
+  },
+  {
+    "asset_id": "https://id.dppmadera.example/01/07800001000015/21/P01-53514",
+    "component": "P01",
+    "domain": "dpp",
+    "event_time": "2027-01-06T19:00:00Z",
+    "id": "urn:uuid:f15eba0d-7764-422d-b477-36651115422f",
+    "payload": {
+      "action": "OBSERVE",
+      "bizStep": "receiving",
+      "disposition": "in_progress",
+      "parentID": "https://id.dppmadera.example/00/sscc/78000010000000001",
+      "readPoint": "site-gate-qr"
+    },
+    "record_time": "2027-01-06T19:00:47Z",
+    "source": "site_gate",
+    "type": "ObjectEvent"
+  },
+  {
+    "asset_id": "https://id.dppmadera.example/01/07800001000053/21/C01-82057",
+    "component": "C01",
+    "domain": "dpp",
+    "event_time": "2027-01-06T19:00:00Z",
+    "id": "urn:uuid:c03387c7-f8ff-4eab-a207-f41f93148542",
+    "payload": {
+      "action": "OBSERVE",
+      "bizStep": "receiving",
+      "disposition": "in_progress",
+      "parentID": "https://id.dppmadera.example/00/sscc/78000010000000001",
+      "readPoint": "site-gate-qr"
+    },
+    "record_time": "2027-01-06T19:01:00Z",
+    "source": "site_gate",
+    "type": "ObjectEvent"
+  },
+  {
+    "asset_id": "https://id.dppmadera.example/01/07800001000015/21/P02-56368",
+    "component": "P02",
+    "domain": "dpp",
+    "event_time": "2027-01-06T19:00:00Z",
+    "id": "urn:uuid:78ffcbf4-fad1-4377-908d-5b5738b2b353",
+    "payload": {
+      "action": "OBSERVE",
+      "bizStep": "receiving",
+      "disposition": "in_progress",
+      "parentID": "https://id.dppmadera.example/00/sscc/78000010000000001",
+      "readPoint": "site-gate-qr"
+    },
+    "record_time": "2027-01-06T19:01:15Z",
+    "source": "site_gate",
+    "type": "ObjectEvent"
+  },
+  {
+    "asset_id": "https://id.dppmadera.example/01/07800001000022/21/P03-25689",
+    "component": "P03",
+    "domain": "epm",
+    "event_time": "2027-01-06T19:20:00Z",
+    "id": "urn:uuid:53d04ec4-c164-4196-a130-279fae57c42c",
+    "payload": {
+      "moisture_pct": 11.8,
+      "schema": "moisture_check/v1"
+    },
+    "record_time": "2027-01-06T19:20:13Z",
+    "source": "site_gate_meter",
+    "type": "Observation"
+  },
+  {
+    "asset_id": "https://id.dppmadera.example/01/07800001000022/21/P03-25689",
+    "component": "P03",
+    "domain": "epm",
+    "event_time": "2027-01-06T19:55:00Z",
+    "id": "urn:uuid:5e83a732-c0e2-4862-96e3-80a92d42d77d",
+    "payload": {
+      "moisture_pct": 18.5,
+      "schema": "moisture_check/v1"
+    },
+    "record_time": "2027-01-06T19:56:00Z",
+    "source": "contractor_qa",
+    "type": "Observation"
+  },
+  {
+    "asset_id": "https://id.dppmadera.example/01/07800001000015/21/P10-49472",
+    "component": "P10",
+    "domain": "dpp",
+    "event_time": "2027-01-07T08:00:00Z",
+    "id": "urn:uuid:09f4702f-4bc6-4b2b-86cd-2fc5af93beab",
+    "payload": {
+      "action": "ADD",
+      "batch": "https://id.dppmadera.example/01/07800001000015/10/L27-04262",
+      "bizStep": "commissioning",
+      "certification": "CERT-EX-CoC-0001",
+      "processRun": "https://id.dppmadera.example/run/cnc/L27-04262-P10"
+    },
+    "record_time": "2027-01-07T08:00:08Z",
+    "source": "factory_mes",
+    "type": "ObjectEvent"
+  },
+  {
+    "asset_id": "https://id.dppmadera.example/01/07800001000015/21/P11-86532",
+    "component": "P11",
+    "domain": "dpp",
+    "event_time": "2027-01-07T09:00:00Z",
+    "id": "urn:uuid:0fe976cd-cf3d-4e46-b03b-b52a33c6be3d",
+    "payload": {
+      "action": "ADD",
+      "batch": "https://id.dppmadera.example/01/07800001000015/10/L27-04106",
+      "bizStep": "commissioning",
+      "certification": "CERT-EX-CoC-0001",
+      "processRun": "https://id.dppmadera.example/run/cnc/L27-04106-P11"
+    },
+    "record_time": "2027-01-07T09:00:06Z",
+    "source": "factory_mes",
+    "type": "ObjectEvent"
+  },
+  {
+    "asset_id": "https://id.dppmadera.example/01/07800001000015/21/P10-49472",
+    "component": "P10",
+    "domain": "epm",
+    "event_time": "2027-01-07T09:00:00Z",
+    "id": "urn:uuid:610a81c7-2330-4d32-9fb3-bbd41d7ecb63",
+    "payload": {
+      "length_dev_mm": 0.8,
+      "moisture_pct": 11.4,
+      "result": "pass",
+      "schema": "qa_inspection/v1"
+    },
+    "record_time": "2027-01-07T09:00:37Z",
+    "source": "factory_qa",
+    "type": "Observation"
+  },
+  {
+    "asset_id": "https://id.dppmadera.example/01/07800001000015/21/P11-86532",
+    "component": "P11",
+    "domain": "epm",
+    "event_time": "2027-01-07T10:00:00Z",
+    "id": "urn:uuid:a5731f3b-c4e1-4cf3-ab33-4b3b306b66b4",
+    "payload": {
+      "length_dev_mm": 0.8,
+      "moisture_pct": 12.1,
+      "result": "pass",
+      "schema": "qa_inspection/v1"
+    },
+    "record_time": "2027-01-07T10:00:54Z",
+    "source": "factory_qa",
+    "type": "Observation"
+  },
+  {
+    "asset_id": "https://id.dppmadera.example/01/07800001000022/21/P12-98395",
+    "component": "P12",
+    "domain": "dpp",
+    "event_time": "2027-01-07T10:00:00Z",
+    "id": "urn:uuid:14cd4e1c-159f-4270-a22b-56799f06d49d",
+    "payload": {
+      "action": "ADD",
+      "batch": "https://id.dppmadera.example/01/07800001000022/10/L27-04367",
+      "bizStep": "commissioning",
+      "certification": "CERT-EX-CoC-0001",
+      "processRun": "https://id.dppmadera.example/run/cnc/L27-04367-P12"
+    },
+    "record_time": "2027-01-07T10:01:12Z",
+    "source": "factory_mes",
+    "type": "ObjectEvent"
+  },
+  {
+    "asset_id": "https://id.dppmadera.example/01/07800001000022/21/P12-98395",
+    "component": "P12",
+    "domain": "epm",
+    "event_time": "2027-01-07T11:00:00Z",
+    "id": "urn:uuid:e85ffc0d-1db1-4ae1-88f3-5818d11a3429",
+    "payload": {
+      "length_dev_mm": -1.3,
+      "moisture_pct": 11.4,
+      "result": "pass",
+      "schema": "qa_inspection/v1"
+    },
+    "record_time": "2027-01-07T11:00:57Z",
+    "source": "factory_qa",
+    "type": "Observation"
+  },
+  {
+    "asset_id": "https://id.dppmadera.example/01/07800001000053/21/C04-40931",
+    "component": "C04",
+    "domain": "dpp",
+    "event_time": "2027-01-07T13:00:00Z",
+    "id": "urn:uuid:3945e373-1c27-4dd2-b8b7-26a3d02acaae",
+    "payload": {
+      "action": "ADD",
+      "batch": "https://id.dppmadera.example/01/07800001000053/10/L27-04178",
+      "bizStep": "commissioning",
+      "certification": "CERT-EX-CoC-0001",
+      "processRun": "https://id.dppmadera.example/run/cnc/L27-04178-C04"
+    },
+    "record_time": "2027-01-07T13:00:48Z",
+    "source": "factory_mes",
+    "type": "ObjectEvent"
+  },
+  {
+    "asset_id": "https://id.dppmadera.example/00/sscc/78000010000000002",
+    "component": null,
+    "domain": "dpp",
+    "event_time": "2027-01-07T14:00:00Z",
+    "id": "urn:uuid:15c09ea9-b519-47d4-8bfd-590f2ad07285",
+    "payload": {
+      "action": "ADD",
+      "bizStep": "loading",
+      "childEPCs": [
+        "https://id.dppmadera.example/01/07800001000053/21/C02-84551",
+        "https://id.dppmadera.example/01/07800001000015/21/P04-88172",
+        "https://id.dppmadera.example/01/07800001000015/21/P05-71018",
+        "https://id.dppmadera.example/01/07800001000022/21/P06-19242"
+      ],
+      "parentID": "https://id.dppmadera.example/00/sscc/78000010000000002"
+    },
+    "record_time": "2027-01-07T14:00:30Z",
+    "source": "dispatch_yard",
+    "type": "AggregationEvent"
+  },
+  {
+    "asset_id": "https://id.dppmadera.example/01/07800001000053/21/C04-40931",
+    "component": "C04",
+    "domain": "epm",
+    "event_time": "2027-01-07T14:00:00Z",
+    "id": "urn:uuid:d121982c-1f62-4a7e-a6b9-112a5be0ac34",
+    "payload": {
+      "length_dev_mm": -0.7,
+      "moisture_pct": null,
+      "result": "pass",
+      "schema": "qa_inspection/v1"
+    },
+    "record_time": "2027-01-07T14:01:00Z",
+    "source": "factory_qa",
+    "type": "Observation"
+  },
+  {
+    "asset_id": "https://id.dppmadera.example/01/07800001000015/21/P04-88172",
+    "component": "P04",
+    "domain": "dpp",
+    "event_time": "2027-01-07T15:00:00Z",
+    "id": "urn:uuid:bd30d996-78fa-4f73-ae36-8712ed1b74dd",
+    "payload": {
+      "action": "OBSERVE",
+      "bizStep": "shipping",
+      "disposition": "in_transit",
+      "parentID": "https://id.dppmadera.example/00/sscc/78000010000000002"
+    },
+    "record_time": "2027-01-07T15:00:32Z",
+    "source": "dispatch_yard",
+    "type": "ObjectEvent"
+  },
+  {
+    "asset_id": "https://id.dppmadera.example/01/07800001000053/21/C02-84551",
+    "component": "C02",
+    "domain": "dpp",
+    "event_time": "2027-01-07T15:00:00Z",
+    "id": "urn:uuid:40749f8b-f9c9-477c-a005-8e816333ebd2",
+    "payload": {
+      "action": "OBSERVE",
+      "bizStep": "shipping",
+      "disposition": "in_transit",
+      "parentID": "https://id.dppmadera.example/00/sscc/78000010000000002"
+    },
+    "record_time": "2027-01-07T15:00:34Z",
+    "source": "dispatch_yard",
+    "type": "ObjectEvent"
+  },
+  {
+    "asset_id": "https://id.dppmadera.example/01/07800001000015/21/P05-71018",
+    "component": "P05",
+    "domain": "dpp",
+    "event_time": "2027-01-07T15:00:00Z",
+    "id": "urn:uuid:2ffedc46-1762-4320-8c93-424fb57a72b2",
+    "payload": {
+      "action": "OBSERVE",
+      "bizStep": "shipping",
+      "disposition": "in_transit",
+      "parentID": "https://id.dppmadera.example/00/sscc/78000010000000002"
+    },
+    "record_time": "2027-01-07T15:00:47Z",
+    "source": "dispatch_yard",
+    "type": "ObjectEvent"
+  },
+  {
+    "asset_id": "https://id.dppmadera.example/01/07800001000022/21/P06-19242",
+    "component": "P06",
+    "domain": "dpp",
+    "event_time": "2027-01-07T15:00:00Z",
+    "id": "urn:uuid:e0ee9426-e6f1-46de-ba07-948894f4bb3e",
+    "payload": {
+      "action": "OBSERVE",
+      "bizStep": "shipping",
+      "disposition": "in_transit",
+      "parentID": "https://id.dppmadera.example/00/sscc/78000010000000002"
+    },
+    "record_time": "2027-01-07T15:01:06Z",
+    "source": "dispatch_yard",
+    "type": "ObjectEvent"
+  },
+  {
+    "asset_id": "https://id.dppmadera.example/01/07800001000022/21/P06-19242",
+    "component": "P06",
+    "domain": "dpp",
+    "event_time": "2027-01-07T19:00:00Z",
+    "id": "urn:uuid:69bf19fc-34f9-4da1-adb1-3b42a9b1c953",
+    "payload": {
+      "action": "OBSERVE",
+      "bizStep": "receiving",
+      "disposition": "in_progress",
+      "parentID": "https://id.dppmadera.example/00/sscc/78000010000000002",
+      "readPoint": "site-gate-qr"
+    },
+    "record_time": "2027-01-07T19:00:47Z",
+    "source": "site_gate",
+    "type": "ObjectEvent"
+  },
+  {
+    "asset_id": "https://id.dppmadera.example/01/07800001000015/21/P04-88172",
+    "component": "P04",
+    "domain": "dpp",
+    "event_time": "2027-01-07T19:00:00Z",
+    "id": "urn:uuid:9ae74f34-ad66-4883-a538-a754f191ae77",
+    "payload": {
+      "action": "OBSERVE",
+      "bizStep": "receiving",
+      "disposition": "in_progress",
+      "parentID": "https://id.dppmadera.example/00/sscc/78000010000000002",
+      "readPoint": "site-gate-qr"
+    },
+    "record_time": "2027-01-07T19:00:50Z",
+    "source": "site_gate",
+    "type": "ObjectEvent"
+  },
+  {
+    "asset_id": "https://id.dppmadera.example/01/07800001000015/21/P05-71018",
+    "component": "P05",
+    "domain": "dpp",
+    "event_time": "2027-01-07T19:00:00Z",
+    "id": "urn:uuid:17f3d7da-7660-412d-a2d1-a11a4948d863",
+    "payload": {
+      "action": "OBSERVE",
+      "bizStep": "receiving",
+      "disposition": "in_progress",
+      "parentID": "https://id.dppmadera.example/00/sscc/78000010000000002",
+      "readPoint": "site-gate-qr"
+    },
+    "record_time": "2027-01-07T19:00:54Z",
+    "source": "site_gate",
+    "type": "ObjectEvent"
+  },
+  {
+    "asset_id": "https://id.dppmadera.example/01/07800001000053/21/C02-84551",
+    "component": "C02",
+    "domain": "dpp",
+    "event_time": "2027-01-07T19:00:00Z",
+    "id": "urn:uuid:aeea21a1-e8b5-4006-8302-0421168da82f",
+    "payload": {
+      "action": "OBSERVE",
+      "bizStep": "receiving",
+      "disposition": "in_progress",
+      "parentID": "https://id.dppmadera.example/00/sscc/78000010000000002",
+      "readPoint": "site-gate-qr"
+    },
+    "record_time": "2027-01-07T19:01:25Z",
+    "source": "site_gate",
+    "type": "ObjectEvent"
+  },
+  {
+    "asset_id": "https://id.dppmadera.example/00/sscc/78000010000000003",
+    "component": null,
+    "domain": "dpp",
+    "event_time": "2027-01-08T14:00:00Z",
+    "id": "urn:uuid:dec44e61-7f97-439b-a195-aa442328133f",
+    "payload": {
+      "action": "ADD",
+      "bizStep": "loading",
+      "childEPCs": [
+        "https://id.dppmadera.example/01/07800001000053/21/C03-52114",
+        "https://id.dppmadera.example/01/07800001000046/21/G03-74829",
+        "https://id.dppmadera.example/01/07800001000039/21/G04-36043",
+        "https://id.dppmadera.example/01/07800001000015/21/P07-49366",
+        "https://id.dppmadera.example/01/07800001000015/21/P08-47970",
+        "https://id.dppmadera.example/01/07800001000022/21/P09-92279"
+      ],
+      "parentID": "https://id.dppmadera.example/00/sscc/78000010000000003"
+    },
+    "record_time": "2027-01-08T14:00:30Z",
+    "source": "dispatch_yard",
+    "type": "AggregationEvent"
+  },
+  {
+    "asset_id": "https://id.dppmadera.example/01/07800001000015/21/P07-49366",
+    "component": "P07",
+    "domain": "dpp",
+    "event_time": "2027-01-08T15:00:00Z",
+    "id": "urn:uuid:8177de43-d166-4241-a57b-bcc3c2a0a008",
+    "payload": {
+      "action": "OBSERVE",
+      "bizStep": "shipping",
+      "disposition": "in_transit",
+      "parentID": "https://id.dppmadera.example/00/sscc/78000010000000003"
+    },
+    "record_time": "2027-01-08T15:00:27Z",
+    "source": "dispatch_yard",
+    "type": "ObjectEvent"
+  },
+  {
+    "asset_id": "https://id.dppmadera.example/01/07800001000022/21/P09-92279",
+    "component": "P09",
+    "domain": "dpp",
+    "event_time": "2027-01-08T15:00:00Z",
+    "id": "urn:uuid:43a18e9b-f096-4a2c-82e6-a01f45975247",
+    "payload": {
+      "action": "OBSERVE",
+      "bizStep": "shipping",
+      "disposition": "in_transit",
+      "parentID": "https://id.dppmadera.example/00/sscc/78000010000000003"
+    },
+    "record_time": "2027-01-08T15:00:43Z",
+    "source": "dispatch_yard",
+    "type": "ObjectEvent"
+  },
+  {
+    "asset_id": "https://id.dppmadera.example/01/07800001000039/21/G04-36043",
+    "component": "G04",
+    "domain": "dpp",
+    "event_time": "2027-01-08T15:00:00Z",
+    "id": "urn:uuid:98e1d21e-491e-46c3-92c0-a0a021e147a5",
+    "payload": {
+      "action": "OBSERVE",
+      "bizStep": "shipping",
+      "disposition": "in_transit",
+      "parentID": "https://id.dppmadera.example/00/sscc/78000010000000003"
+    },
+    "record_time": "2027-01-08T15:00:43Z",
+    "source": "dispatch_yard",
+    "type": "ObjectEvent"
+  },
+  {
+    "asset_id": "https://id.dppmadera.example/01/07800001000015/21/P08-47970",
+    "component": "P08",
+    "domain": "dpp",
+    "event_time": "2027-01-08T15:00:00Z",
+    "id": "urn:uuid:17c6854c-5dcf-4ae7-b461-c08521a96b29",
+    "payload": {
+      "action": "OBSERVE",
+      "bizStep": "shipping",
+      "disposition": "in_transit",
+      "parentID": "https://id.dppmadera.example/00/sscc/78000010000000003"
+    },
+    "record_time": "2027-01-08T15:00:57Z",
+    "source": "dispatch_yard",
+    "type": "ObjectEvent"
+  },
+  {
+    "asset_id": "https://id.dppmadera.example/01/07800001000053/21/C03-52114",
+    "component": "C03",
+    "domain": "dpp",
+    "event_time": "2027-01-08T15:00:00Z",
+    "id": "urn:uuid:cc20eae0-d149-48f1-a8fc-0bfd785023c3",
+    "payload": {
+      "action": "OBSERVE",
+      "bizStep": "shipping",
+      "disposition": "in_transit",
+      "parentID": "https://id.dppmadera.example/00/sscc/78000010000000003"
+    },
+    "record_time": "2027-01-08T15:01:03Z",
+    "source": "dispatch_yard",
+    "type": "ObjectEvent"
+  },
+  {
+    "asset_id": "https://id.dppmadera.example/01/07800001000046/21/G03-74829",
+    "component": "G03",
+    "domain": "dpp",
+    "event_time": "2027-01-08T15:00:00Z",
+    "id": "urn:uuid:1dade503-cf7e-420d-8ba2-74894821216a",
+    "payload": {
+      "action": "OBSERVE",
+      "bizStep": "shipping",
+      "disposition": "in_transit",
+      "parentID": "https://id.dppmadera.example/00/sscc/78000010000000003"
+    },
+    "record_time": "2027-01-08T15:01:17Z",
+    "source": "dispatch_yard",
+    "type": "ObjectEvent"
+  },
+  {
+    "asset_id": "https://id.dppmadera.example/01/07800001000015/21/P07-49366",
+    "component": "P07",
+    "domain": "dpp",
+    "event_time": "2027-01-08T19:00:00Z",
+    "id": "urn:uuid:d8f913f3-1aef-421c-b87c-9e3dc4f92edf",
+    "payload": {
+      "action": "OBSERVE",
+      "bizStep": "receiving",
+      "disposition": "in_progress",
+      "parentID": "https://id.dppmadera.example/00/sscc/78000010000000003",
+      "readPoint": "site-gate-qr"
+    },
+    "record_time": "2027-01-08T19:00:13Z",
+    "source": "site_gate",
+    "type": "ObjectEvent"
+  },
+  {
+    "asset_id": "https://id.dppmadera.example/01/07800001000022/21/P09-92279",
+    "component": "P09",
+    "domain": "dpp",
+    "event_time": "2027-01-08T19:00:00Z",
+    "id": "urn:uuid:b8c33020-7e55-489d-821b-999c4ae77b3f",
+    "payload": {
+      "action": "OBSERVE",
+      "bizStep": "receiving",
+      "disposition": "in_progress",
+      "parentID": "https://id.dppmadera.example/00/sscc/78000010000000003",
+      "readPoint": "site-gate-qr"
+    },
+    "record_time": "2027-01-08T19:00:15Z",
+    "source": "site_gate",
+    "type": "ObjectEvent"
+  },
+  {
+    "asset_id": "https://id.dppmadera.example/01/07800001000015/21/P08-47970",
+    "component": "P08",
+    "domain": "dpp",
+    "event_time": "2027-01-08T19:00:00Z",
+    "id": "urn:uuid:ac03c1e6-8676-43a2-8703-b26e50631852",
+    "payload": {
+      "action": "OBSERVE",
+      "bizStep": "receiving",
+      "disposition": "in_progress",
+      "parentID": "https://id.dppmadera.example/00/sscc/78000010000000003",
+      "readPoint": "site-gate-qr"
+    },
+    "record_time": "2027-01-08T19:00:54Z",
+    "source": "site_gate",
+    "type": "ObjectEvent"
+  },
+  {
+    "asset_id": "https://id.dppmadera.example/01/07800001000046/21/G03-74829",
+    "component": "G03",
+    "domain": "dpp",
+    "event_time": "2027-01-08T19:00:00Z",
+    "id": "urn:uuid:5897bd73-df4d-4497-ada5-a0c3bbc5d017",
+    "payload": {
+      "action": "OBSERVE",
+      "bizStep": "receiving",
+      "disposition": "in_progress",
+      "parentID": "https://id.dppmadera.example/00/sscc/78000010000000003",
+      "readPoint": "site-gate-qr"
+    },
+    "record_time": "2027-01-08T19:01:00Z",
+    "source": "site_gate",
+    "type": "ObjectEvent"
+  },
+  {
+    "asset_id": "https://id.dppmadera.example/01/07800001000039/21/G04-36043",
+    "component": "G04",
+    "domain": "dpp",
+    "event_time": "2027-01-08T19:00:00Z",
+    "id": "urn:uuid:c7eaee08-ac21-465c-9b9b-c2f0e35dd9a8",
+    "payload": {
+      "action": "OBSERVE",
+      "bizStep": "receiving",
+      "disposition": "in_progress",
+      "parentID": "https://id.dppmadera.example/00/sscc/78000010000000003",
+      "readPoint": "site-gate-qr"
+    },
+    "record_time": "2027-01-08T19:01:05Z",
+    "source": "site_gate",
+    "type": "ObjectEvent"
+  },
+  {
+    "asset_id": "https://id.dppmadera.example/01/07800001000053/21/C03-52114",
+    "component": "C03",
+    "domain": "dpp",
+    "event_time": "2027-01-08T19:00:00Z",
+    "id": "urn:uuid:8cbb7066-ea62-4722-bafa-1046dde21010",
+    "payload": {
+      "action": "OBSERVE",
+      "bizStep": "receiving",
+      "disposition": "in_progress",
+      "parentID": "https://id.dppmadera.example/00/sscc/78000010000000003",
+      "readPoint": "site-gate-qr"
+    },
+    "record_time": "2027-01-08T19:01:08Z",
+    "source": "site_gate",
+    "type": "ObjectEvent"
+  },
+  {
+    "asset_id": "https://id.dppmadera.example/00/sscc/78000010000000004",
+    "component": null,
+    "domain": "dpp",
+    "event_time": "2027-01-09T14:00:00Z",
+    "id": "urn:uuid:b9206861-a6a8-4b9a-a110-36d942826a00",
+    "payload": {
+      "action": "ADD",
+      "bizStep": "loading",
+      "childEPCs": [
+        "https://id.dppmadera.example/01/07800001000053/21/C04-40931",
+        "https://id.dppmadera.example/01/07800001000015/21/P10-49472",
+        "https://id.dppmadera.example/01/07800001000015/21/P11-86532",
+        "https://id.dppmadera.example/01/07800001000022/21/P12-98395"
+      ],
+      "parentID": "https://id.dppmadera.example/00/sscc/78000010000000004"
+    },
+    "record_time": "2027-01-09T14:00:30Z",
+    "source": "dispatch_yard",
+    "type": "AggregationEvent"
+  },
+  {
+    "asset_id": "https://id.dppmadera.example/01/07800001000015/21/P10-49472",
+    "component": "P10",
+    "domain": "dpp",
+    "event_time": "2027-01-09T15:00:00Z",
+    "id": "urn:uuid:1eb2ffba-413a-4d5c-9a74-7584a5b16859",
+    "payload": {
+      "action": "OBSERVE",
+      "bizStep": "shipping",
+      "disposition": "in_transit",
+      "parentID": "https://id.dppmadera.example/00/sscc/78000010000000004"
+    },
+    "record_time": "2027-01-09T15:00:06Z",
+    "source": "dispatch_yard",
+    "type": "ObjectEvent"
+  },
+  {
+    "asset_id": "https://id.dppmadera.example/01/07800001000015/21/P11-86532",
+    "component": "P11",
+    "domain": "dpp",
+    "event_time": "2027-01-09T15:00:00Z",
+    "id": "urn:uuid:0ce7edf4-b602-4133-9c8e-1fa12250f733",
+    "payload": {
+      "action": "OBSERVE",
+      "bizStep": "shipping",
+      "disposition": "in_transit",
+      "parentID": "https://id.dppmadera.example/00/sscc/78000010000000004"
+    },
+    "record_time": "2027-01-09T15:00:15Z",
+    "source": "dispatch_yard",
+    "type": "ObjectEvent"
+  },
+  {
+    "asset_id": "https://id.dppmadera.example/01/07800001000053/21/C04-40931",
+    "component": "C04",
+    "domain": "dpp",
+    "event_time": "2027-01-09T15:00:00Z",
+    "id": "urn:uuid:fc1877c0-19b5-460b-9fde-788ee7093526",
+    "payload": {
+      "action": "OBSERVE",
+      "bizStep": "shipping",
+      "disposition": "in_transit",
+      "parentID": "https://id.dppmadera.example/00/sscc/78000010000000004"
+    },
+    "record_time": "2027-01-09T15:00:19Z",
+    "source": "dispatch_yard",
+    "type": "ObjectEvent"
+  },
+  {
+    "asset_id": "https://id.dppmadera.example/01/07800001000022/21/P12-98395",
+    "component": "P12",
+    "domain": "dpp",
+    "event_time": "2027-01-09T15:00:00Z",
+    "id": "urn:uuid:d288a84c-544d-4d81-a669-52dbf9a6a9d0",
+    "payload": {
+      "action": "OBSERVE",
+      "bizStep": "shipping",
+      "disposition": "in_transit",
+      "parentID": "https://id.dppmadera.example/00/sscc/78000010000000004"
+    },
+    "record_time": "2027-01-09T15:01:29Z",
+    "source": "dispatch_yard",
+    "type": "ObjectEvent"
+  },
+  {
+    "asset_id": "https://id.dppmadera.example/01/07800001000015/21/P11-86532",
+    "component": "P11",
+    "domain": "dpp",
+    "event_time": "2027-01-09T19:00:00Z",
+    "id": "urn:uuid:7c258197-a9a8-462c-b1fc-972aa3c22176",
+    "payload": {
+      "action": "OBSERVE",
+      "bizStep": "receiving",
+      "disposition": "in_progress",
+      "parentID": "https://id.dppmadera.example/00/sscc/78000010000000004",
+      "readPoint": "site-gate-qr"
+    },
+    "record_time": "2027-01-09T19:00:26Z",
+    "source": "site_gate",
+    "type": "ObjectEvent"
+  },
+  {
+    "asset_id": "https://id.dppmadera.example/01/07800001000053/21/C04-40931",
+    "component": "C04",
+    "domain": "dpp",
+    "event_time": "2027-01-09T19:00:00Z",
+    "id": "urn:uuid:a48ef44a-2c2e-48e3-81b1-8fc98da9ebc3",
+    "payload": {
+      "action": "OBSERVE",
+      "bizStep": "receiving",
+      "disposition": "in_progress",
+      "parentID": "https://id.dppmadera.example/00/sscc/78000010000000004",
+      "readPoint": "site-gate-qr"
+    },
+    "record_time": "2027-01-09T19:00:42Z",
+    "source": "site_gate",
+    "type": "ObjectEvent"
+  },
+  {
+    "asset_id": "https://id.dppmadera.example/01/07800001000015/21/P10-49472",
+    "component": "P10",
+    "domain": "dpp",
+    "event_time": "2027-01-09T19:00:00Z",
+    "id": "urn:uuid:889aac0f-a89b-4564-85c3-29cb35732f22",
+    "payload": {
+      "action": "OBSERVE",
+      "bizStep": "receiving",
+      "disposition": "in_progress",
+      "parentID": "https://id.dppmadera.example/00/sscc/78000010000000004",
+      "readPoint": "site-gate-qr"
+    },
+    "record_time": "2027-01-09T19:01:18Z",
+    "source": "site_gate",
+    "type": "ObjectEvent"
+  },
+  {
+    "asset_id": "https://id.dppmadera.example/01/07800001000022/21/P12-98395",
+    "component": "P12",
+    "domain": "dpp",
+    "event_time": "2027-01-09T19:00:00Z",
+    "id": "urn:uuid:7bc18ac9-7cae-406e-9f57-744361326c70",
+    "payload": {
+      "action": "OBSERVE",
+      "bizStep": "receiving",
+      "disposition": "in_progress",
+      "parentID": "https://id.dppmadera.example/00/sscc/78000010000000004",
+      "readPoint": "site-gate-qr"
+    },
+    "record_time": "2027-01-09T19:01:21Z",
+    "source": "site_gate",
+    "type": "ObjectEvent"
+  },
+  {
+    "asset_id": "https://id.dppmadera.example/01/07800001000053/21/C01-82057",
+    "component": "C01",
+    "domain": "epm",
+    "event_time": "2027-01-12T09:00:00Z",
+    "id": "urn:uuid:36176be1-5698-42a8-b8a4-eed844c67489",
+    "payload": {
+      "hook_load_kg": 884,
+      "schema": "lift/v1"
+    },
+    "record_time": "2027-01-12T09:01:15Z",
+    "source": "site_crane",
+    "type": "Observation"
+  },
+  {
+    "asset_id": "https://id.dppmadera.example/01/07800001000053/21/C01-82057",
+    "component": "C01",
+    "domain": "epm",
+    "event_time": "2027-01-12T09:10:00Z",
+    "id": "urn:uuid:1f8cf114-b43a-4428-9bff-806cf05b6582",
+    "payload": {
+      "dev_mm": 3.4,
+      "schema": "placement/v1"
+    },
+    "record_time": "2027-01-12T09:10:42Z",
+    "source": "site_total_station",
+    "type": "Observation"
+  },
+  {
+    "asset_id": "https://id.dppmadera.example/01/07800001000053/21/C01-82057",
+    "component": "C01",
+    "domain": "epm",
+    "event_time": "2027-01-12T09:20:00Z",
+    "id": "urn:uuid:b7479344-d66e-47af-9adb-18d757c79af1",
+    "payload": {
+      "fasteners": 19,
+      "schema": "fixing/v1"
+    },
+    "record_time": "2027-01-12T09:20:48Z",
+    "source": "site_fixing_log",
+    "type": "Observation"
+  },
+  {
+    "asset_id": "https://id.dppmadera.example/01/07800001000053/21/C01-82057",
+    "component": "C01",
+    "domain": "dbl",
+    "event_time": "2027-01-12T09:25:00Z",
+    "id": "urn:uuid:7bc10e9f-2c42-41b7-b90f-d17da50deb9d",
+    "payload": {
+      "actual_seq": 1,
+      "building_id": "https://id.dppmadera.example/dbl/building/ESM-01",
+      "ifc_guid": "2zxhTSUMX68uubYkEcjmbP",
+      "occurrence_id": "https://id.dppmadera.example/dbl/building/ESM-01/occ/C01",
+      "storey": 1,
+      "zone": "L1-S"
+    },
+    "record_time": "2027-01-12T09:25:55Z",
+    "source": "site_bim",
+    "type": "InstallationRecord"
+  },
+  {
+    "asset_id": "https://id.dppmadera.example/01/07800001000046/21/G01-65936",
+    "component": "G01",
+    "domain": "epm",
+    "event_time": "2027-01-12T09:30:00Z",
+    "id": "urn:uuid:8c63534e-4116-4e2a-a54a-83b1926b37c5",
+    "payload": {
+      "hook_load_kg": 2003,
+      "schema": "lift/v1"
+    },
+    "record_time": "2027-01-12T09:30:19Z",
+    "source": "site_crane",
+    "type": "Observation"
+  },
+  {
+    "asset_id": "https://id.dppmadera.example/01/07800001000046/21/G01-65936",
+    "component": "G01",
+    "domain": "epm",
+    "event_time": "2027-01-12T09:40:00Z",
+    "id": "urn:uuid:60036bb3-800c-4157-b8b9-c57fa42601a0",
+    "payload": {
+      "dev_mm": 2.8,
+      "schema": "placement/v1"
+    },
+    "record_time": "2027-01-12T09:40:52Z",
+    "source": "site_total_station",
+    "type": "Observation"
+  },
+  {
+    "asset_id": "https://id.dppmadera.example/01/07800001000046/21/G01-65936",
+    "component": "G01",
+    "domain": "epm",
+    "event_time": "2027-01-12T09:50:00Z",
+    "id": "urn:uuid:31d67495-c8b1-4100-963c-605baafe9f5f",
+    "payload": {
+      "fasteners": 39,
+      "schema": "fixing/v1"
+    },
+    "record_time": "2027-01-12T09:50:54Z",
+    "source": "site_fixing_log",
+    "type": "Observation"
+  },
+  {
+    "asset_id": "https://id.dppmadera.example/01/07800001000046/21/G01-65936",
+    "component": "G01",
+    "domain": "dbl",
+    "event_time": "2027-01-12T09:55:00Z",
+    "id": "urn:uuid:4cad06b6-83c8-48f2-b984-d7dd0ec08bc5",
+    "payload": {
+      "actual_seq": 2,
+      "building_id": "https://id.dppmadera.example/dbl/building/ESM-01",
+      "ifc_guid": "1ZWQ$us$H3KPep5FqkWHDM",
+      "occurrence_id": "https://id.dppmadera.example/dbl/building/ESM-01/occ/G01",
+      "storey": 1,
+      "zone": "L1-N"
+    },
+    "record_time": "2027-01-12T09:55:39Z",
+    "source": "site_bim",
+    "type": "InstallationRecord"
+  },
+  {
+    "asset_id": "https://id.dppmadera.example/01/07800001000039/21/G02-64648",
+    "component": "G02",
+    "domain": "epm",
+    "event_time": "2027-01-12T10:00:00Z",
+    "id": "urn:uuid:c89d5eb0-0de7-46eb-b807-645381b0e914",
+    "payload": {
+      "hook_load_kg": 2123,
+      "schema": "lift/v1"
+    },
+    "record_time": "2027-01-12T10:00:41Z",
+    "source": "site_crane",
+    "type": "Observation"
+  },
+  {
+    "asset_id": "https://id.dppmadera.example/01/07800001000039/21/G02-64648",
+    "component": "G02",
+    "domain": "epm",
+    "event_time": "2027-01-12T10:10:00Z",
+    "id": "urn:uuid:5413cbb4-3861-4c53-978f-b5b8dff25a04",
+    "payload": {
+      "dev_mm": 0.9,
+      "schema": "placement/v1"
+    },
+    "record_time": "2027-01-12T10:10:41Z",
+    "source": "site_total_station",
+    "type": "Observation"
+  },
+  {
+    "asset_id": "https://id.dppmadera.example/01/07800001000039/21/G02-64648",
+    "component": "G02",
+    "domain": "epm",
+    "event_time": "2027-01-12T10:20:00Z",
+    "id": "urn:uuid:3b7d0e83-1676-4379-8898-1439e79c3090",
+    "payload": {
+      "fasteners": 17,
+      "schema": "fixing/v1"
+    },
+    "record_time": "2027-01-12T10:20:19Z",
+    "source": "site_fixing_log",
+    "type": "Observation"
+  },
+  {
+    "asset_id": "https://id.dppmadera.example/01/07800001000039/21/G02-64648",
+    "component": "G02",
+    "domain": "dbl",
+    "event_time": "2027-01-12T10:25:00Z",
+    "id": "urn:uuid:c9c419fd-fc15-496f-b6e2-a6093288a86e",
+    "payload": {
+      "actual_seq": 3,
+      "building_id": "https://id.dppmadera.example/dbl/building/ESM-01",
+      "ifc_guid": "3FEVncyajEoeVSJflClBnR",
+      "occurrence_id": "https://id.dppmadera.example/dbl/building/ESM-01/occ/G02",
+      "storey": 1,
+      "zone": "L1-N"
+    },
+    "record_time": "2027-01-12T10:25:15Z",
+    "source": "site_bim",
+    "type": "InstallationRecord"
+  },
+  {
+    "asset_id": "https://id.dppmadera.example/01/07800001000015/21/P01-53514",
+    "component": "P01",
+    "domain": "epm",
+    "event_time": "2027-01-12T10:30:00Z",
+    "id": "urn:uuid:aa75e980-9fe5-4a1d-8849-f836a4c1032a",
+    "payload": {
+      "hook_load_kg": 1559,
+      "schema": "lift/v1"
+    },
+    "record_time": "2027-01-12T10:31:14Z",
+    "source": "site_crane",
+    "type": "Observation"
+  },
+  {
+    "asset_id": "https://id.dppmadera.example/01/07800001000015/21/P01-53514",
+    "component": "P01",
+    "domain": "epm",
+    "event_time": "2027-01-12T10:40:00Z",
+    "id": "urn:uuid:c1bae139-0106-4ce9-bd02-f8d871e2db49",
+    "payload": {
+      "dev_mm": 3.1,
+      "schema": "placement/v1"
+    },
+    "record_time": "2027-01-12T10:41:12Z",
+    "source": "site_total_station",
+    "type": "Observation"
+  },
+  {
+    "asset_id": "https://id.dppmadera.example/01/07800001000015/21/P01-53514",
+    "component": "P01",
+    "domain": "epm",
+    "event_time": "2027-01-12T10:50:00Z",
+    "id": "urn:uuid:e17ec562-974d-4349-8c58-d70162076abe",
+    "payload": {
+      "fasteners": 16,
+      "schema": "fixing/v1"
+    },
+    "record_time": "2027-01-12T10:50:12Z",
+    "source": "site_fixing_log",
+    "type": "Observation"
+  },
+  {
+    "asset_id": "https://id.dppmadera.example/01/07800001000015/21/P01-53514",
+    "component": "P01",
+    "domain": "dbl",
+    "event_time": "2027-01-12T10:55:00Z",
+    "id": "urn:uuid:e18daacb-bacf-4f04-970f-04138362e738",
+    "payload": {
+      "actual_seq": 4,
+      "building_id": "https://id.dppmadera.example/dbl/building/ESM-01",
+      "ifc_guid": "124kxCEPr1KBx0zv9dm$8H",
+      "occurrence_id": "https://id.dppmadera.example/dbl/building/ESM-01/occ/P01",
+      "storey": 1,
+      "zone": "L1-S"
+    },
+    "record_time": "2027-01-12T10:55:26Z",
+    "source": "site_bim",
+    "type": "InstallationRecord"
+  },
+  {
+    "asset_id": "https://id.dppmadera.example/01/07800001000053/21/C01-82057",
+    "component": "C01",
+    "domain": "epm",
+    "event_time": "2027-01-12T11:00:00Z",
+    "id": "urn:uuid:193a9616-f5b8-4925-8770-1bfc68fd7397",
+    "payload": {
+      "result": "pass",
+      "schema": "installation_inspection/v1"
+    },
+    "record_time": "2027-01-12T11:00:43Z",
+    "source": "site_qa",
+    "type": "Observation"
+  },
+  {
+    "asset_id": "https://id.dppmadera.example/01/07800001000015/21/P02-56368",
+    "component": "P02",
+    "domain": "epm",
+    "event_time": "2027-01-12T11:00:00Z",
+    "id": "urn:uuid:2d80aaf1-4bf2-451c-ac17-9cb367a86670",
+    "payload": {
+      "hook_load_kg": 2188,
+      "schema": "lift/v1"
+    },
+    "record_time": "2027-01-12T11:01:05Z",
+    "source": "site_crane",
+    "type": "Observation"
+  },
+  {
+    "asset_id": "https://id.dppmadera.example/01/07800001000015/21/P02-56368",
+    "component": "P02",
+    "domain": "epm",
+    "event_time": "2027-01-12T11:10:00Z",
+    "id": "urn:uuid:50e86ccb-8e89-45b1-ab26-aa96071d99e2",
+    "payload": {
+      "dev_mm": 1.4,
+      "schema": "placement/v1"
+    },
+    "record_time": "2027-01-12T11:11:11Z",
+    "source": "site_total_station",
+    "type": "Observation"
+  },
+  {
+    "asset_id": "https://id.dppmadera.example/01/07800001000015/21/P02-56368",
+    "component": "P02",
+    "domain": "epm",
+    "event_time": "2027-01-12T11:20:00Z",
+    "id": "urn:uuid:4adab6f9-a383-45c5-972c-d0d7d400d371",
+    "payload": {
+      "fasteners": 21,
+      "schema": "fixing/v1"
+    },
+    "record_time": "2027-01-12T11:20:42Z",
+    "source": "site_fixing_log",
+    "type": "Observation"
+  },
+  {
+    "asset_id": "https://id.dppmadera.example/01/07800001000015/21/P02-56368",
+    "component": "P02",
+    "domain": "dbl",
+    "event_time": "2027-01-12T11:25:00Z",
+    "id": "urn:uuid:11193b8d-7730-467c-8c39-bce1d8976645",
+    "payload": {
+      "actual_seq": 5,
+      "building_id": "https://id.dppmadera.example/dbl/building/ESM-01",
+      "ifc_guid": "0A5WfIEof9bfoNo63Ux4Cb",
+      "occurrence_id": "https://id.dppmadera.example/dbl/building/ESM-01/occ/P02",
+      "storey": 1,
+      "zone": "L1-S"
+    },
+    "record_time": "2027-01-12T11:25:45Z",
+    "source": "site_bim",
+    "type": "InstallationRecord"
+  },
+  {
+    "asset_id": "https://id.dppmadera.example/01/07800001000046/21/G01-65936",
+    "component": "G01",
+    "domain": "epm",
+    "event_time": "2027-01-12T11:30:00Z",
+    "id": "urn:uuid:b79af910-a33f-4793-8eb4-f17266c131f5",
+    "payload": {
+      "result": "pass",
+      "schema": "installation_inspection/v1"
+    },
+    "record_time": "2027-01-12T11:30:31Z",
+    "source": "site_qa",
+    "type": "Observation"
+  },
+  {
+    "asset_id": "https://id.dppmadera.example/01/07800001000022/21/P03-25689",
+    "component": "P03",
+    "domain": "epm",
+    "event_time": "2027-01-12T11:30:00Z",
+    "id": "urn:uuid:fed35d86-8e43-412c-972e-45fcf84654be",
+    "payload": {
+      "hook_load_kg": 2318,
+      "schema": "lift/v1"
+    },
+    "record_time": "2027-01-12T11:30:55Z",
+    "source": "site_crane",
+    "type": "Observation"
+  },
+  {
+    "asset_id": "https://id.dppmadera.example/01/07800001000022/21/P03-25689",
+    "component": "P03",
+    "domain": "epm",
+    "event_time": "2027-01-12T11:40:00Z",
+    "id": "urn:uuid:754dfc20-5a3b-4989-8ea8-5c644bc92993",
+    "payload": {
+      "dev_mm": 3.6,
+      "schema": "placement/v1"
+    },
+    "record_time": "2027-01-12T11:41:05Z",
+    "source": "site_total_station",
+    "type": "Observation"
+  },
+  {
+    "asset_id": "https://id.dppmadera.example/01/07800001000022/21/P03-25689",
+    "component": "P03",
+    "domain": "epm",
+    "event_time": "2027-01-12T11:50:00Z",
+    "id": "urn:uuid:b6113caf-3f2c-4812-a06f-4da2d14cd07f",
+    "payload": {
+      "fasteners": 34,
+      "schema": "fixing/v1"
+    },
+    "record_time": "2027-01-12T11:50:35Z",
+    "source": "site_fixing_log",
+    "type": "Observation"
+  },
+  {
+    "asset_id": "https://id.dppmadera.example/01/07800001000022/21/P03-25689",
+    "component": "P03",
+    "domain": "dbl",
+    "event_time": "2027-01-12T11:55:00Z",
+    "id": "urn:uuid:766b3bf8-104a-453d-a896-cf36d6e125fd",
+    "payload": {
+      "actual_seq": 6,
+      "building_id": "https://id.dppmadera.example/dbl/building/ESM-01",
+      "ifc_guid": "22PpjCpff9ruJA0bdthvxv",
+      "occurrence_id": "https://id.dppmadera.example/dbl/building/ESM-01/occ/P03",
+      "storey": 1,
+      "zone": "L1-E"
+    },
+    "record_time": "2027-01-12T11:55:50Z",
+    "source": "site_bim",
+    "type": "InstallationRecord"
+  },
+  {
+    "asset_id": "https://id.dppmadera.example/01/07800001000039/21/G02-64648",
+    "component": "G02",
+    "domain": "epm",
+    "event_time": "2027-01-12T12:00:00Z",
+    "id": "urn:uuid:256fb63a-9721-4d3b-9a25-b1de9b7f09b0",
+    "payload": {
+      "result": "pass",
+      "schema": "installation_inspection/v1"
+    },
+    "record_time": "2027-01-12T12:01:13Z",
+    "source": "site_qa",
+    "type": "Observation"
+  },
+  {
+    "asset_id": "https://id.dppmadera.example/01/07800001000015/21/P01-53514",
+    "component": "P01",
+    "domain": "epm",
+    "event_time": "2027-01-12T12:30:00Z",
+    "id": "urn:uuid:e7d10d76-5c22-4ae5-b174-26c4953d02bc",
+    "payload": {
+      "result": "pass",
+      "schema": "installation_inspection/v1"
+    },
+    "record_time": "2027-01-12T12:30:30Z",
+    "source": "site_qa",
+    "type": "Observation"
+  },
+  {
+    "asset_id": "https://id.dppmadera.example/01/07800001000015/21/P02-56368",
+    "component": "P02",
+    "domain": "epm",
+    "event_time": "2027-01-12T13:00:00Z",
+    "id": "urn:uuid:c147fcbd-eed3-4c6c-a648-3e5e68043b8a",
+    "payload": {
+      "result": "pass",
+      "schema": "installation_inspection/v1"
+    },
+    "record_time": "2027-01-12T13:00:37Z",
+    "source": "site_qa",
+    "type": "Observation"
+  },
+  {
+    "asset_id": "https://id.dppmadera.example/01/07800001000022/21/P03-25689",
+    "component": "P03",
+    "domain": "epm",
+    "event_time": "2027-01-12T13:30:00Z",
+    "id": "urn:uuid:a4c3b18b-8109-4108-9236-a52650777951",
+    "payload": {
+      "result": "pass",
+      "schema": "installation_inspection/v1"
+    },
+    "record_time": "2027-01-12T13:31:25Z",
+    "source": "site_qa",
+    "type": "Observation"
+  },
+  {
+    "asset_id": "https://id.dppmadera.example/01/07800001000053/21/C02-84551",
+    "component": "C02",
+    "domain": "epm",
+    "event_time": "2027-01-14T12:00:00Z",
+    "id": "urn:uuid:46a6358e-1bbc-4cdf-941d-f5614203c4d8",
+    "payload": {
+      "hook_load_kg": 1642,
+      "schema": "lift/v1"
+    },
+    "record_time": "2027-01-14T12:00:18Z",
+    "source": "site_crane",
+    "type": "Observation"
+  },
+  {
+    "asset_id": "https://id.dppmadera.example/01/07800001000053/21/C02-84551",
+    "component": "C02",
+    "domain": "epm",
+    "event_time": "2027-01-14T12:10:00Z",
+    "id": "urn:uuid:3bbc37da-c438-4692-8c6f-32496d8014c5",
+    "payload": {
+      "dev_mm": 1.8,
+      "schema": "placement/v1"
+    },
+    "record_time": "2027-01-14T12:10:54Z",
+    "source": "site_total_station",
+    "type": "Observation"
+  },
+  {
+    "asset_id": "https://id.dppmadera.example/01/07800001000053/21/C02-84551",
+    "component": "C02",
+    "domain": "epm",
+    "event_time": "2027-01-14T12:20:00Z",
+    "id": "urn:uuid:f0b1b541-de83-4cd3-b6c5-1cc76d1ee4c5",
+    "payload": {
+      "fasteners": 18,
+      "schema": "fixing/v1"
+    },
+    "record_time": "2027-01-14T12:21:03Z",
+    "source": "site_fixing_log",
+    "type": "Observation"
+  },
+  {
+    "asset_id": "https://id.dppmadera.example/01/07800001000053/21/C02-84551",
+    "component": "C02",
+    "domain": "dbl",
+    "event_time": "2027-01-14T12:25:00Z",
+    "id": "urn:uuid:59c325d1-e847-403d-8dfa-2e12ccf80853",
+    "payload": {
+      "actual_seq": 7,
+      "building_id": "https://id.dppmadera.example/dbl/building/ESM-01",
+      "ifc_guid": "0Hf6y1DWf12hF0UHarAUr2",
+      "occurrence_id": "https://id.dppmadera.example/dbl/building/ESM-01/occ/C02",
+      "storey": 2,
+      "zone": "L2-E"
+    },
+    "record_time": "2027-01-14T12:25:43Z",
+    "source": "site_bim",
+    "type": "InstallationRecord"
+  },
+  {
+    "asset_id": "https://id.dppmadera.example/01/07800001000015/21/P04-88172",
+    "component": "P04",
+    "domain": "epm",
+    "event_time": "2027-01-14T12:30:00Z",
+    "id": "urn:uuid:8d6a245d-0749-4183-979e-8c551f5f38ef",
+    "payload": {
+      "hook_load_kg": 1500,
+      "schema": "lift/v1"
+    },
+    "record_time": "2027-01-14T12:30:32Z",
+    "source": "site_crane",
+    "type": "Observation"
+  },
+  {
+    "asset_id": "https://id.dppmadera.example/01/07800001000015/21/P04-88172",
+    "component": "P04",
+    "domain": "epm",
+    "event_time": "2027-01-14T12:40:00Z",
+    "id": "urn:uuid:39f0ef5a-e0ee-4faa-b625-ddec9f7234ce",
+    "payload": {
+      "dev_mm": 2.7,
+      "schema": "placement/v1"
+    },
+    "record_time": "2027-01-14T12:40:13Z",
+    "source": "site_total_station",
+    "type": "Observation"
+  },
+  {
+    "asset_id": "https://id.dppmadera.example/01/07800001000015/21/P04-88172",
+    "component": "P04",
+    "domain": "epm",
+    "event_time": "2027-01-14T12:50:00Z",
+    "id": "urn:uuid:107420d3-5c79-425e-8adb-f210abdf6e48",
+    "payload": {
+      "fasteners": 16,
+      "schema": "fixing/v1"
+    },
+    "record_time": "2027-01-14T12:51:19Z",
+    "source": "site_fixing_log",
+    "type": "Observation"
+  },
+  {
+    "asset_id": "https://id.dppmadera.example/01/07800001000015/21/P04-88172",
+    "component": "P04",
+    "domain": "dbl",
+    "event_time": "2027-01-14T12:55:00Z",
+    "id": "urn:uuid:279d7149-c7c8-4143-9af6-e2e311bf5892",
+    "payload": {
+      "actual_seq": 8,
+      "building_id": "https://id.dppmadera.example/dbl/building/ESM-01",
+      "ifc_guid": "0g4TpPLcT1bwfcfqempcdv",
+      "occurrence_id": "https://id.dppmadera.example/dbl/building/ESM-01/occ/P04",
+      "storey": 2,
+      "zone": "L2-W"
+    },
+    "record_time": "2027-01-14T12:55:22Z",
+    "source": "site_bim",
+    "type": "InstallationRecord"
+  },
+  {
+    "asset_id": "https://id.dppmadera.example/01/07800001000015/21/P05-71018",
+    "component": "P05",
+    "domain": "epm",
+    "event_time": "2027-01-14T13:00:00Z",
+    "id": "urn:uuid:83203a3c-bedb-41ae-8fcd-0434e0de02fa",
+    "payload": {
+      "hook_load_kg": 844,
+      "schema": "lift/v1"
+    },
+    "record_time": "2027-01-14T13:00:44Z",
+    "source": "site_crane",
+    "type": "Observation"
+  },
+  {
+    "asset_id": "https://id.dppmadera.example/01/07800001000015/21/P05-71018",
+    "component": "P05",
+    "domain": "epm",
+    "event_time": "2027-01-14T13:10:00Z",
+    "id": "urn:uuid:03de7f48-8a46-4191-a350-558a5c2640f7",
+    "payload": {
+      "dev_mm": 3.8,
+      "schema": "placement/v1"
+    },
+    "record_time": "2027-01-14T13:11:19Z",
+    "source": "site_total_station",
+    "type": "Observation"
+  },
+  {
+    "asset_id": "https://id.dppmadera.example/01/07800001000015/21/P05-71018",
+    "component": "P05",
+    "domain": "epm",
+    "event_time": "2027-01-14T13:20:00Z",
+    "id": "urn:uuid:331f262c-0132-4920-8922-4df1009bdb40",
+    "payload": {
+      "fasteners": 16,
+      "schema": "fixing/v1"
+    },
+    "record_time": "2027-01-14T13:20:31Z",
+    "source": "site_fixing_log",
+    "type": "Observation"
+  },
+  {
+    "asset_id": "https://id.dppmadera.example/01/07800001000015/21/P05-71018",
+    "component": "P05",
+    "domain": "dbl",
+    "event_time": "2027-01-14T13:25:00Z",
+    "id": "urn:uuid:80dfedbe-4aee-4cd8-931e-f273a5e6576f",
+    "payload": {
+      "actual_seq": 9,
+      "building_id": "https://id.dppmadera.example/dbl/building/ESM-01",
+      "ifc_guid": "3YKRDoznv0EAO9XIM8567b",
+      "occurrence_id": "https://id.dppmadera.example/dbl/building/ESM-01/occ/P05",
+      "storey": 2,
+      "zone": "L2-W"
+    },
+    "record_time": "2027-01-14T13:25:09Z",
+    "source": "site_bim",
+    "type": "InstallationRecord"
+  },
+  {
+    "asset_id": "https://id.dppmadera.example/01/07800001000022/21/P06-19242",
+    "component": "P06",
+    "domain": "epm",
+    "event_time": "2027-01-14T13:30:00Z",
+    "id": "urn:uuid:8a00045e-fbe9-4d1b-83c2-91109cea3881",
+    "payload": {
+      "hook_load_kg": 454,
+      "schema": "lift/v1"
+    },
+    "record_time": "2027-01-14T13:30:10Z",
+    "source": "site_crane",
+    "type": "Observation"
+  },
+  {
+    "asset_id": "https://id.dppmadera.example/01/07800001000022/21/P06-19242",
+    "component": "P06",
+    "domain": "epm",
+    "event_time": "2027-01-14T13:40:00Z",
+    "id": "urn:uuid:9ecc08c4-a6a7-460d-b8c2-246968de95f6",
+    "payload": {
+      "dev_mm": 1.7,
+      "schema": "placement/v1"
+    },
+    "record_time": "2027-01-14T13:40:27Z",
+    "source": "site_total_station",
+    "type": "Observation"
+  },
+  {
+    "asset_id": "https://id.dppmadera.example/01/07800001000022/21/P06-19242",
+    "component": "P06",
+    "domain": "epm",
+    "event_time": "2027-01-14T13:50:00Z",
+    "id": "urn:uuid:23e6bc19-361d-4c49-a33f-a19dfb16142a",
+    "payload": {
+      "fasteners": 18,
+      "schema": "fixing/v1"
+    },
+    "record_time": "2027-01-14T13:50:44Z",
+    "source": "site_fixing_log",
+    "type": "Observation"
+  },
+  {
+    "asset_id": "https://id.dppmadera.example/01/07800001000022/21/P06-19242",
+    "component": "P06",
+    "domain": "dbl",
+    "event_time": "2027-01-14T13:55:00Z",
+    "id": "urn:uuid:60e6f4a3-a3e8-497a-bb61-87ab27b96dd6",
+    "payload": {
+      "actual_seq": 10,
+      "building_id": "https://id.dppmadera.example/dbl/building/ESM-01",
+      "ifc_guid": "04nxuR8AHFFQMw99Csh$BP",
+      "occurrence_id": "https://id.dppmadera.example/dbl/building/ESM-01/occ/P06",
+      "storey": 2,
+      "zone": "L2-S"
+    },
+    "record_time": "2027-01-14T13:56:27Z",
+    "source": "site_bim",
+    "type": "InstallationRecord"
+  },
+  {
+    "asset_id": "https://id.dppmadera.example/01/07800001000053/21/C02-84551",
+    "component": "C02",
+    "domain": "epm",
+    "event_time": "2027-01-14T14:00:00Z",
+    "id": "urn:uuid:eeed0d34-5e90-43ff-b471-65090c5c5ed4",
+    "payload": {
+      "result": "pass",
+      "schema": "installation_inspection/v1"
+    },
+    "record_time": "2027-01-14T14:00:19Z",
+    "source": "site_qa",
+    "type": "Observation"
+  },
+  {
+    "asset_id": "https://id.dppmadera.example/01/07800001000015/21/P04-88172",
+    "component": "P04",
+    "domain": "epm",
+    "event_time": "2027-01-14T14:30:00Z",
+    "id": "urn:uuid:af1db09d-40f7-4eeb-ab50-16a9954abbdd",
+    "payload": {
+      "result": "pass",
+      "schema": "installation_inspection/v1"
+    },
+    "record_time": "2027-01-14T14:30:49Z",
+    "source": "site_qa",
+    "type": "Observation"
+  },
+  {
+    "asset_id": "https://id.dppmadera.example/01/07800001000022/21/P06-19242",
+    "component": "P06",
+    "domain": "epm",
+    "event_time": "2027-01-14T15:30:00Z",
+    "id": "urn:uuid:4f024175-659a-4c50-91c4-a81534bf0038",
+    "payload": {
+      "result": "pass",
+      "schema": "installation_inspection/v1"
+    },
+    "record_time": "2027-01-14T15:31:20Z",
+    "source": "site_qa",
+    "type": "Observation"
+  },
+  {
+    "asset_id": "https://id.dppmadera.example/01/07800001000053/21/C03-52114",
+    "component": "C03",
+    "domain": "epm",
+    "event_time": "2027-01-16T14:00:00Z",
+    "id": "urn:uuid:03fde7d3-1ed6-4715-aee8-9c2a9b03f82c",
+    "payload": {
+      "hook_load_kg": 1228,
+      "schema": "lift/v1"
+    },
+    "record_time": "2027-01-16T14:01:00Z",
+    "source": "site_crane",
+    "type": "Observation"
+  },
+  {
+    "asset_id": "https://id.dppmadera.example/01/07800001000053/21/C03-52114",
+    "component": "C03",
+    "domain": "epm",
+    "event_time": "2027-01-16T14:10:00Z",
+    "id": "urn:uuid:b7d6cf4c-1c48-4c6e-924a-7e646d8524b1",
+    "payload": {
+      "dev_mm": 3.2,
+      "schema": "placement/v1"
+    },
+    "record_time": "2027-01-16T14:10:53Z",
+    "source": "site_total_station",
+    "type": "Observation"
+  },
+  {
+    "asset_id": "https://id.dppmadera.example/01/07800001000053/21/C03-52114",
+    "component": "C03",
+    "domain": "epm",
+    "event_time": "2027-01-16T14:20:00Z",
+    "id": "urn:uuid:84bd2722-4660-46e5-b5bb-24fcbe0b46fe",
+    "payload": {
+      "fasteners": 32,
+      "schema": "fixing/v1"
+    },
+    "record_time": "2027-01-16T14:20:38Z",
+    "source": "site_fixing_log",
+    "type": "Observation"
+  },
+  {
+    "asset_id": "https://id.dppmadera.example/01/07800001000053/21/C03-52114",
+    "component": "C03",
+    "domain": "dbl",
+    "event_time": "2027-01-16T14:25:00Z",
+    "id": "urn:uuid:27addd1f-384b-4b49-8941-3c7b0c200bf2",
+    "payload": {
+      "actual_seq": 11,
+      "building_id": "https://id.dppmadera.example/dbl/building/ESM-01",
+      "ifc_guid": "1Aya5Rz1n8dhQblfMWcx8M",
+      "occurrence_id": "https://id.dppmadera.example/dbl/building/ESM-01/occ/C03",
+      "storey": 3,
+      "zone": "L3-W"
+    },
+    "record_time": "2027-01-16T14:25:37Z",
+    "source": "site_bim",
+    "type": "InstallationRecord"
+  },
+  {
+    "asset_id": "https://id.dppmadera.example/01/07800001000046/21/G03-74829",
+    "component": "G03",
+    "domain": "epm",
+    "event_time": "2027-01-16T14:30:00Z",
+    "id": "urn:uuid:82de9809-9c31-405d-b901-8a834c123499",
+    "payload": {
+      "hook_load_kg": 899,
+      "schema": "lift/v1"
+    },
+    "record_time": "2027-01-16T14:30:53Z",
+    "source": "site_crane",
+    "type": "Observation"
+  },
+  {
+    "asset_id": "https://id.dppmadera.example/01/07800001000046/21/G03-74829",
+    "component": "G03",
+    "domain": "epm",
+    "event_time": "2027-01-16T14:40:00Z",
+    "id": "urn:uuid:bc51e6a9-ee6d-4081-9f73-e0a246f32dc3",
+    "payload": {
+      "dev_mm": 0.6,
+      "schema": "placement/v1"
+    },
+    "record_time": "2027-01-16T14:41:15Z",
+    "source": "site_total_station",
+    "type": "Observation"
+  },
+  {
+    "asset_id": "https://id.dppmadera.example/01/07800001000046/21/G03-74829",
+    "component": "G03",
+    "domain": "epm",
+    "event_time": "2027-01-16T14:50:00Z",
+    "id": "urn:uuid:f196d476-c2e8-44f4-a5e3-a6ae9d1e747e",
+    "payload": {
+      "fasteners": 11,
+      "schema": "fixing/v1"
+    },
+    "record_time": "2027-01-16T14:50:11Z",
+    "source": "site_fixing_log",
+    "type": "Observation"
+  },
+  {
+    "asset_id": "https://id.dppmadera.example/01/07800001000046/21/G03-74829",
+    "component": "G03",
+    "domain": "dbl",
+    "event_time": "2027-01-16T14:55:00Z",
+    "id": "urn:uuid:1906bb8e-90ea-4d5c-b851-3dfa26826b0e",
+    "payload": {
+      "actual_seq": 12,
+      "building_id": "https://id.dppmadera.example/dbl/building/ESM-01",
+      "ifc_guid": "0GLEzOToz1aANSOY6rzo2F",
+      "occurrence_id": "https://id.dppmadera.example/dbl/building/ESM-01/occ/G03",
+      "storey": 3,
+      "zone": "L3-S"
+    },
+    "record_time": "2027-01-16T14:55:31Z",
+    "source": "site_bim",
+    "type": "InstallationRecord"
+  },
+  {
+    "asset_id": "https://id.dppmadera.example/01/07800001000039/21/G04-36043",
+    "component": "G04",
+    "domain": "epm",
+    "event_time": "2027-01-16T15:00:00Z",
+    "id": "urn:uuid:f4e242ff-97dd-4ade-a9f9-73d15574e12e",
+    "payload": {
+      "hook_load_kg": 1666,
+      "schema": "lift/v1"
+    },
+    "record_time": "2027-01-16T15:01:11Z",
+    "source": "site_crane",
+    "type": "Observation"
+  },
+  {
+    "asset_id": "https://id.dppmadera.example/01/07800001000039/21/G04-36043",
+    "component": "G04",
+    "domain": "epm",
+    "event_time": "2027-01-16T15:10:00Z",
+    "id": "urn:uuid:c632188b-52e7-4711-8ea2-62bd058ef113",
+    "payload": {
+      "dev_mm": 1.7,
+      "schema": "placement/v1"
+    },
+    "record_time": "2027-01-16T15:11:02Z",
+    "source": "site_total_station",
+    "type": "Observation"
+  },
+  {
+    "asset_id": "https://id.dppmadera.example/01/07800001000039/21/G04-36043",
+    "component": "G04",
+    "domain": "epm",
+    "event_time": "2027-01-16T15:20:00Z",
+    "id": "urn:uuid:f9a1e6b7-12b4-482d-88fe-7ecb02833d82",
+    "payload": {
+      "fasteners": 31,
+      "schema": "fixing/v1"
+    },
+    "record_time": "2027-01-16T15:20:55Z",
+    "source": "site_fixing_log",
+    "type": "Observation"
+  },
+  {
+    "asset_id": "https://id.dppmadera.example/01/07800001000039/21/G04-36043",
+    "component": "G04",
+    "domain": "dbl",
+    "event_time": "2027-01-16T15:25:00Z",
+    "id": "urn:uuid:f1f9095b-86a3-4cee-9636-0502c7ce194c",
+    "payload": {
+      "actual_seq": 13,
+      "building_id": "https://id.dppmadera.example/dbl/building/ESM-01",
+      "ifc_guid": "19qDZVQVb3oPilek3FSel6",
+      "occurrence_id": "https://id.dppmadera.example/dbl/building/ESM-01/occ/G04",
+      "storey": 3,
+      "zone": "L3-E"
+    },
+    "record_time": "2027-01-16T15:25:59Z",
+    "source": "site_bim",
+    "type": "InstallationRecord"
+  },
+  {
+    "asset_id": "https://id.dppmadera.example/01/07800001000015/21/P07-49366",
+    "component": "P07",
+    "domain": "epm",
+    "event_time": "2027-01-16T15:30:00Z",
+    "id": "urn:uuid:d73c6e0c-2cd2-4e46-9d59-9f04e39e5e7f",
+    "payload": {
+      "hook_load_kg": 1676,
+      "schema": "lift/v1"
+    },
+    "record_time": "2027-01-16T15:30:27Z",
+    "source": "site_crane",
+    "type": "Observation"
+  },
+  {
+    "asset_id": "https://id.dppmadera.example/01/07800001000015/21/P07-49366",
+    "component": "P07",
+    "domain": "epm",
+    "event_time": "2027-01-16T15:40:00Z",
+    "id": "urn:uuid:c52ffc2f-0b4a-4d91-81e0-e9afeec3b8e2",
+    "payload": {
+      "dev_mm": 3.1,
+      "schema": "placement/v1"
+    },
+    "record_time": "2027-01-16T15:41:04Z",
+    "source": "site_total_station",
+    "type": "Observation"
+  },
+  {
+    "asset_id": "https://id.dppmadera.example/01/07800001000015/21/P07-49366",
+    "component": "P07",
+    "domain": "epm",
+    "event_time": "2027-01-16T15:50:00Z",
+    "id": "urn:uuid:c2c92bbc-2678-43e8-a8c8-593636098dfb",
+    "payload": {
+      "fasteners": 34,
+      "schema": "fixing/v1"
+    },
+    "record_time": "2027-01-16T15:51:14Z",
+    "source": "site_fixing_log",
+    "type": "Observation"
+  },
+  {
+    "asset_id": "https://id.dppmadera.example/01/07800001000015/21/P07-49366",
+    "component": "P07",
+    "domain": "dbl",
+    "event_time": "2027-01-16T15:55:00Z",
+    "id": "urn:uuid:76694976-1232-4673-adf5-41051ca8fa86",
+    "payload": {
+      "actual_seq": 14,
+      "building_id": "https://id.dppmadera.example/dbl/building/ESM-01",
+      "ifc_guid": "3d_PJUZ9fAVAediXEIP4wX",
+      "occurrence_id": "https://id.dppmadera.example/dbl/building/ESM-01/occ/P07",
+      "storey": 3,
+      "zone": "L3-W"
+    },
+    "record_time": "2027-01-16T15:55:54Z",
+    "source": "site_bim",
+    "type": "InstallationRecord"
+  },
+  {
+    "asset_id": "https://id.dppmadera.example/01/07800001000015/21/P08-47970",
+    "component": "P08",
+    "domain": "epm",
+    "event_time": "2027-01-16T16:00:00Z",
+    "id": "urn:uuid:498560e2-a282-4512-937f-81f055c8933f",
+    "payload": {
+      "hook_load_kg": 877,
+      "schema": "lift/v1"
+    },
+    "record_time": "2027-01-16T16:00:57Z",
+    "source": "site_crane",
+    "type": "Observation"
+  },
+  {
+    "asset_id": "https://id.dppmadera.example/01/07800001000015/21/P08-47970",
+    "component": "P08",
+    "domain": "epm",
+    "event_time": "2027-01-16T16:10:00Z",
+    "id": "urn:uuid:3d303121-4835-4207-bdc2-3a6dcc0b1c21",
+    "payload": {
+      "dev_mm": 1.9,
+      "schema": "placement/v1"
+    },
+    "record_time": "2027-01-16T16:10:13Z",
+    "source": "site_total_station",
+    "type": "Observation"
+  },
+  {
+    "asset_id": "https://id.dppmadera.example/01/07800001000015/21/P08-47970",
+    "component": "P08",
+    "domain": "epm",
+    "event_time": "2027-01-16T16:20:00Z",
+    "id": "urn:uuid:44a94d89-f86a-4cc8-ba68-ccfbe7c30784",
+    "payload": {
+      "fasteners": 34,
+      "schema": "fixing/v1"
+    },
+    "record_time": "2027-01-16T16:20:59Z",
+    "source": "site_fixing_log",
+    "type": "Observation"
+  },
+  {
+    "asset_id": "https://id.dppmadera.example/01/07800001000015/21/P08-47970",
+    "component": "P08",
+    "domain": "dbl",
+    "event_time": "2027-01-16T16:25:00Z",
+    "id": "urn:uuid:755a3eb5-febf-4472-a765-12194c74277f",
+    "payload": {
+      "actual_seq": 15,
+      "building_id": "https://id.dppmadera.example/dbl/building/ESM-01",
+      "ifc_guid": "3d_PJUZ9fAVAediXEIP4wX",
+      "occurrence_id": "https://id.dppmadera.example/dbl/building/ESM-01/occ/P08",
+      "storey": 3,
+      "zone": "L3-N"
+    },
+    "record_time": "2027-01-16T16:26:01Z",
+    "source": "site_bim",
+    "type": "InstallationRecord"
+  },
+  {
+    "asset_id": "https://id.dppmadera.example/01/07800001000046/21/G03-74829",
+    "component": "G03",
+    "domain": "epm",
+    "event_time": "2027-01-16T16:30:00Z",
+    "id": "urn:uuid:13f9fa6f-49c2-4696-9862-88208cad5bd5",
+    "payload": {
+      "result": "pass",
+      "schema": "installation_inspection/v1"
+    },
+    "record_time": "2027-01-16T16:30:13Z",
+    "source": "site_qa",
+    "type": "Observation"
+  },
+  {
+    "asset_id": "https://id.dppmadera.example/01/07800001000022/21/P09-92279",
+    "component": "P09",
+    "domain": "epm",
+    "event_time": "2027-01-16T16:30:00Z",
+    "id": "urn:uuid:67cf5a58-b952-4a14-88a2-e2c4a472c199",
+    "payload": {
+      "hook_load_kg": 366,
+      "schema": "lift/v1"
+    },
+    "record_time": "2027-01-16T16:30:48Z",
+    "source": "site_crane",
+    "type": "Observation"
+  },
+  {
+    "asset_id": "https://id.dppmadera.example/01/07800001000022/21/P09-92279",
+    "component": "P09",
+    "domain": "epm",
+    "event_time": "2027-01-16T16:40:00Z",
+    "id": "urn:uuid:b842134d-12fd-4d58-9fe9-fec3b7dd09f0",
+    "payload": {
+      "dev_mm": 3.5,
+      "schema": "placement/v1"
+    },
+    "record_time": "2027-01-16T16:41:07Z",
+    "source": "site_total_station",
+    "type": "Observation"
+  },
+  {
+    "asset_id": "https://id.dppmadera.example/01/07800001000022/21/P09-92279",
+    "component": "P09",
+    "domain": "epm",
+    "event_time": "2027-01-16T16:50:00Z",
+    "id": "urn:uuid:a80dddd3-2e7b-44d7-bbe0-c5e9e6435e91",
+    "payload": {
+      "fasteners": 30,
+      "schema": "fixing/v1"
+    },
+    "record_time": "2027-01-16T16:50:23Z",
+    "source": "site_fixing_log",
+    "type": "Observation"
+  },
+  {
+    "asset_id": "https://id.dppmadera.example/01/07800001000022/21/P09-92279",
+    "component": "P09",
+    "domain": "dbl",
+    "event_time": "2027-01-16T16:55:00Z",
+    "id": "urn:uuid:d701cdeb-0683-415f-84a5-1821d213939d",
+    "payload": {
+      "actual_seq": 16,
+      "building_id": "https://id.dppmadera.example/dbl/building/ESM-01",
+      "ifc_guid": "2YYvQ7fzXAoPQS6m9ui33D",
+      "occurrence_id": "https://id.dppmadera.example/dbl/building/ESM-01/occ/P09",
+      "storey": 3,
+      "zone": "L3-E"
+    },
+    "record_time": "2027-01-16T16:55:50Z",
+    "source": "site_bim",
+    "type": "InstallationRecord"
+  },
+  {
+    "asset_id": "https://id.dppmadera.example/01/07800001000039/21/G04-36043",
+    "component": "G04",
+    "domain": "epm",
+    "event_time": "2027-01-16T17:00:00Z",
+    "id": "urn:uuid:248b811a-d200-4191-b52d-a50467a556c8",
+    "payload": {
+      "result": "pass",
+      "schema": "installation_inspection/v1"
+    },
+    "record_time": "2027-01-16T17:01:01Z",
+    "source": "site_qa",
+    "type": "Observation"
+  },
+  {
+    "asset_id": "https://id.dppmadera.example/01/07800001000015/21/P07-49366",
+    "component": "P07",
+    "domain": "epm",
+    "event_time": "2027-01-16T17:30:00Z",
+    "id": "urn:uuid:60c5acde-51bb-422e-929d-59127800203c",
+    "payload": {
+      "result": "pass",
+      "schema": "installation_inspection/v1"
+    },
+    "record_time": "2027-01-16T17:31:17Z",
+    "source": "site_qa",
+    "type": "Observation"
+  },
+  {
+    "asset_id": "https://id.dppmadera.example/01/07800001000015/21/P08-47970",
+    "component": "P08",
+    "domain": "epm",
+    "event_time": "2027-01-16T18:00:00Z",
+    "id": "urn:uuid:d1698809-e4b1-4d04-938f-c8a8aa8be3f7",
+    "payload": {
+      "result": "pass",
+      "schema": "installation_inspection/v1"
+    },
+    "record_time": "2027-01-16T18:00:41Z",
+    "source": "site_qa",
+    "type": "Observation"
+  },
+  {
+    "asset_id": "https://id.dppmadera.example/01/07800001000022/21/P09-92279",
+    "component": "P09",
+    "domain": "epm",
+    "event_time": "2027-01-16T18:30:00Z",
+    "id": "urn:uuid:aecceaf7-3136-4441-ab5a-90f87c20b1ee",
+    "payload": {
+      "result": "pass",
+      "schema": "installation_inspection/v1"
+    },
+    "record_time": "2027-01-16T18:31:00Z",
+    "source": "site_qa",
+    "type": "Observation"
+  },
+  {
+    "asset_id": "https://id.dppmadera.example/01/07800001000053/21/C03-52114",
+    "component": "C03",
+    "domain": "epm",
+    "event_time": "2027-01-16T16:00:00Z",
+    "id": "urn:uuid:8728b90f-7572-4e58-a3c3-718dbbe70f96",
+    "payload": {
+      "result": "pass",
+      "schema": "installation_inspection/v1"
+    },
+    "record_time": "2027-01-18T16:01:10Z",
+    "source": "site_qa",
+    "type": "Observation"
+  },
+  {
+    "asset_id": "https://id.dppmadera.example/01/07800001000053/21/C04-40931",
+    "component": "C04",
+    "domain": "epm",
+    "event_time": "2027-01-18T17:00:00Z",
+    "id": "urn:uuid:177e4406-7442-4371-87ed-4dd6ca14b9c4",
+    "payload": {
+      "hook_load_kg": 1500,
+      "schema": "lift/v1"
+    },
+    "record_time": "2027-01-18T17:01:00Z",
+    "source": "site_crane",
+    "type": "Observation"
+  },
+  {
+    "asset_id": "https://id.dppmadera.example/01/07800001000053/21/C04-40931",
+    "component": "C04",
+    "domain": "epm",
+    "event_time": "2027-01-18T17:10:00Z",
+    "id": "urn:uuid:ac289e6f-8d88-40e9-8cd7-f36ec8b11c27",
+    "payload": {
+      "dev_mm": 0.3,
+      "schema": "placement/v1"
+    },
+    "record_time": "2027-01-18T17:11:24Z",
+    "source": "site_total_station",
+    "type": "Observation"
+  },
+  {
+    "asset_id": "https://id.dppmadera.example/01/07800001000053/21/C04-40931",
+    "component": "C04",
+    "domain": "epm",
+    "event_time": "2027-01-18T17:20:00Z",
+    "id": "urn:uuid:605211b9-f13e-4de0-b719-9cde02197de9",
+    "payload": {
+      "fasteners": 33,
+      "schema": "fixing/v1"
+    },
+    "record_time": "2027-01-18T17:20:23Z",
+    "source": "site_fixing_log",
+    "type": "Observation"
+  },
+  {
+    "asset_id": "https://id.dppmadera.example/01/07800001000053/21/C04-40931",
+    "component": "C04",
+    "domain": "dbl",
+    "event_time": "2027-01-18T17:25:00Z",
+    "id": "urn:uuid:12b11352-bc8f-4092-a62e-e4ef3ab8724a",
+    "payload": {
+      "actual_seq": 17,
+      "building_id": "https://id.dppmadera.example/dbl/building/ESM-01",
+      "ifc_guid": "37i_T$yHz6ffEjfjd_zfVT",
+      "occurrence_id": "https://id.dppmadera.example/dbl/building/ESM-01/occ/C04",
+      "storey": 4,
+      "zone": "L4-W"
+    },
+    "record_time": "2027-01-18T17:26:12Z",
+    "source": "site_bim",
+    "type": "InstallationRecord"
+  },
+  {
+    "asset_id": "https://id.dppmadera.example/01/07800001000015/21/P11-86532",
+    "component": "P11",
+    "domain": "epm",
+    "event_time": "2027-01-18T17:30:00Z",
+    "id": "urn:uuid:3f794bb3-95c1-4566-a006-828ada86156c",
+    "payload": {
+      "hook_load_kg": 1078,
+      "schema": "lift/v1"
+    },
+    "record_time": "2027-01-18T17:30:42Z",
+    "source": "site_crane",
+    "type": "Observation"
+  },
+  {
+    "asset_id": "https://id.dppmadera.example/01/07800001000015/21/P11-86532",
+    "component": "P11",
+    "domain": "epm",
+    "event_time": "2027-01-18T17:40:00Z",
+    "id": "urn:uuid:ebc3ba23-bc51-4e02-902e-08c35b111903",
+    "payload": {
+      "dev_mm": 1.2,
+      "schema": "placement/v1"
+    },
+    "record_time": "2027-01-18T17:40:56Z",
+    "source": "site_total_station",
+    "type": "Observation"
+  },
+  {
+    "asset_id": "https://id.dppmadera.example/01/07800001000015/21/P11-86532",
+    "component": "P11",
+    "domain": "epm",
+    "event_time": "2027-01-18T17:50:00Z",
+    "id": "urn:uuid:92e2a617-8359-4331-b61d-4d819427ca19",
+    "payload": {
+      "fasteners": 24,
+      "schema": "fixing/v1"
+    },
+    "record_time": "2027-01-18T17:51:08Z",
+    "source": "site_fixing_log",
+    "type": "Observation"
+  },
+  {
+    "asset_id": "https://id.dppmadera.example/01/07800001000015/21/P11-86532",
+    "component": "P11",
+    "domain": "dbl",
+    "event_time": "2027-01-18T17:55:00Z",
+    "id": "urn:uuid:20cf5ce5-dd04-4e37-b4ca-64984e104018",
+    "payload": {
+      "actual_seq": 18,
+      "building_id": "https://id.dppmadera.example/dbl/building/ESM-01",
+      "ifc_guid": "1j6aTSfJHAp920FdF3Hvg1",
+      "occurrence_id": "https://id.dppmadera.example/dbl/building/ESM-01/occ/P11",
+      "storey": 4,
+      "zone": "L4-E"
+    },
+    "record_time": "2027-01-18T17:55:55Z",
+    "source": "site_bim",
+    "type": "InstallationRecord"
+  },
+  {
+    "asset_id": "https://id.dppmadera.example/01/07800001000015/21/P10-49472",
+    "component": "P10",
+    "domain": "epm",
+    "event_time": "2027-01-18T18:00:00Z",
+    "id": "urn:uuid:b04332d0-30e9-4729-bca2-a5a3954ed447",
+    "payload": {
+      "hook_load_kg": 2263,
+      "schema": "lift/v1"
+    },
+    "record_time": "2027-01-18T18:01:20Z",
+    "source": "site_crane",
+    "type": "Observation"
+  },
+  {
+    "asset_id": "https://id.dppmadera.example/01/07800001000015/21/P10-49472",
+    "component": "P10",
+    "domain": "epm",
+    "event_time": "2027-01-18T18:10:00Z",
+    "id": "urn:uuid:4d4d96a4-4de0-49fd-b4e3-c4e1f35cf596",
+    "payload": {
+      "dev_mm": 3.0,
+      "schema": "placement/v1"
+    },
+    "record_time": "2027-01-18T18:10:09Z",
+    "source": "site_total_station",
+    "type": "Observation"
+  },
+  {
+    "asset_id": "https://id.dppmadera.example/01/07800001000015/21/P10-49472",
+    "component": "P10",
+    "domain": "epm",
+    "event_time": "2027-01-18T18:20:00Z",
+    "id": "urn:uuid:ea9a5ee8-dc6b-4a0c-a6fc-855d644daf9b",
+    "payload": {
+      "fasteners": 20,
+      "schema": "fixing/v1"
+    },
+    "record_time": "2027-01-18T18:20:47Z",
+    "source": "site_fixing_log",
+    "type": "Observation"
+  },
+  {
+    "asset_id": "https://id.dppmadera.example/01/07800001000015/21/P10-49472",
+    "component": "P10",
+    "domain": "dbl",
+    "event_time": "2027-01-18T18:25:00Z",
+    "id": "urn:uuid:b20b7572-fd5e-43be-99d1-09ff21ced5bc",
+    "payload": {
+      "actual_seq": 19,
+      "building_id": "https://id.dppmadera.example/dbl/building/ESM-01",
+      "ifc_guid": "2mKPGFHyL4I8XO2K8hdJ9N",
+      "occurrence_id": "https://id.dppmadera.example/dbl/building/ESM-01/occ/P10",
+      "storey": 4,
+      "zone": "L4-E"
+    },
+    "record_time": "2027-01-18T18:26:21Z",
+    "source": "site_bim",
+    "type": "InstallationRecord"
+  },
+  {
+    "asset_id": "https://id.dppmadera.example/01/07800001000053/21/C04-40931",
+    "component": "C04",
+    "domain": "epm",
+    "event_time": "2027-01-18T19:00:00Z",
+    "id": "urn:uuid:6aaca1a4-fdc1-4c46-a416-37fa014304b6",
+    "payload": {
+      "result": "pass",
+      "schema": "installation_inspection/v1"
+    },
+    "record_time": "2027-01-18T19:00:14Z",
+    "source": "site_qa",
+    "type": "Observation"
+  },
+  {
+    "asset_id": "https://id.dppmadera.example/01/07800001000015/21/P11-86532",
+    "component": "P11",
+    "domain": "epm",
+    "event_time": "2027-01-18T19:30:00Z",
+    "id": "urn:uuid:eb411cf5-56a2-4f41-a713-69877779dcb2",
+    "payload": {
+      "result": "pass",
+      "schema": "installation_inspection/v1"
+    },
+    "record_time": "2027-01-18T19:31:04Z",
+    "source": "site_qa",
+    "type": "Observation"
+  },
+  {
+    "asset_id": "https://id.dppmadera.example/01/07800001000015/21/P10-49472",
+    "component": "P10",
+    "domain": "epm",
+    "event_time": "2027-01-18T20:00:00Z",
+    "id": "urn:uuid:50d48338-4329-4c2d-ad97-b493d586ec72",
+    "payload": {
+      "result": "pass",
+      "schema": "installation_inspection/v1"
+    },
+    "record_time": "2027-01-18T20:00:07Z",
+    "source": "site_qa",
+    "type": "Observation"
+  }
+]

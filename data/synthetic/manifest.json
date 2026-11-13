@@ -1,0 +1,13 @@
+{
+  "seed": 4411,
+  "counts": {
+    "components": 20,
+    "events": 179
+  },
+  "sha256": {
+    "components.json": "7d9b38f0fe2dfc25c3c810bc0aaedfcd8f61acac66845af76eecfea4f72e5415",
+    "ifc_elements.json": "35d6d94fca99336f7ba55acef77d72dd13f3ab1f3e92dd7ce1ef4892c5afbae0",
+    "events.json": "0c35a776bdb411c99a2f6992336ec9f389d51c3f9ce7136fe74b42c8e5bc76a4",
+    "ground_truth.json": "33343b3162f5ad821af2ab00d0bfaf8619ad22f2a6993b16d3cb0dc8712a50fc"
+  }
+}
