@@ -1,7 +1,7 @@
 PY ?= python3
 export PYTHONPATH := src
 
-.PHONY: install data openapi test serve replay clean
+.PHONY: install data openapi test serve demo replay clean
 
 install:
 	$(PY) -m pip install -e ".[dev]"
@@ -17,6 +17,9 @@ test:
 
 serve:           ## run all services locally on http://127.0.0.1:8000 (docs at /docs)
 	$(PY) -m uvicorn dppmadera.app:app --reload
+
+demo:            ## replay the building into a running server and open the assembly-state view
+	DPPMADERA_PRELOAD=1 $(PY) -m uvicorn dppmadera.app:app
 
 replay:          ## end-to-end replay, then T1-T11, results table and figures
 	$(PY) scripts/replay.py
