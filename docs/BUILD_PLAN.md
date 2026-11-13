@@ -49,10 +49,10 @@ tests/               T1–T11
 
 | # | Dates | Pull request | Content | Done when |
 |---|---|---|---|---|
-| 0 | 13 Nov | Skeleton (this PR) | Build plan, layout, data model, seeded generator, LOIN mapping, test stubs, CI | CI green; generator reproducible |
-| 1 | 16–18 Nov | DPP, EPM, DBL services | Stores, POST/GET endpoints, envelope rule | Unit tests for each service |
-| 2 | 18–20 Nov | Resolver, federation, replay | Mappings with validity, `/assets/{id}`, `/conflicts`, `make replay`, OpenAPI export | Replay runs end to end |
-| 3 | 23–27 Nov | Tests and view | T1–T11 implemented, DTw assembly-state view, five faults detected, indicators, figures; DC runs the replay | All 11 tests pass; figures in `docs/figures/` |
+| 0 | 13 Nov | Skeleton (#1, done) | Build plan, layout, data model, seeded generator, LOIN mapping, test stubs, CI | CI green; generator reproducible |
+| 1 | 13 Nov | DPP, EPM, DBL services (#2, done) | Stores, POST/GET endpoints, envelope rule | Unit tests for each service |
+| 2 | 13 Nov | Resolver, federation, replay (#3, done) | Mappings with validity, `/assets/{id}`, `/conflicts`, `make replay`, OpenAPI export | Replay runs end to end |
+| 3 | 13 Nov | Tests and view (#4) | T1–T11 implemented, DTw assembly-state view, five faults detected, indicators, figures; DC runs the replay | All 11 tests pass; figures in `docs/figures/` |
 | 4 | 30 Nov–4 Dec | Report | Draft by 1 Dec; DC and DM approve by 3 Dec; tag `v1.0-poc` on 4 Dec | Approved by DC and DM |
 
 Target: **4 December 2026** (decided 13 Nov). Fallback: 18 December. It depends on each PR being

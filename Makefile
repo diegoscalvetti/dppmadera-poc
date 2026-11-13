@@ -18,8 +18,11 @@ test:
 serve:           ## run all services locally on http://127.0.0.1:8000 (docs at /docs)
 	$(PY) -m uvicorn dppmadera.app:app --reload
 
-replay:          ## end-to-end replay, results and figures (milestone PR 2)
+replay:          ## end-to-end replay, then T1-T11, results table and figures
 	$(PY) scripts/replay.py
+	$(PY) -m pytest -q --junitxml=results/junit.xml
+	$(PY) scripts/results_table.py
+	$(PY) scripts/figures.py
 
 clean:
 	rm -rf var results .pytest_cache

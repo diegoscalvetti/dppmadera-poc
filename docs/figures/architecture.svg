@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 560" font-family="Helvetica, Arial, sans-serif" font-size="14">
+  <defs>
+    <marker id="a" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#444"/></marker>
+  </defs>
+  <rect width="1000" height="560" fill="#ffffff"/>
+  <text x="500" y="30" text-anchor="middle" font-size="18" font-weight="bold">DPP Madera proof of concept: federated architecture and information flow</text>
+  <!-- lifecycle band -->
+  <g font-size="13">
+    <rect x="40" y="55" width="200" height="44" rx="8" fill="#e8f1fa" stroke="#4a78a8"/><text x="140" y="82" text-anchor="middle">Factory (MES, QA)</text>
+    <rect x="280" y="55" width="200" height="44" rx="8" fill="#e8f1fa" stroke="#4a78a8"/><text x="380" y="82" text-anchor="middle">Transport (dispatch, truck)</text>
+    <rect x="520" y="55" width="200" height="44" rx="8" fill="#e8f1fa" stroke="#4a78a8"/><text x="620" y="82" text-anchor="middle">Assembly (crane, site QA)</text>
+    <rect x="760" y="55" width="200" height="44" rx="8" fill="#e8f1fa" stroke="#4a78a8"/><text x="860" y="82" text-anchor="middle">As-built (site BIM)</text>
+    <path d="M240 77 H278" stroke="#444" marker-end="url(#a)"/><path d="M480 77 H518" stroke="#444" marker-end="url(#a)"/><path d="M720 77 H758" stroke="#444" marker-end="url(#a)"/>
+  </g>
+  <text x="500" y="124" text-anchor="middle" font-size="12" fill="#555">EPCIS-style events and observations (synthetic, 179 events, replayed in arrival order)</text>
+  <path d="M185 136 H815 M185 136 V160 M500 136 V160 M815 136 V160" stroke="#444" fill="none"/><path d="M185 150 V163" stroke="#444" marker-end="url(#a)"/><path d="M500 150 V163" stroke="#444" marker-end="url(#a)"/><path d="M815 150 V163" stroke="#444" marker-end="url(#a)"/>
+  <!-- domain services -->
+  <g>
+    <rect x="60" y="165" width="250" height="120" rx="10" fill="#fff4e0" stroke="#c98a1a" stroke-width="1.5"/>
+    <text x="185" y="190" text-anchor="middle" font-weight="bold">DPP service</text>
+    <text x="185" y="214" text-anchor="middle" font-size="12">identity, provenance, certification,</text>
+    <text x="185" y="231" text-anchor="middle" font-size="12">custody and transformation events</text>
+    <text x="185" y="262" text-anchor="middle" font-size="11" fill="#555">own store · /dpp/products /events /lineage</text>
+
+    <rect x="375" y="165" width="250" height="120" rx="10" fill="#fff4e0" stroke="#c98a1a" stroke-width="1.5"/>
+    <text x="500" y="190" text-anchor="middle" font-weight="bold">EPM gateway</text>
+    <text x="500" y="214" text-anchor="middle" font-size="12">raw observations, process runs,</text>
+    <text x="500" y="231" text-anchor="middle" font-size="12">envelope + payload kept as received</text>
+    <text x="500" y="262" text-anchor="middle" font-size="11" fill="#555">own store · /epm/observations</text>
+
+    <rect x="690" y="165" width="250" height="120" rx="10" fill="#fff4e0" stroke="#c98a1a" stroke-width="1.5"/>
+    <text x="815" y="190" text-anchor="middle" font-weight="bold">DBL service</text>
+    <text x="815" y="214" text-anchor="middle" font-size="12">building occurrences, installation</text>
+    <text x="815" y="231" text-anchor="middle" font-size="12">context, as-built records (IFC GUID)</text>
+    <text x="815" y="262" text-anchor="middle" font-size="11" fill="#555">own store · /dbl/occurrences /building</text>
+  </g>
+  <!-- resolver -->
+  <rect x="150" y="320" width="700" height="80" rx="10" fill="#e6f4ea" stroke="#2e7d32" stroke-width="2"/>
+  <text x="500" y="348" text-anchor="middle" font-weight="bold">Identifier resolver (interoperability layer)</text>
+  <text x="500" y="370" text-anchor="middle" font-size="12">product · instance · batch · process run · occurrence · IFC GUID, with validity intervals</text>
+  <text x="500" y="388" text-anchor="middle" font-size="12">one-to-one rules; contradicting mappings kept as disputed and recorded as conflicts</text>
+  <path d="M185 285 V318" stroke="#2e7d32" stroke-dasharray="5 4" marker-end="url(#a)" marker-start="url(#a)"/>
+  <path d="M500 285 V318" stroke="#2e7d32" stroke-dasharray="5 4" marker-end="url(#a)" marker-start="url(#a)"/>
+  <path d="M815 285 V318" stroke="#2e7d32" stroke-dasharray="5 4" marker-end="url(#a)" marker-start="url(#a)"/>
+  <!-- brokers -->
+  <g>
+    <rect x="60" y="440" width="260" height="80" rx="10" fill="#f1ecf8" stroke="#6a4c9c" stroke-width="1.5"/>
+    <text x="190" y="468" text-anchor="middle" font-weight="bold">Unified view /assets/{id}</text>
+    <text x="190" y="490" text-anchor="middle" font-size="12">brokered links, no central copy</text>
+    <rect x="370" y="440" width="260" height="80" rx="10" fill="#f1ecf8" stroke="#6a4c9c" stroke-width="1.5"/>
+    <text x="500" y="468" text-anchor="middle" font-weight="bold">Minimal DTw /dtw/assembly-state</text>
+    <text x="500" y="490" text-anchor="middle" font-size="12">derived state per component + flags</text>
+    <rect x="680" y="440" width="260" height="80" rx="10" fill="#f1ecf8" stroke="#6a4c9c" stroke-width="1.5"/>
+    <text x="810" y="468" text-anchor="middle" font-weight="bold">Conflicts /conflicts</text>
+    <text x="810" y="490" text-anchor="middle" font-size="12">all assertions kept; authority or review</text>
+    <path d="M190 400 V438" stroke="#6a4c9c" marker-end="url(#a)"/><path d="M500 400 V438" stroke="#6a4c9c" marker-end="url(#a)"/><path d="M810 400 V438" stroke="#6a4c9c" marker-end="url(#a)"/>
+  </g>
+  <text x="500" y="548" text-anchor="middle" font-size="11" fill="#555">Brokers read every domain through its public API only. Each fact stays with its owner (tested in T2).</text>
+</svg>
