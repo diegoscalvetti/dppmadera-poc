@@ -24,3 +24,9 @@ def test_openapi_covers_spec_endpoints():
 def test_committed_openapi_is_current():
     committed = json.loads((Path(__file__).resolve().parents[1] / "docs" / "openapi.json").read_text())
     assert committed == json.loads(json.dumps(app.openapi()))
+
+
+def test_assembly_state_view_renders(replayed):
+    c, _, data = replayed
+    page = c.get("/view", params={"building_id": data["ground_truth"]["building_id"]})
+    assert page.status_code == 200 and "out of sequence" in page.text and page.text.count("class='c'") == 20

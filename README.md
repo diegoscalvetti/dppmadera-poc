@@ -19,6 +19,7 @@ make install     # Python 3.11+
 make data        # regenerate data/synthetic (seed 4411)
 make test        # T1–T11 plus unit and dataset checks
 make serve       # services and OpenAPI docs at http://127.0.0.1:8000/docs
+make demo        # same, preloaded with the replay; prints the assembly-state view link
 make replay      # replay + T1–T11 + results/results.md + figures (one command)
 ```
 
