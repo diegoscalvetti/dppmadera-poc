@@ -17,9 +17,7 @@
           "content": {
             "application/json": {
               "schema": {
-                "additionalProperties": true,
-                "type": "object",
-                "title": "Body"
+                "$ref": "#/components/schemas/Product"
               }
             }
           },
@@ -51,6 +49,50 @@
         }
       }
     },
+    "/dpp/products/{instance_id}": {
+      "get": {
+        "tags": [
+          "dpp"
+        ],
+        "summary": "Get Product",
+        "operationId": "get_product_dpp_products__instance_id__get",
+        "parameters": [
+          {
+            "name": "instance_id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string",
+              "title": "Instance Id"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful Response",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object",
+                  "additionalProperties": true,
+                  "title": "Response Get Product Dpp Products  Instance Id  Get"
+                }
+              }
+            }
+          },
+          "422": {
+            "description": "Validation Error",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/HTTPValidationError"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
     "/dpp/events": {
       "post": {
         "tags": [
@@ -62,9 +104,7 @@
           "content": {
             "application/json": {
               "schema": {
-                "additionalProperties": true,
-                "type": "object",
-                "title": "Body"
+                "$ref": "#/components/schemas/EpcisEvent"
               }
             }
           },
@@ -96,21 +136,21 @@
         }
       }
     },
-    "/dpp/lineage/{asset_id}": {
+    "/dpp/lineage/{instance_id}": {
       "get": {
         "tags": [
           "dpp"
         ],
         "summary": "Lineage",
-        "operationId": "lineage_dpp_lineage__asset_id__get",
+        "operationId": "lineage_dpp_lineage__instance_id__get",
         "parameters": [
           {
-            "name": "asset_id",
+            "name": "instance_id",
             "in": "path",
             "required": true,
             "schema": {
               "type": "string",
-              "title": "Asset Id"
+              "title": "Instance Id"
             }
           }
         ],
@@ -122,7 +162,7 @@
                 "schema": {
                   "type": "object",
                   "additionalProperties": true,
-                  "title": "Response Lineage Dpp Lineage  Asset Id  Get"
+                  "title": "Response Lineage Dpp Lineage  Instance Id  Get"
                 }
               }
             }
@@ -148,16 +188,14 @@
         "summary": "Create Observation",
         "operationId": "create_observation_epm_observations_post",
         "requestBody": {
+          "required": true,
           "content": {
             "application/json": {
               "schema": {
-                "additionalProperties": true,
-                "type": "object",
-                "title": "Body"
+                "$ref": "#/components/schemas/Observation"
               }
             }
-          },
-          "required": true
+          }
         },
         "responses": {
           "201": {
@@ -165,9 +203,74 @@
             "content": {
               "application/json": {
                 "schema": {
-                  "additionalProperties": true,
                   "type": "object",
+                  "additionalProperties": true,
                   "title": "Response Create Observation Epm Observations Post"
+                }
+              }
+            }
+          },
+          "422": {
+            "description": "Validation Error",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/HTTPValidationError"
+                }
+              }
+            }
+          }
+        }
+      },
+      "get": {
+        "tags": [
+          "epm"
+        ],
+        "summary": "List Observations",
+        "operationId": "list_observations_epm_observations_get",
+        "parameters": [
+          {
+            "name": "asset_id",
+            "in": "query",
+            "required": false,
+            "schema": {
+              "anyOf": [
+                {
+                  "type": "string"
+                },
+                {
+                  "type": "null"
+                }
+              ],
+              "title": "Asset Id"
+            }
+          },
+          {
+            "name": "schema",
+            "in": "query",
+            "required": false,
+            "schema": {
+              "anyOf": [
+                {
+                  "type": "string"
+                },
+                {
+                  "type": "null"
+                }
+              ],
+              "title": "Schema"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful Response",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object",
+                  "additionalProperties": true,
+                  "title": "Response List Observations Epm Observations Get"
                 }
               }
             }
@@ -196,9 +299,7 @@
           "content": {
             "application/json": {
               "schema": {
-                "additionalProperties": true,
-                "type": "object",
-                "title": "Body"
+                "$ref": "#/components/schemas/Occurrence"
               }
             }
           },
@@ -213,6 +314,50 @@
                   "additionalProperties": true,
                   "type": "object",
                   "title": "Response Create Occurrence Dbl Occurrences Post"
+                }
+              }
+            }
+          },
+          "422": {
+            "description": "Validation Error",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/HTTPValidationError"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/dbl/occurrences/{occurrence_id}": {
+      "get": {
+        "tags": [
+          "dbl"
+        ],
+        "summary": "Get Occurrence",
+        "operationId": "get_occurrence_dbl_occurrences__occurrence_id__get",
+        "parameters": [
+          {
+            "name": "occurrence_id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string",
+              "title": "Occurrence Id"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful Response",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object",
+                  "additionalProperties": true,
+                  "title": "Response Get Occurrence Dbl Occurrences  Occurrence Id  Get"
                 }
               }
             }
@@ -479,6 +624,58 @@
   },
   "components": {
     "schemas": {
+      "EpcisEvent": {
+        "properties": {
+          "id": {
+            "type": "string",
+            "title": "Id"
+          },
+          "type": {
+            "type": "string",
+            "title": "Type",
+            "description": "ObjectEvent, AggregationEvent or TransformationEvent"
+          },
+          "event_time": {
+            "type": "string",
+            "title": "Event Time"
+          },
+          "record_time": {
+            "type": "string",
+            "title": "Record Time"
+          },
+          "source": {
+            "type": "string",
+            "title": "Source"
+          },
+          "asset_id": {
+            "anyOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Asset Id",
+            "description": "Instance ID, or parent ID for an AggregationEvent"
+          },
+          "payload": {
+            "additionalProperties": true,
+            "type": "object",
+            "title": "Payload"
+          }
+        },
+        "type": "object",
+        "required": [
+          "id",
+          "type",
+          "event_time",
+          "record_time",
+          "source",
+          "payload"
+        ],
+        "title": "EpcisEvent"
+      },
       "HTTPValidationError": {
         "properties": {
           "detail": {
@@ -491,6 +688,219 @@
         },
         "type": "object",
         "title": "HTTPValidationError"
+      },
+      "Observation": {
+        "properties": {
+          "id": {
+            "type": "string",
+            "title": "Id"
+          },
+          "event_time": {
+            "type": "string",
+            "title": "Event Time"
+          },
+          "record_time": {
+            "type": "string",
+            "title": "Record Time"
+          },
+          "source": {
+            "type": "string",
+            "title": "Source",
+            "description": "System role, never a person"
+          },
+          "asset_id": {
+            "type": "string",
+            "title": "Asset Id"
+          },
+          "schema": {
+            "type": "string",
+            "title": "Schema"
+          },
+          "payload": {
+            "additionalProperties": true,
+            "type": "object",
+            "title": "Payload"
+          }
+        },
+        "type": "object",
+        "required": [
+          "id",
+          "event_time",
+          "record_time",
+          "source",
+          "asset_id",
+          "schema",
+          "payload"
+        ],
+        "title": "Observation"
+      },
+      "Occurrence": {
+        "properties": {
+          "occurrence_id": {
+            "type": "string",
+            "title": "Occurrence Id"
+          },
+          "building_id": {
+            "type": "string",
+            "title": "Building Id"
+          },
+          "ifc_guid": {
+            "type": "string",
+            "title": "Ifc Guid"
+          },
+          "storey": {
+            "type": "integer",
+            "title": "Storey"
+          },
+          "zone": {
+            "anyOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Zone"
+          },
+          "ifc_class": {
+            "anyOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Ifc Class"
+          },
+          "planned_seq": {
+            "anyOf": [
+              {
+                "type": "integer"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Planned Seq"
+          },
+          "instance_id": {
+            "anyOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Instance Id"
+          },
+          "installed_at": {
+            "anyOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Installed At"
+          },
+          "actual_seq": {
+            "anyOf": [
+              {
+                "type": "integer"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Actual Seq"
+          },
+          "source": {
+            "anyOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Source"
+          },
+          "record_id": {
+            "anyOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Record Id"
+          }
+        },
+        "type": "object",
+        "required": [
+          "occurrence_id",
+          "building_id",
+          "ifc_guid",
+          "storey"
+        ],
+        "title": "Occurrence",
+        "description": "A planned occurrence (from the design model) or its as-built update (installation record)."
+      },
+      "Product": {
+        "properties": {
+          "instance_id": {
+            "type": "string",
+            "title": "Instance Id"
+          },
+          "product_id": {
+            "type": "string",
+            "title": "Product Id"
+          },
+          "batch_id": {
+            "type": "string",
+            "title": "Batch Id"
+          },
+          "kind": {
+            "type": "string",
+            "title": "Kind"
+          },
+          "certification_ref": {
+            "anyOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Certification Ref"
+          },
+          "process_run_ids": {
+            "items": {
+              "type": "string"
+            },
+            "type": "array",
+            "title": "Process Run Ids"
+          },
+          "composition": {
+            "additionalProperties": true,
+            "type": "object",
+            "title": "Composition"
+          }
+        },
+        "type": "object",
+        "required": [
+          "instance_id",
+          "product_id",
+          "batch_id",
+          "kind"
+        ],
+        "title": "Product"
       },
       "ValidationError": {
         "properties": {

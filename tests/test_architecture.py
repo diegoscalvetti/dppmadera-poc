@@ -4,7 +4,7 @@ import ast
 from pathlib import Path
 
 SERVICES = Path(__file__).resolve().parents[1] / "src" / "dppmadera" / "services"
-DOMAINS = {"dpp", "epm", "dbl", "resolver", "dtw", "conflicts"}
+DOMAINS = {"dpp", "epm", "dbl", "resolver", "dtw", "conflicts", "federation"}
 
 
 def test_services_do_not_import_each_other():

@@ -7,7 +7,7 @@ from dppmadera.app import app
 
 client = TestClient(app)
 SPEC_PATHS = {
-    "/dpp/products", "/dpp/events", "/dpp/lineage/{asset_id}", "/epm/observations",
+    "/dpp/products", "/dpp/events", "/dpp/lineage/{instance_id}", "/epm/observations",
     "/dbl/occurrences", "/dbl/building/{building_id}", "/resolver/mappings", "/resolver/{any_id}",
     "/assets/{asset_id}", "/dtw/assembly-state", "/conflicts",
 }
