@@ -430,9 +430,7 @@
           "content": {
             "application/json": {
               "schema": {
-                "additionalProperties": true,
-                "type": "object",
-                "title": "Body"
+                "$ref": "#/components/schemas/Mapping"
               }
             }
           },
@@ -457,6 +455,29 @@
               "application/json": {
                 "schema": {
                   "$ref": "#/components/schemas/HTTPValidationError"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/resolver/conflicts": {
+      "get": {
+        "tags": [
+          "resolver"
+        ],
+        "summary": "Conflicts",
+        "operationId": "conflicts_resolver_conflicts_get",
+        "responses": {
+          "200": {
+            "description": "Successful Response",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "additionalProperties": true,
+                  "type": "object",
+                  "title": "Response Conflicts Resolver Conflicts Get"
                 }
               }
             }
@@ -515,15 +536,36 @@
         ],
         "summary": "Assembly State",
         "operationId": "assembly_state_dtw_assembly_state_get",
+        "parameters": [
+          {
+            "name": "building_id",
+            "in": "query",
+            "required": true,
+            "schema": {
+              "type": "string",
+              "title": "Building Id"
+            }
+          }
+        ],
         "responses": {
           "200": {
             "description": "Successful Response",
             "content": {
               "application/json": {
                 "schema": {
-                  "additionalProperties": true,
                   "type": "object",
+                  "additionalProperties": true,
                   "title": "Response Assembly State Dtw Assembly State Get"
+                }
+              }
+            }
+          },
+          "422": {
+            "description": "Validation Error",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/HTTPValidationError"
                 }
               }
             }
@@ -689,6 +731,55 @@
         "type": "object",
         "title": "HTTPValidationError"
       },
+      "Mapping": {
+        "properties": {
+          "a": {
+            "type": "string",
+            "title": "A"
+          },
+          "a_type": {
+            "type": "string",
+            "title": "A Type"
+          },
+          "b": {
+            "type": "string",
+            "title": "B"
+          },
+          "b_type": {
+            "type": "string",
+            "title": "B Type"
+          },
+          "valid_from": {
+            "type": "string",
+            "title": "Valid From"
+          },
+          "valid_to": {
+            "anyOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Valid To"
+          },
+          "source": {
+            "type": "string",
+            "title": "Source"
+          }
+        },
+        "type": "object",
+        "required": [
+          "a",
+          "a_type",
+          "b",
+          "b_type",
+          "valid_from",
+          "source"
+        ],
+        "title": "Mapping"
+      },
       "Observation": {
         "properties": {
           "id": {
@@ -773,6 +864,17 @@
               }
             ],
             "title": "Ifc Class"
+          },
+          "name": {
+            "anyOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Name"
           },
           "planned_seq": {
             "anyOf": [
