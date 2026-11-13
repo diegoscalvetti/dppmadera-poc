@@ -24,6 +24,7 @@ class Occurrence(BaseModel):
     storey: int
     zone: str | None = None
     ifc_class: str | None = None
+    name: str | None = None
     planned_seq: int | None = None
     # as-built fields, set by an installation record
     instance_id: str | None = None
