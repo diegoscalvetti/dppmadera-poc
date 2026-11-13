@@ -16,9 +16,9 @@ security and no claim about performance at scale.
 ```bash
 make install     # Python 3.11+
 make data        # regenerate data/synthetic (seed 4411)
-make test        # T1–T11 plus dataset checks
+make test        # T1–T11 plus unit and dataset checks
 make serve       # services and OpenAPI docs at http://127.0.0.1:8000/docs
-make replay      # end-to-end replay (from milestone PR 2)
+make replay      # replay + T1–T11 + results/results.md + figures (one command)
 ```
 
 ## Status
@@ -26,9 +26,9 @@ make replay      # end-to-end replay (from milestone PR 2)
 | Milestone | State |
 |---|---|
 | Skeleton, data model, generator | done |
-| DPP, EPM, DBL services | 16–18 Nov |
-| Resolver, federation, replay | 18–20 Nov |
-| Tests T1–T11, assembly-state view, figures | 23–27 Nov |
+| DPP, EPM, DBL services | done |
+| Resolver, federation, replay | done |
+| Tests T1–T11, assembly-state view, figures | done (11/11 pass) |
 | Technical report, tag `v1.0-poc` | 30 Nov–4 Dec (target 4 Dec) |
 
 See [docs/BUILD_PLAN.md](docs/BUILD_PLAN.md) for the plan, the five injected faults and the test map.
