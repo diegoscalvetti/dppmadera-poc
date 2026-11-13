@@ -49,13 +49,17 @@ tests/               T1–T11
 
 | # | Dates | Pull request | Content | Done when |
 |---|---|---|---|---|
-| 0 | 13–20 Nov | Skeleton (this PR) | Build plan, layout, data model, seeded generator, test stubs, CI | CI green; generator reproducible |
-| 1 | 23–27 Nov | DPP, EPM, DBL services | Stores, POST/GET endpoints, envelope rule | Unit tests for each service |
-| 2 | 30 Nov–4 Dec | Resolver, federation, replay | Mappings with validity, `/assets/{id}`, `/conflicts`, `make replay`, OpenAPI export | Replay runs end to end |
-| 3 | 7–11 Dec | Tests and view | T1–T11 implemented, DTw assembly-state view, five faults detected, indicators, figures | All 11 tests pass; figures in `docs/figures/` |
-| 4 | 14–18 Dec | Report | 6–10 page technical report (English, UK), results table, limitations, TRL 3 argument; tag `v1.0-poc` | Approved by DC and DM |
+| 0 | 13 Nov | Skeleton (this PR) | Build plan, layout, data model, seeded generator, LOIN mapping, test stubs, CI | CI green; generator reproducible |
+| 1 | 16–18 Nov | DPP, EPM, DBL services | Stores, POST/GET endpoints, envelope rule | Unit tests for each service |
+| 2 | 18–20 Nov | Resolver, federation, replay | Mappings with validity, `/assets/{id}`, `/conflicts`, `make replay`, OpenAPI export | Replay runs end to end |
+| 3 | 23–27 Nov | Tests and view | T1–T11 implemented, DTw assembly-state view, five faults detected, indicators, figures; DC runs the replay | All 11 tests pass; figures in `docs/figures/` |
+| 4 | 30 Nov–4 Dec | Report | Draft by 1 Dec; DC and DM approve by 3 Dec; tag `v1.0-poc` on 4 Dec | Approved by DC and DM |
 
-Diego reviews twice a week (suggested Tuesday and Friday) and runs the final replay himself.
+Target: **4 December 2026** (decided 13 Nov). Fallback: 18 December. It depends on each PR being
+reviewed within about two days and on DM reading the report on 1–3 Dec; if either slips, only the
+report moves.
+
+Diego runs the final replay himself.
 
 ## Synthetic dataset
 
@@ -100,4 +104,3 @@ security; production database; any monitoring of workers; performance at scale; 
 
 1. Review the LOIN mapping (6 of 14 needs exercised by tests).
 2. Confirm the stack (Python + FastAPI) before milestone 1.
-3. Choose review days.

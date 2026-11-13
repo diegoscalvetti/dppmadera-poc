@@ -26,10 +26,10 @@ make replay      # end-to-end replay (from milestone PR 2)
 | Milestone | State |
 |---|---|
 | Skeleton, data model, generator | done |
-| DPP, EPM, DBL services | planned 23–27 Nov |
+| DPP, EPM, DBL services | 16–18 Nov |
 | Resolver, federation, replay | planned 30 Nov–4 Dec |
-| Tests T1–T11, assembly-state view, figures | planned 7–11 Dec |
-| Technical report, tag `v1.0-poc` | planned 14–18 Dec |
+| Tests T1–T11, assembly-state view, figures | 23–27 Nov |
+| Technical report, tag `v1.0-poc` | 30 Nov–4 Dec (target 4 Dec) |
 
 See [docs/BUILD_PLAN.md](docs/BUILD_PLAN.md) for the plan, the five injected faults and the test map.
 
