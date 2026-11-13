@@ -1,0 +1,65 @@
+{
+  "building_id": "https://id.dppmadera.example/dbl/building/ESM-01",
+  "expected_state": {
+    "C01": "inspected",
+    "C02": "inspected",
+    "C03": "inspected",
+    "C04": "inspected",
+    "G01": "inspected",
+    "G02": "inspected",
+    "G03": "inspected",
+    "G04": "inspected",
+    "P01": "inspected",
+    "P02": "inspected",
+    "P03": "inspected",
+    "P04": "inspected",
+    "P05": "installed",
+    "P06": "inspected",
+    "P07": "inspected",
+    "P08": "inspected",
+    "P09": "inspected",
+    "P10": "inspected",
+    "P11": "inspected",
+    "P12": "delivered"
+  },
+  "faults": {
+    "F1_ifc_guid_clash": {
+      "components": [
+        "P08",
+        "P07"
+      ],
+      "test": "T7"
+    },
+    "F2_moisture_conflict": {
+      "components": [
+        "P03"
+      ],
+      "test": "T5",
+      "values": [
+        11.8,
+        18.5
+      ]
+    },
+    "F3_out_of_sequence": {
+      "components": [
+        "P11",
+        "P10"
+      ],
+      "test": "T8"
+    },
+    "F4_custody_gap": {
+      "components": [
+        "G02"
+      ],
+      "missing": "shipping",
+      "test": "T4"
+    },
+    "F5_late_event": {
+      "components": [
+        "C03"
+      ],
+      "delay_hours": 48,
+      "test": "T6"
+    }
+  }
+}
