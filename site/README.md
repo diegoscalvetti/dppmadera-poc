@@ -23,16 +23,16 @@ then re-add the fixed "DPP Madera home" link (`class="dppm-home"`) right after `
 
 ## Publish
 
-GitHub Pages serves this folder through `.github/workflows/pages.yml` on every push to `main`
-that touches `site/`. One-time setup: **Settings → Pages → Build and deployment → Source: GitHub Actions**,
-then run the `pages` workflow once (Actions tab → pages → Run workflow).
-The address is then `https://<user>.github.io/dppmadera-poc/`.
+The public copy lives in a separate public repository, `diegoscalvetti/dppchile-site`, which holds only
+the contents of this folder (no PoC code) plus its own Pages workflow. To refresh it after changing
+`site/` here, copy this folder's contents to that repository's root and push to its `main`.
+Address until the domain is connected: `https://diegoscalvetti.github.io/dppchile-site/`.
 
 ## Connect a custom domain (for example dppchile.com)
 
 Do this after buying the domain. Replace `dppchile.com` and `<user>` as needed.
 
-1. In the repo: **Settings → Pages → Custom domain**, enter `dppchile.com`, save.
+1. In `dppchile-site`: **Settings → Pages → Custom domain**, enter `dppchile.com`, save.
    (With the GitHub Actions source no `CNAME` file is needed; the setting is enough.) (Optional but recommended first: verify the domain under
    your GitHub account **Settings → Pages → Add a domain**, so nobody else can claim it.)
 2. At the domain registrar's DNS settings, add:
