@@ -1,0 +1,98 @@
+<!doctype html>
+<html lang="en-GB">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>PoC Results</title>
+<meta name="description" content="What the DPP Madera proof of concept built, the eleven tests and their results. Invented data.">
+<link rel="stylesheet" href="assets/site.css">
+</head>
+<body>
+<div class="wrap">
+
+<div class="top">
+  <a class="brand" href="index.html">DPP Madera</a>
+  <nav aria-label="Site">
+    <a href="index.html#records">The four records</a>
+    <a href="index.html#audiences">Find your way in</a>
+    <a href="poc.html" aria-current="page">Proof of concept results</a>
+    <a href="twin/index.html">Assembly twin</a>
+  </nav>
+</div>
+
+<header class="hero">
+  <div class="eyebrow">Proof of concept · results</div>
+  <h1>What we built, and how we checked it works</h1>
+  <p class="lede">A small working system with one service for each record (passport, site observations, building logbook) and a simple assembly twin that reads from them. We fed it the full history of an invented building, including five problems planted on purpose, and checked that it kept every part's story straight.</p>
+  <div class="banner"><b>Invented data only.</b> Building ESM-01, 20 parts, 179 records, seed 4411. The look-up counts in the last table are estimates of manual effort, not measurements.</div>
+</header>
+
+<section aria-labelledby="arch-h">
+  <h2 id="arch-h">How the pieces fit</h2>
+  <figure>
+    <img src="figures/architecture.png" alt="Architecture: the passport, site observation and building logbook services each keep their own data; an identity resolver links their identifiers; the assembly twin and the unified view read from them through their public interfaces." width="1600" loading="lazy">
+    <figcaption>Each service keeps its own data. An identity resolver links the different codes a part carries (QR, batch, model element), so nothing is copied between services.</figcaption>
+  </figure>
+</section>
+
+<section aria-labelledby="tests-h">
+  <h2 id="tests-h">The eleven tests: all pass</h2>
+  <div class="tablewrap"><table>
+    <thead><tr><th>#</th><th>What we checked</th><th>In plain words</th><th>Result</th></tr></thead>
+    <tbody>
+      <tr><td>T1</td><td>Identity resolution</td><td>Scan any of a part's codes and you reach all the others.</td><td><span class="badge b-ok">pass</span></td></tr>
+      <tr><td>T2</td><td>No duplication</td><td>Each fact lives in one place; the others only point to it.</td><td><span class="badge b-ok">pass</span></td></tr>
+      <tr><td>T3</td><td>Complete history</td><td>Every part's story runs from factory to building without gaps, or the gap is flagged.</td><td><span class="badge b-ok">pass</span></td></tr>
+      <tr><td>T4</td><td>Missing hand-over</td><td>A part that reached site with no shipping record (planted fault) is caught.</td><td><span class="badge b-ok">pass</span></td></tr>
+      <tr><td>T5</td><td>Conflicting readings</td><td>Two moisture readings that disagree (11.8% and 18.5%) are both kept, with who and when, and sent for review.</td><td><span class="badge b-ok">pass</span></td></tr>
+      <tr><td>T6</td><td>Late records</td><td>An inspection recorded 48 hours late still lands in the right order.</td><td><span class="badge b-ok">pass</span></td></tr>
+      <tr><td>T7</td><td>Design model clash</td><td>Two parts claiming the same element of the design model are caught.</td><td><span class="badge b-ok">pass</span></td></tr>
+      <tr><td>T8</td><td>Assembly picture</td><td>The twin shows the right state for all 20 parts and flags the one installed out of order.</td><td><span class="badge b-ok">pass</span></td></tr>
+      <tr><td>T9</td><td>One view per part</td><td>One request returns links to all four records for any part.</td><td><span class="badge b-ok">pass</span></td></tr>
+      <tr><td>T10</td><td>Needs coverage</td><td>Each of 14 information needs from the literature is either served or honestly marked "not covered yet".</td><td><span class="badge b-ok">pass</span></td></tr>
+      <tr><td>T11</td><td>Repeatable</td><td>A clean copy and one command reproduce every result.</td><td><span class="badge b-ok">pass</span></td></tr>
+    </tbody>
+  </table></div>
+</section>
+
+<section aria-labelledby="state-h">
+  <h2 id="state-h">The assembly picture at the end of the replay</h2>
+  <div class="grid3">
+    <div class="card"><span class="stat">18</span><span>parts inspected</span></div>
+    <div class="card"><span class="stat">1</span><span>part installed, awaiting inspection</span></div>
+    <div class="card"><span class="stat">1</span><span>part delivered, not yet installed</span></div>
+  </div>
+  <figure>
+    <img src="figures/assembly_state.png" alt="Chart of the assembly state per level: most parts inspected, one installed, one delivered, with flagged parts outlined." width="1600" loading="lazy">
+    <figcaption>State of each part by level, with the flagged parts marked. The whole history took 357 requests to feed in.</figcaption>
+  </figure>
+  <div class="row"><a class="btn" href="twin/index.html">Open the working assembly view (static snapshot)</a></div>
+</section>
+
+<section aria-labelledby="q-h">
+  <h2 id="q-h">Questions people actually ask</h2>
+  <p>Five example questions from site and factory staff. With the linked records each one is a single request. The manual look-up counts are our estimate of what it takes today to find the same answer across separate files.</p>
+  <div class="tablewrap"><table>
+    <thead><tr><th>Question</th><th>Answer</th><th>Requests</th><th>Manual look-ups (estimate)</th></tr></thead>
+    <tbody>
+      <tr><td>Which level 2 panels are installed but not inspected?</td><td>P05</td><td>1</td><td>9</td></tr>
+      <tr><td>Where is the model element of P06, and is its chain of custody complete?</td><td>Found on level 2, inspected, custody complete</td><td>1</td><td>4</td></tr>
+      <tr><td>Which parts reached site without a complete chain of custody?</td><td>G02</td><td>1</td><td>40</td></tr>
+      <tr><td>Which moisture readings disagree, and who reported them?</td><td>11.8% and 18.5% on one panel, sent for review</td><td>1</td><td>40</td></tr>
+      <tr><td>Which parts were installed out of the planned order?</td><td>P11</td><td>1</td><td>40</td></tr>
+    </tbody>
+  </table></div>
+</section>
+
+<section aria-labelledby="trl-h">
+  <h2 id="trl-h">Where this sits</h2>
+  <p>The project enters at technology readiness level (TRL) 2. This proof of concept is strong evidence for that level and the first step towards TRL 3, planned for month 6 with real data from partner companies. TRL 4 is planned for month 11 and TRL 5 at the end of the project.</p>
+  <p class="note">The PoC code and the full test report are available to reviewers and partners on request.</p>
+</section>
+
+<footer>
+  <p>DPP Madera proof of concept · invented data only · <a href="index.html">Back to the start</a></p>
+</footer>
+</div>
+</body>
+</html>

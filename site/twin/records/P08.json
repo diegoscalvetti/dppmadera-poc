@@ -1,0 +1,61 @@
+{
+  "query": "https://id.dppmadera.example/01/07800001000015/21/P08-47970",
+  "ids": {
+    "instance_id": [
+      "https://id.dppmadera.example/01/07800001000015/21/P08-47970"
+    ],
+    "product_id": [
+      "https://id.dppmadera.example/01/07800001000015"
+    ],
+    "batch_id": [
+      "https://id.dppmadera.example/01/07800001000015/10/L27-03194"
+    ],
+    "occurrence_id": [
+      "https://id.dppmadera.example/dbl/building/ESM-01/occ/P08"
+    ],
+    "process_run_id": [
+      "https://id.dppmadera.example/run/cnc/L27-03194-P08"
+    ],
+    "ifc_guid": [
+      "11IAp2wtr3JgNaum1_LvXA"
+    ]
+  },
+  "disputed": [
+    {
+      "id": "https://id.dppmadera.example/dbl/building/ESM-01/occ/P08",
+      "other": "3d_PJUZ9fAVAediXEIP4wX",
+      "other_type": "ifc_guid",
+      "source": "site_bim"
+    }
+  ],
+  "dpp": {
+    "href": "/dpp/lineage/https://id.dppmadera.example/01/07800001000015/21/P08-47970",
+    "custody_complete": true,
+    "custody_gaps": [],
+    "events": 4
+  },
+  "epm": {
+    "href": "/epm/observations?asset_id=https://id.dppmadera.example/01/07800001000015/21/P08-47970",
+    "observations": 5,
+    "schemas": [
+      "fixing/v1",
+      "installation_inspection/v1",
+      "lift/v1",
+      "placement/v1",
+      "qa_inspection/v1"
+    ]
+  },
+  "dbl": {
+    "href": "/dbl/occurrences/https://id.dppmadera.example/dbl/building/ESM-01/occ/P08",
+    "building_id": "https://id.dppmadera.example/dbl/building/ESM-01",
+    "storey": 3,
+    "installed": true
+  },
+  "dtw": {
+    "href": "/dtw/assembly-state?building_id=https://id.dppmadera.example/dbl/building/ESM-01",
+    "state": "inspected",
+    "flags": [
+      "identifier_dispute"
+    ]
+  }
+}
