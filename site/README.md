@@ -23,16 +23,17 @@ then re-add the "home" link (see `scripts/build_site_twin.py` header).
 
 ## Publish
 
-The public copy lives in a separate public repository (site only, no PoC code), served by
-GitHub Pages from the `main` branch, root folder. To refresh it, copy this folder's contents to
-that repository's root and push.
+GitHub Pages serves this folder through `.github/workflows/pages.yml` on every push to `main`
+that touches `site/`. One-time setup: **Settings → Pages → Build and deployment → Source: GitHub Actions**,
+then run the `pages` workflow once (Actions tab → pages → Run workflow).
+The address is then `https://<user>.github.io/dppmadera-poc/`.
 
 ## Connect a custom domain (for example dppcl.com)
 
 Do this after buying the domain. Replace `dppcl.com` and `<user>` as needed.
 
-1. In the public site repo: **Settings → Pages → Custom domain**, enter `dppcl.com`, save.
-   GitHub adds a `CNAME` file to the repo. (Optional but recommended first: verify the domain under
+1. In the repo: **Settings → Pages → Custom domain**, enter `dppcl.com`, save.
+   (With the GitHub Actions source no `CNAME` file is needed; the setting is enough.) (Optional but recommended first: verify the domain under
    your GitHub account **Settings → Pages → Add a domain**, so nobody else can claim it.)
 2. At the domain registrar's DNS settings, add:
 
