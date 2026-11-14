@@ -1,0 +1,51 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width">
+<title>Assembly state</title><style>
+body{font-family:system-ui,sans-serif;margin:24px;background:#fff;color:#222}
+.r{display:flex;gap:8px;margin:10px 0;align-items:flex-start;overflow-x:auto}.l{flex:0 0 64px;font-weight:600;padding-top:18px}
+.c{display:block;flex:0 0 104px;min-height:64px;padding:8px;border-radius:8px;color:#111;text-decoration:none}
+.c span{display:block;font-size:12px;color:#333}.f{font-size:11px;color:#b30000;font-weight:600;margin-top:4px}
+.k{display:inline-block;padding:2px 8px;margin-right:6px;border-radius:4px;font-size:12px}
+</style></head><body><div style='background:#fff4e5;border:1px solid #f0b46a;padding:10px 14px;border-radius:8px;margin-bottom:16px'><b>Static snapshot.</b> This is the PoC's live assembly-state page, saved after replaying the invented building (seed 4411). Click a component to see its joined record as raw JSON. <a href='../index.html'>Back to the site</a></div><h1>Synthetic CLT building: assembly state</h1>
+<p>Derived live from the DPP, EPM and DBL services. 18 inspected, 1 installed, 1 delivered; 6 flagged. Synthetic data only.
+Click a component for its federated record.</p><p><span class='k' style='background:#d9d9d9'>planned</span><span class='k' style='background:#c6dbef'>produced</span><span class='k' style='background:#9ecae1'>dispatched</span><span class='k' style='background:#fdd49e'>delivered</span><span class='k' style='background:#fc8d59'>installed</span><span class='k' style='background:#74c476'>inspected</span><span class='k' style='border:3px solid #b30000'>flagged</span></p>
+<div class='r'><div class='l'>Level 4</div><a class='c' href='records/C04.json' title='https://id.dppmadera.example/01/07800001000053/21/C04-40931
+IFC 37i_T$yHz6ffEjfjd_zfVT
+state: inspected' style='background:#74c476;border:1px solid #666'><b>C04</b><span>#17 · inspected</span></a><a class='c' href='records/P10.json' title='https://id.dppmadera.example/01/07800001000015/21/P10-49472
+IFC 2mKPGFHyL4I8XO2K8hdJ9N
+state: inspected' style='background:#74c476;border:1px solid #666'><b>P10</b><span>#18 · inspected</span></a><a class='c' href='records/P11.json' title='https://id.dppmadera.example/01/07800001000015/21/P11-86532
+IFC 1j6aTSfJHAp920FdF3Hvg1
+state: inspected' style='background:#74c476;border:3px solid #b30000'><b>P11</b><span>#19 · inspected</span><div class='f'>out of sequence</div></a><a class='c' href='records/P12.json' title='https://id.dppmadera.example/01/07800001000022/21/P12-98395
+IFC 3KXuzMGXb0au_L$uEYyaeK
+state: delivered' style='background:#fdd49e;border:1px solid #666'><b>P12</b><span>#20 · delivered</span></a></div><div class='r'><div class='l'>Level 3</div><a class='c' href='records/C03.json' title='https://id.dppmadera.example/01/07800001000053/21/C03-52114
+IFC 1Aya5Rz1n8dhQblfMWcx8M
+state: inspected' style='background:#74c476;border:3px solid #b30000'><b>C03</b><span>#11 · inspected</span><div class='f'>late event reconciled</div></a><a class='c' href='records/G03.json' title='https://id.dppmadera.example/01/07800001000046/21/G03-74829
+IFC 0GLEzOToz1aANSOY6rzo2F
+state: inspected' style='background:#74c476;border:1px solid #666'><b>G03</b><span>#12 · inspected</span></a><a class='c' href='records/G04.json' title='https://id.dppmadera.example/01/07800001000039/21/G04-36043
+IFC 19qDZVQVb3oPilek3FSel6
+state: inspected' style='background:#74c476;border:1px solid #666'><b>G04</b><span>#13 · inspected</span></a><a class='c' href='records/P07.json' title='https://id.dppmadera.example/01/07800001000015/21/P07-49366
+IFC 3d_PJUZ9fAVAediXEIP4wX
+state: inspected' style='background:#74c476;border:3px solid #b30000'><b>P07</b><span>#14 · inspected</span><div class='f'>IFC GUID clash</div></a><a class='c' href='records/P08.json' title='https://id.dppmadera.example/01/07800001000015/21/P08-47970
+IFC 11IAp2wtr3JgNaum1_LvXA
+state: inspected' style='background:#74c476;border:3px solid #b30000'><b>P08</b><span>#15 · inspected</span><div class='f'>IFC GUID clash</div></a><a class='c' href='records/P09.json' title='https://id.dppmadera.example/01/07800001000022/21/P09-92279
+IFC 2YYvQ7fzXAoPQS6m9ui33D
+state: inspected' style='background:#74c476;border:1px solid #666'><b>P09</b><span>#16 · inspected</span></a></div><div class='r'><div class='l'>Level 2</div><a class='c' href='records/C02.json' title='https://id.dppmadera.example/01/07800001000053/21/C02-84551
+IFC 0Hf6y1DWf12hF0UHarAUr2
+state: inspected' style='background:#74c476;border:1px solid #666'><b>C02</b><span>#7 · inspected</span></a><a class='c' href='records/P04.json' title='https://id.dppmadera.example/01/07800001000015/21/P04-88172
+IFC 0g4TpPLcT1bwfcfqempcdv
+state: inspected' style='background:#74c476;border:1px solid #666'><b>P04</b><span>#8 · inspected</span></a><a class='c' href='records/P05.json' title='https://id.dppmadera.example/01/07800001000015/21/P05-71018
+IFC 3YKRDoznv0EAO9XIM8567b
+state: installed' style='background:#fc8d59;border:1px solid #666'><b>P05</b><span>#9 · installed</span></a><a class='c' href='records/P06.json' title='https://id.dppmadera.example/01/07800001000022/21/P06-19242
+IFC 04nxuR8AHFFQMw99Csh$BP
+state: inspected' style='background:#74c476;border:1px solid #666'><b>P06</b><span>#10 · inspected</span></a></div><div class='r'><div class='l'>Level 1</div><a class='c' href='records/C01.json' title='https://id.dppmadera.example/01/07800001000053/21/C01-82057
+IFC 2zxhTSUMX68uubYkEcjmbP
+state: inspected' style='background:#74c476;border:1px solid #666'><b>C01</b><span>#1 · inspected</span></a><a class='c' href='records/G01.json' title='https://id.dppmadera.example/01/07800001000046/21/G01-65936
+IFC 1ZWQ$us$H3KPep5FqkWHDM
+state: inspected' style='background:#74c476;border:1px solid #666'><b>G01</b><span>#2 · inspected</span></a><a class='c' href='records/G02.json' title='https://id.dppmadera.example/01/07800001000039/21/G02-64648
+IFC 3FEVncyajEoeVSJflClBnR
+state: inspected' style='background:#74c476;border:3px solid #b30000'><b>G02</b><span>#3 · inspected</span><div class='f'>custody gap</div></a><a class='c' href='records/P01.json' title='https://id.dppmadera.example/01/07800001000015/21/P01-53514
+IFC 124kxCEPr1KBx0zv9dm$8H
+state: inspected' style='background:#74c476;border:1px solid #666'><b>P01</b><span>#4 · inspected</span></a><a class='c' href='records/P02.json' title='https://id.dppmadera.example/01/07800001000015/21/P02-56368
+IFC 0A5WfIEof9bfoNo63Ux4Cb
+state: inspected' style='background:#74c476;border:1px solid #666'><b>P02</b><span>#5 · inspected</span></a><a class='c' href='records/P03.json' title='https://id.dppmadera.example/01/07800001000022/21/P03-25689
+IFC 22PpjCpff9ruJA0bdthvxv
+state: inspected' style='background:#74c476;border:3px solid #b30000'><b>P03</b><span>#6 · inspected</span><div class='f'>moisture conflict</div></a></div></body></html>

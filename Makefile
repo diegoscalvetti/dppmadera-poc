@@ -1,7 +1,7 @@
 PY ?= python3
 export PYTHONPATH := src
 
-.PHONY: install data openapi test serve demo replay clean
+.PHONY: install data openapi test serve demo replay site clean
 
 install:
 	$(PY) -m pip install -e ".[dev]"
@@ -26,6 +26,10 @@ replay:          ## end-to-end replay, then T1-T11, results table and figures
 	$(PY) -m pytest -q --junitxml=results/junit.xml
 	$(PY) scripts/results_table.py
 	$(PY) scripts/figures.py
+
+site:            ## rebuild the static website parts generated from the PoC (site/twin, site/figures)
+	$(PY) scripts/build_site_twin.py
+	cp docs/figures/architecture.png docs/figures/assembly_state.png docs/figures/assembly_state_view.png site/figures/
 
 clean:
 	rm -rf var results .pytest_cache
