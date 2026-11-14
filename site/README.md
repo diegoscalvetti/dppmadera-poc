@@ -28,11 +28,11 @@ that touches `site/`. One-time setup: **Settings → Pages → Build and deploym
 then run the `pages` workflow once (Actions tab → pages → Run workflow).
 The address is then `https://<user>.github.io/dppmadera-poc/`.
 
-## Connect a custom domain (for example dppcl.com)
+## Connect a custom domain (for example dppchile.com)
 
-Do this after buying the domain. Replace `dppcl.com` and `<user>` as needed.
+Do this after buying the domain. Replace `dppchile.com` and `<user>` as needed.
 
-1. In the repo: **Settings → Pages → Custom domain**, enter `dppcl.com`, save.
+1. In the repo: **Settings → Pages → Custom domain**, enter `dppchile.com`, save.
    (With the GitHub Actions source no `CNAME` file is needed; the setting is enough.) (Optional but recommended first: verify the domain under
    your GitHub account **Settings → Pages → Add a domain**, so nobody else can claim it.)
 2. At the domain registrar's DNS settings, add:
@@ -51,6 +51,6 @@ Do this after buying the domain. Replace `dppcl.com` and `<user>` as needed.
 
    Remove any other A, AAAA or CNAME records on `@` and `www` (registrars often add a parking page).
 3. Wait for DNS (minutes to a few hours), then tick **Enforce HTTPS** in Settings → Pages.
-4. Check: `dig dppcl.com +short` should list the four `185.199.x.153` addresses.
+4. Check: `dig dppchile.com +short` should list the four `185.199.x.153` addresses.
 
 Other static hosts (Netlify, Vercel, Cloudflare Pages) also work: upload this folder as is.
