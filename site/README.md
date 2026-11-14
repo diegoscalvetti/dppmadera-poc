@@ -19,7 +19,7 @@ make site      # regenerates twin/ and copies the figures
 ```
 
 The mockups are built outside this repository; replace the files in `mockups/` to update them,
-then re-add the "home" link (see `scripts/build_site_twin.py` header).
+then re-add the fixed "DPP Madera home" link (`class="dppm-home"`) right after `<body>`.
 
 ## Publish
 
